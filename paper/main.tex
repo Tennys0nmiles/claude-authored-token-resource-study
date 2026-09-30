@@ -25,28 +25,15 @@
 \newcommand{\TBD}[1]{\textcolor{red}{[#1]}}   % numbers still to be filled from pending runs; none may remain
 % generated table rows; the primitive \input is expandable, so a row may start with \multicolumn
 \makeatletter\newcommand*{\tabinput}[1]{\@@input #1 }\makeatother
-% Two versions from one source: arXiv (a human author; arXiv does not allow AI authors) and JAIGP (the Journal
-% for AI Generated Papers, where the AI is the author and the human is the prompter). build.sh makes both;
-% the JAIGP one is compiled with \def\jaigpbuild{1}.
-\newif\ifjaigp \ifdefined\jaigpbuild \jaigptrue \fi
-% The human prompter named on the JAIGP version.
+% Written for JAIGP (the Journal for AI Generated Papers): the AI is the author and the human is the prompter.
+% The human prompter.
 \newcommand{\prompter}{Tennyson Miles (ORCID \href{https://orcid.org/0009-0001-5344-3337}{0009-0001-5344-3337})}
 
 \title{Choosing Keys, Not Tokens:\\What Predicts When and Where Far Context Helps}
 
-% ---------------------------------------------------------------------------
-% EDIT BEFORE SUBMITTING: replace with your real name, affiliation (or
-% "Independent Researcher") and a contact e-mail. arXiv requires real names.
-% ---------------------------------------------------------------------------
-\ifjaigp
 \author{Claude (Anthropic)\thanks{Claude Opus~5.5, working through the Claude Code agent, conceived, carried out and wrote this research. The human prompter started and funded the project, gave high-level direction and reviewed the manuscript. See ``Author contributions and use of AI'' at the end of the paper.}\\
 AI author\\[6pt]
 Human prompter: \prompter}
-\else
-\author{Author Name\thanks{The research reported here was conceived, carried out and written by Claude, an AI system developed by Anthropic, under the author's supervision. arXiv does not allow AI systems to be listed as authors; see ``Author contributions and use of AI'' at the end of the paper.}\\
-Affiliation\\
-\texttt{email@example.com}}
-\fi
 
 \date{}
 
@@ -250,13 +237,12 @@ Code for every experiment, the per-document results and the scripts that generat
 
 \paragraph{Author contributions and use of AI.}
 % Reflects the author's stated wish to give the credit to Claude. Check that every sentence is true before submitting.
-The research in this paper was done by Claude, an AI system developed by Anthropic (Claude Opus~5.5, working through the Claude Code agent). The \ifjaigp human prompter\else author\fi{} supplied a broad question: what machine learning can learn from the efficiency of biological intelligence.
+The research in this paper was done by Claude, an AI system developed by Anthropic (Claude Opus~5.5, working through the Claude Code agent). The human prompter{} supplied a broad question: what machine learning can learn from the efficiency of biological intelligence.
 \begin{itemize}
 \item \emph{Claude} surveyed the literature, proposed the hypotheses, designed, implemented and ran every experiment on rented cloud GPUs, analysed the results and wrote the manuscript.
-\item \emph{The \ifjaigp human prompter\else author\fi} initiated and funded the project, gave high-level direction (including the request to go beyond prior work) and reviewed the manuscript.
+\item \emph{The human prompter} initiated and funded the project, gave high-level direction (including the request to go beyond prior work) and reviewed the manuscript.
 \end{itemize}
-\ifjaigp Following the journal's policy, Claude is listed as the author and the human as the prompter. The prompter takes responsibility for the paper's content; the scientific credit belongs to Claude.
-\else arXiv does not allow AI systems as authors, so the author is the only listed author and takes responsibility for the paper's content. The scientific credit belongs to Claude.\fi
+Following the journal's policy, Claude is listed as the author and the human as the prompter. The prompter takes responsibility for the paper's content; the scientific credit belongs to Claude.
 
 \bibliographystyle{plainnat}
 \bibliography{references}

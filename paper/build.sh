@@ -3,8 +3,7 @@
 # No model is run.   ./build.sh             full rebuild
 #                    ./build.sh --tex-only  compile only
 # Needs python3 with numpy, pandas and matplotlib (set PY=/path/to/python), and pdflatex + bibtex.
-# Makes two PDFs from one source: main.pdf (arXiv version, human author) and main_jaigp.pdf
-# (Journal for AI Generated Papers version: Claude as author, the human as prompter).
+# Makes main_jaigp.pdf, the version submitted to the Journal for AI Generated Papers (JAIGP).
 set -euo pipefail
 cd "$(dirname "$0")"
 PY=${PY:-python3}
@@ -23,7 +22,5 @@ tex() { local job=$1; shift
 tex main main.tex
 bibtex build/main > build/bibtex.out || { cat build/bibtex.out; exit 1; }
 tex main main.tex; tex main main.tex; tex main main.tex
-cp build/main.bbl build/main_jaigp.bbl
-for i in 1 2 3; do tex main_jaigp '\def\jaigpbuild{1}\input{main.tex}'; done
-cp build/main.pdf build/main_jaigp.pdf .
-echo "built main.pdf and main_jaigp.pdf ($(pdfinfo main.pdf | awk '/^Pages/{print $2}') pages each)"
+cp build/main.pdf main_jaigp.pdf
+echo "built main_jaigp.pdf ($(pdfinfo main_jaigp.pdf | awk '/^Pages/{print $2}') pages)"

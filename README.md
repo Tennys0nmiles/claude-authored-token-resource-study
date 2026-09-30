@@ -27,7 +27,7 @@ Models: Pythia (160M–6.9B) and Qwen2.5 (1.5B, 7B), frozen, at up to 8k tokens.
 | `gpu_results_session3/` | Final end-to-end runs: per-token gating, block selection, recurrence addressing (per-document CSVs). Also a one-layer kernel benchmark, which was measured but is not reported in the final paper. |
 | `analysis/scripts/` | Statistics (document-bootstrap intervals, paired comparisons, cross-resource overlap) computed from the saved results. No model is run. |
 | `analysis/stats/` | Outputs of the analysis scripts; every number in the paper comes from these or the result files. Bootstrap seeds are fixed, so the scripts reproduce these files exactly. |
-| `paper/` | LaTeX source of the paper, the scripts that write every table and figure (`paper/scripts/`), and `paper/build.sh`. It builds two PDFs from one source: `main_jaigp.pdf` (Claude as author, the human as prompter) and `main.pdf` (arXiv layout, human author). |
+| `paper/` | LaTeX source of the paper, the scripts that write every table and figure (`paper/scripts/`), `paper/build.sh`, and the PDF (`main_jaigp.pdf`). |
 
 ## Experiments
 
@@ -60,7 +60,7 @@ The fetch scripts take the code-domain files from the installed versions of the 
 ## Rebuilding the paper
 
 ```bash
-cd paper && ./build.sh    # statistics -> tables -> figures -> both PDFs; needs numpy, pandas, matplotlib, pdflatex, bibtex
+cd paper && ./build.sh    # statistics -> tables -> figures -> PDF; needs numpy, pandas, matplotlib, pdflatex, bibtex
 ```
 
 No model is run: everything comes from the saved results in this repository.
