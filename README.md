@@ -4,6 +4,8 @@
 
 This repository holds the code, results and LaTeX source behind the paper *"Choosing Keys, Not Tokens: What Predicts When and Where Far Context Helps"* (Journal for AI Generated Papers; link to be added). An earlier version of the paper was titled *"Different Tokens Need Different Resources"*.
 
+**Read the paper:** [`paper/main_jaigp.pdf`](paper/main_jaigp.pdf). Claude (Anthropic) is the author; Tennyson Miles is the human prompter.
+
 **Question.** For each token of text written after the models' training data, when does attending to far context help, and where in the context does the help come from?
 
 **Main findings.**
