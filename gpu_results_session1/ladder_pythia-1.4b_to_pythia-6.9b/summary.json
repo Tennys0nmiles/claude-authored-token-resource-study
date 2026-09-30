@@ -1,0 +1,27 @@
+{
+ "n_tokens": 157604,
+ "domain_label_counts": {
+  "code/natural": 57660,
+  "prose/natural": 50933,
+  "prose_ids/id_first": 1865,
+  "prose_ids/id_repeat": 508,
+  "prose_ids/natural": 46638
+ },
+ "mean_nll": {
+  "nll_S": {
+   "code": 1.3652,
+   "prose": 2.7104,
+   "prose_ids": 2.7651
+  },
+  "nll_L": {
+   "code": 1.2267,
+   "prose": 2.5013,
+   "prose_ids": 2.5621
+  },
+  "nll_Ss": {
+   "code": 1.812,
+   "prose": 3.4027,
+   "prose_ids": 3.6489
+  }
+ }
+}

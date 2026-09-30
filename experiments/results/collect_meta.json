@@ -1,0 +1,14 @@
+{
+ "S": "EleutherAI/pythia-160m-deduped",
+ "L": "EleutherAI/pythia-1.4b-deduped",
+ "T": 1024,
+ "win": 64,
+ "stride": 32,
+ "feat_layers": [
+  6,
+  12
+ ],
+ "n_tokens": 167936,
+ "n_docs": 164,
+ "minutes": 59.44466647704442
+}

@@ -1,0 +1,6 @@
+,long context (1.5B),long context (7B),7B instead of 1.5B
+oracle: long context (1.5B),116.2283,97.166275,17.701777
+oracle: long context (7B),96.18788,115.705635,27.098711
+oracle: 7B instead of 1.5B,8.450833,27.403944,97.59833
+entropy of the windowed 1.5B pass,29.117416,31.005058,26.32233
+random,9.667625,9.893515,10.09122

@@ -1,0 +1,58 @@
+{"id": "2609.30325", "domain": "prose", "cat": "cs.AI"}
+{"id": "2609.30341", "domain": "prose", "cat": "cs.AI"}
+{"id": "2609.30383", "domain": "prose", "cat": "cs.AI"}
+{"id": "2609.30397", "domain": "prose", "cat": "cs.AI"}
+{"id": "2609.30356", "domain": "prose", "cat": "cs.CV"}
+{"id": "2609.30393", "domain": "prose", "cat": "cs.CV"}
+{"id": "2609.30395", "domain": "prose", "cat": "cs.CV"}
+{"id": "2609.30402", "domain": "prose", "cat": "cs.CV"}
+{"id": "2609.30339", "domain": "prose", "cat": "math.NT"}
+{"id": "2609.30407", "domain": "prose", "cat": "math.NT"}
+{"id": "2609.30537", "domain": "prose", "cat": "math.NT"}
+{"id": "2609.30573", "domain": "prose", "cat": "math.NT"}
+{"id": "2609.30362", "domain": "prose", "cat": "hep-th"}
+{"id": "2609.30369", "domain": "prose", "cat": "hep-th"}
+{"id": "2609.30370", "domain": "prose", "cat": "hep-th"}
+{"id": "2609.30371", "domain": "prose", "cat": "hep-th"}
+{"id": "2603.11192", "domain": "prose", "cat": "physics.bio-ph"}
+{"id": "2603.12534", "domain": "prose", "cat": "physics.bio-ph"}
+{"id": "2607.13972", "domain": "prose", "cat": "physics.bio-ph"}
+{"id": "2609.30985", "domain": "prose", "cat": "q-bio.QM"}
+{"id": "2609.30278", "domain": "prose", "cat": "q-bio.QM"}
+{"id": "2609.31153", "domain": "prose", "cat": "q-bio.QM"}
+{"id": "2609.30274", "domain": "prose", "cat": "stat.ML"}
+{"id": "2609.30321", "domain": "prose", "cat": "stat.ML"}
+{"id": "2609.30342", "domain": "prose", "cat": "stat.ML"}
+{"id": "2609.30348", "domain": "prose", "cat": "stat.ML"}
+{"id": "2609.30307", "domain": "prose", "cat": "cs.SE"}
+{"id": "2609.30308", "domain": "prose", "cat": "cs.SE"}
+{"id": "2609.30313", "domain": "prose", "cat": "cs.SE"}
+{"id": "2609.30349", "domain": "prose", "cat": "cs.SE"}
+{"id": "2609.30354", "domain": "prose", "cat": "cs.DS"}
+{"id": "2609.30421", "domain": "prose", "cat": "cs.DS"}
+{"id": "2609.30778", "domain": "prose", "cat": "cs.DS"}
+{"id": "2609.30900", "domain": "prose", "cat": "cs.DS"}
+{"id": "2609.30481", "domain": "prose", "cat": "econ.EM"}
+{"id": "2609.30504", "domain": "prose", "cat": "econ.EM"}
+{"id": "2609.30617", "domain": "prose", "cat": "econ.EM"}
+{"id": "2609.31442", "domain": "prose", "cat": "econ.EM"}
+{"id": "sklearn/_loss/loss.py", "domain": "code"}
+{"id": "sklearn/feature_selection/_univariate_selection.py", "domain": "code"}
+{"id": "sklearn/metrics/_regression.py", "domain": "code"}
+{"id": "scipy/stats/_survival.py", "domain": "code"}
+{"id": "sklearn/preprocessing/_discretization.py", "domain": "code"}
+{"id": "sklearn/decomposition/_fastica.py", "domain": "code"}
+{"id": "sklearn/utils/_set_output.py", "domain": "code"}
+{"id": "transformers/generation/candidate_generator.py", "domain": "code"}
+{"id": "transformers/generation/configuration_utils.py", "domain": "code"}
+{"id": "sklearn/neural_network/_stochastic_optimizers.py", "domain": "code"}
+{"id": "sklearn/preprocessing/_function_transformer.py", "domain": "code"}
+{"id": "sklearn/externals/array_api_extra/_lazy.py", "domain": "code"}
+{"id": "sklearn/ensemble/_weight_boosting.py", "domain": "code"}
+{"id": "sklearn/model_selection/_split.py", "domain": "code"}
+{"id": "sklearn/inspection/_plot/decision_boundary.py", "domain": "code"}
+{"id": "sklearn/impute/_knn.py", "domain": "code"}
+{"id": "scipy/stats/_levy_stable/__init__.py", "domain": "code"}
+{"id": "sklearn/utils/stats.py", "domain": "code"}
+{"id": "scipy/stats/_ksstats.py", "domain": "code"}
+{"id": "scipy/stats/_multivariate.py", "domain": "code"}

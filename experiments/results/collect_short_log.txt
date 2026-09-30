@@ -1,0 +1,12 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights:  81%|████████  | 120/148 [00:00<00:00, 1108.79it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 1122.48it/s]
+0 2609.30287 1024 0.0 min
+20 2609.30736 21504 0.8 min
+40 2609.30528 41984 1.6 min
+60 pandas/core/construction.py 62464 2.4 min
+80 aiohttp/web_ws.py 82944 3.2 min
+100 httpcore2/_async/http2.py 103424 4.1 min
+120 2609.30272+ids 123904 4.9 min
+140 2405.04352+ids 144384 5.8 min
+160 2609.30345+ids 164864 6.6 min
+done; rows aligned: 167936

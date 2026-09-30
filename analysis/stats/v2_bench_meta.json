@@ -1,0 +1,5 @@
+{
+ "check_max_abs_diff_fp32": 2.0265579223632812e-06,
+ "torch": "2.8.0+cu128",
+ "gpu": "NVIDIA H100 NVL"
+}

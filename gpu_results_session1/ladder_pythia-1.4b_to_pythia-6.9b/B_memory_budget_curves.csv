@@ -1,0 +1,981 @@
+seed,pool,policy,budget,R
+0,natural,entropy (FLARE-style),0.02,0.05402726107564351
+0,natural,entropy (FLARE-style),0.05,0.13365215886857987
+0,natural,entropy (FLARE-style),0.1,0.24915839716466714
+0,natural,entropy (FLARE-style),0.2,0.44344690629279576
+0,natural,entropy (FLARE-style),0.3,0.5911208053846218
+0,natural,entropy (FLARE-style),0.5,0.8043148816343725
+0,natural,entropy (FLARE-style),b50,0.23548204538401155
+0,natural,learned: raw surprise,0.02,0.05402095743410202
+0,natural,learned: raw surprise,0.05,0.12541815767908657
+0,natural,learned: raw surprise,0.1,0.23309836407874635
+0,natural,learned: raw surprise,0.2,0.42829664510296134
+0,natural,learned: raw surprise,0.3,0.5820337450501472
+0,natural,learned: raw surprise,0.5,0.8063079423611864
+0,natural,learned: raw surprise,b50,0.24574182594884714
+0,natural,learned: value (realized gain),0.02,0.09345332050391235
+0,natural,learned: value (realized gain),0.05,0.19221776088114506
+0,natural,learned: value (realized gain),0.1,0.3191117754611073
+0,natural,learned: value (realized gain),0.2,0.5035459462077932
+0,natural,learned: value (realized gain),0.3,0.6372241079096536
+0,natural,learned: value (realized gain),0.5,0.8157957967525753
+0,natural,learned: value (realized gain),b50,0.1980940905854647
+0,natural,learned: value (KL),0.02,0.09916395492574706
+0,natural,learned: value (KL),0.05,0.2029083208312444
+0,natural,learned: value (KL),0.1,0.331691911179466
+0,natural,learned: value (KL),0.2,0.5229686449196806
+0,natural,learned: value (KL),0.3,0.6500138830054923
+0,natural,learned: value (KL),0.5,0.8284528439965998
+0,natural,learned: value (KL),b50,0.18602698212753527
+0,natural,oracle: KL (needs resource),0.02,0.2237484278798514
+0,natural,oracle: KL (needs resource),0.05,0.39591549524954456
+0,natural,oracle: KL (needs resource),0.1,0.5565455212071562
+0,natural,oracle: KL (needs resource),0.2,0.7451308421991069
+0,natural,oracle: KL (needs resource),0.3,0.8463019690031224
+0,natural,oracle: KL (needs resource),0.5,0.9524311443063267
+0,natural,oracle: KL (needs resource),b50,0.07870091461744894
+0,natural,oracle: realized gain,0.02,0.2760684512066584
+0,natural,oracle: realized gain,0.05,0.5162498430923981
+0,natural,oracle: realized gain,0.1,0.7548854425823952
+0,natural,oracle: realized gain,0.2,0.9970354357649114
+0,natural,oracle: realized gain,0.3,1.1132584352086148
+0,natural,oracle: realized gain,0.5,1.193967052861643
+0,natural,oracle: realized gain,b50,0.047519944502254594
+0,natural,random,0.02,0.0201738889228078
+0,natural,random,0.05,0.04699898658552254
+0,natural,random,0.1,0.1035849754264738
+0,natural,random,0.2,0.2010194775829914
+0,natural,random,0.3,0.300034658344395
+0,natural,random,0.5,0.5024324030582309
+0,natural,random,b50,0.4971064497873195
+0,prose,entropy (FLARE-style),0.02,0.04047891079632407
+0,prose,entropy (FLARE-style),0.05,0.09976149472143143
+0,prose,entropy (FLARE-style),0.1,0.1988014699542157
+0,prose,entropy (FLARE-style),0.2,0.36961357575469295
+0,prose,entropy (FLARE-style),0.3,0.5111440472283445
+0,prose,entropy (FLARE-style),0.5,0.7290397839815109
+0,prose,entropy (FLARE-style),b50,0.2902840405441862
+0,prose,learned: raw surprise,0.02,0.042159461361602875
+0,prose,learned: raw surprise,0.05,0.10245764291303752
+0,prose,learned: raw surprise,0.1,0.19405503722296572
+0,prose,learned: raw surprise,0.2,0.3597653291283347
+0,prose,learned: raw surprise,0.3,0.5151409367999684
+0,prose,learned: raw surprise,0.5,0.7313385826520488
+0,prose,learned: raw surprise,b50,0.2899757197363857
+0,prose,learned: value (realized gain),0.02,0.07476366497664032
+0,prose,learned: value (realized gain),0.05,0.15265859488318187
+0,prose,learned: value (realized gain),0.1,0.2621936196390926
+0,prose,learned: value (realized gain),0.2,0.4295188967096402
+0,prose,learned: value (realized gain),0.3,0.5552198179335704
+0,prose,learned: value (realized gain),0.5,0.7472477891195346
+0,prose,learned: value (realized gain),b50,0.2512814583574209
+0,prose,learned: value (KL),0.02,0.07648571012987947
+0,prose,learned: value (KL),0.05,0.15782244100224999
+0,prose,learned: value (KL),0.1,0.26436214265969227
+0,prose,learned: value (KL),0.2,0.43666196300615556
+0,prose,learned: value (KL),0.3,0.5669961131525829
+0,prose,learned: value (KL),0.5,0.7622400752284866
+0,prose,learned: value (KL),b50,0.24187767371950514
+0,prose,oracle: KL (needs resource),0.02,0.1780021832065603
+0,prose,oracle: KL (needs resource),0.05,0.3267434619642403
+0,prose,oracle: KL (needs resource),0.1,0.47293320609676814
+0,prose,oracle: KL (needs resource),0.2,0.661581095771049
+0,prose,oracle: KL (needs resource),0.3,0.7755024405644987
+0,prose,oracle: KL (needs resource),0.5,0.908351340974363
+0,prose,oracle: KL (needs resource),b50,0.11219023393841292
+0,prose,oracle: realized gain,0.02,0.2362482467080677
+0,prose,oracle: realized gain,0.05,0.44893404743684057
+0,prose,oracle: realized gain,0.1,0.6781298938317822
+0,prose,oracle: realized gain,0.2,0.9322796406857904
+0,prose,oracle: realized gain,0.3,1.069278332382838
+0,prose,oracle: realized gain,0.5,1.1860428061562533
+0,prose,oracle: realized gain,b50,0.05923613519867422
+0,prose,random,0.02,0.01704082443128203
+0,prose,random,0.05,0.04545216734653608
+0,prose,random,0.1,0.10239867442999599
+0,prose,random,0.2,0.20244589437101052
+0,prose,random,0.3,0.30666744427528275
+0,prose,random,0.5,0.5078293486470592
+0,prose,random,b50,0.49204146914864916
+0,code,entropy (FLARE-style),0.02,0.07830256818389587
+0,code,entropy (FLARE-style),0.05,0.18310504240124983
+0,code,entropy (FLARE-style),0.1,0.3161065811322694
+0,code,entropy (FLARE-style),0.2,0.5259758327997206
+0,code,entropy (FLARE-style),0.3,0.6734580330118108
+0,code,entropy (FLARE-style),0.5,0.8596088566861181
+0,code,entropy (FLARE-style),b50,0.18522372528616024
+0,code,learned: raw surprise,0.02,0.07321534122150881
+0,code,learned: raw surprise,0.05,0.15842902700402212
+0,code,learned: raw surprise,0.1,0.29157802233725194
+0,code,learned: raw surprise,0.2,0.5085171508952574
+0,code,learned: raw surprise,0.3,0.6654325185295583
+0,code,learned: raw surprise,0.5,0.8529483788664711
+0,code,learned: raw surprise,b50,0.19587235518557058
+0,code,learned: value (realized gain),0.02,0.118069020262511
+0,code,learned: value (realized gain),0.05,0.24535591468261503
+0,code,learned: value (realized gain),0.1,0.3985875255631451
+0,code,learned: value (realized gain),0.2,0.5916308977530628
+0,code,learned: value (realized gain),0.3,0.7167027860970429
+0,code,learned: value (realized gain),0.5,0.8559311250733903
+0,code,learned: value (realized gain),b50,0.14679153659382588
+0,code,learned: value (KL),0.02,0.13057161188267252
+0,code,learned: value (KL),0.05,0.26267637800702553
+0,code,learned: value (KL),0.1,0.4192706322182288
+0,code,learned: value (KL),0.2,0.613756484226428
+0,code,learned: value (KL),0.3,0.7322763562452718
+0,code,learned: value (KL),0.5,0.8675367560878479
+0,code,learned: value (KL),b50,0.13721817551161983
+0,code,oracle: KL (needs resource),0.02,0.28289253292345945
+0,code,oracle: KL (needs resource),0.05,0.4941076927643966
+0,code,oracle: KL (needs resource),0.1,0.6630846423086344
+0,code,oracle: KL (needs resource),0.2,0.8318231948900624
+0,code,oracle: KL (needs resource),0.3,0.905294603465191
+0,code,oracle: KL (needs resource),0.5,0.9713043842359967
+0,code,oracle: KL (needs resource),b50,0.05143947277141866
+0,code,oracle: realized gain,0.02,0.3276587141498564
+0,code,oracle: realized gain,0.05,0.5984097612887028
+0,code,oracle: realized gain,0.1,0.8357128523932897
+0,code,oracle: realized gain,0.2,1.0519252989620282
+0,code,oracle: realized gain,0.3,1.1414900898011586
+0,code,oracle: realized gain,0.5,1.193937115367388
+0,code,oracle: realized gain,b50,0.037114117238987165
+0,code,random,0.02,0.024100767108303854
+0,code,random,0.05,0.049498859767231555
+0,code,random,0.1,0.10530947841829034
+0,code,random,0.2,0.19820303229243924
+0,code,random,0.3,0.2910026901402605
+0,code,random,0.5,0.49468680056234177
+0,code,random,b50,0.5057925771765522
+0,prose_ids,entropy (FLARE-style),0.02,0.04304828299614864
+0,prose_ids,entropy (FLARE-style),0.05,0.09967097962845983
+0,prose_ids,entropy (FLARE-style),0.1,0.1816175088570977
+0,prose_ids,entropy (FLARE-style),0.2,0.33239236775574615
+0,prose_ids,entropy (FLARE-style),0.3,0.46841038587930167
+0,prose_ids,entropy (FLARE-style),0.5,0.6942585692512875
+0,prose_ids,entropy (FLARE-style),b50,0.3229808692868006
+0,prose_ids,learned: raw surprise,0.02,0.036515026044688835
+0,prose_ids,learned: raw surprise,0.05,0.08104006009575496
+0,prose_ids,learned: raw surprise,0.1,0.16073419177065496
+0,prose_ids,learned: raw surprise,0.2,0.30483951139590004
+0,prose_ids,learned: raw surprise,0.3,0.44373328055116384
+0,prose_ids,learned: raw surprise,0.5,0.6637430668103013
+0,prose_ids,learned: raw surprise,b50,0.348795325382214
+0,prose_ids,learned: value (realized gain),0.02,0.0654572364976785
+0,prose_ids,learned: value (realized gain),0.05,0.14721786240353305
+0,prose_ids,learned: value (realized gain),0.1,0.24733728928094617
+0,prose_ids,learned: value (realized gain),0.2,0.3979852784121819
+0,prose_ids,learned: value (realized gain),0.3,0.5289243982558334
+0,prose_ids,learned: value (realized gain),0.5,0.73012868276709
+0,prose_ids,learned: value (realized gain),b50,0.2778756103417914
+0,prose_ids,learned: value (KL),0.02,0.07554906049183205
+0,prose_ids,learned: value (KL),0.05,0.15312603293716145
+0,prose_ids,learned: value (KL),0.1,0.25311051430033077
+0,prose_ids,learned: value (KL),0.2,0.4133197292585299
+0,prose_ids,learned: value (KL),0.3,0.5469097439374736
+0,prose_ids,learned: value (KL),0.5,0.752205755913408
+0,prose_ids,learned: value (KL),b50,0.2643480348995437
+0,prose_ids,oracle: KL (needs resource),0.02,0.16945408650260813
+0,prose_ids,oracle: KL (needs resource),0.05,0.32754256563796125
+0,prose_ids,oracle: KL (needs resource),0.1,0.48508830359933613
+0,prose_ids,oracle: KL (needs resource),0.2,0.6729916981034798
+0,prose_ids,oracle: KL (needs resource),0.3,0.7900883930342171
+0,prose_ids,oracle: KL (needs resource),0.5,0.9209185150775726
+0,prose_ids,oracle: KL (needs resource),b50,0.10593932602257264
+0,prose_ids,oracle: realized gain,0.02,0.20801440983428465
+0,prose_ids,oracle: realized gain,0.05,0.41848352681438533
+0,prose_ids,oracle: realized gain,0.1,0.6461850195452187
+0,prose_ids,oracle: realized gain,0.2,0.8952704401824492
+0,prose_ids,oracle: realized gain,0.3,1.0291228263163625
+0,prose_ids,oracle: realized gain,0.5,1.140561369151406
+0,prose_ids,oracle: realized gain,b50,0.06519651004562554
+0,prose_ids,random,0.02,0.01997100620453931
+0,prose_ids,random,0.05,0.04959162992265577
+0,prose_ids,random,0.1,0.09293570204436581
+0,prose_ids,random,0.2,0.18680874407308554
+0,prose_ids,random,0.3,0.28874824205070493
+0,prose_ids,random,0.5,0.48678681117770334
+0,prose_ids,random,b50,0.5145281357560234
+1,natural,entropy (FLARE-style),0.02,0.05394244673893489
+1,natural,entropy (FLARE-style),0.05,0.12744191088831344
+1,natural,entropy (FLARE-style),0.1,0.23723939188332302
+1,natural,entropy (FLARE-style),0.2,0.4295346773464704
+1,natural,entropy (FLARE-style),0.3,0.582755463097983
+1,natural,entropy (FLARE-style),0.5,0.8007332922208912
+1,natural,entropy (FLARE-style),b50,0.24488380159556017
+1,natural,learned: raw surprise,0.02,0.050638432613241115
+1,natural,learned: raw surprise,0.05,0.12131627059197275
+1,natural,learned: raw surprise,0.1,0.2248020721401033
+1,natural,learned: raw surprise,0.2,0.4043520603221001
+1,natural,learned: raw surprise,0.3,0.561295244947709
+1,natural,learned: raw surprise,0.5,0.7996976354396461
+1,natural,learned: raw surprise,b50,0.25757160852182487
+1,natural,learned: value (realized gain),0.02,0.08870113422571631
+1,natural,learned: value (realized gain),0.05,0.19439700140411167
+1,natural,learned: value (realized gain),0.1,0.32379145555401523
+1,natural,learned: value (realized gain),0.2,0.509690871314382
+1,natural,learned: value (realized gain),0.3,0.6433370550288509
+1,natural,learned: value (realized gain),0.5,0.8187136349401938
+1,natural,learned: value (realized gain),b50,0.192872921116527
+1,natural,learned: value (KL),0.02,0.09304310634672659
+1,natural,learned: value (KL),0.05,0.1966528938804169
+1,natural,learned: value (KL),0.1,0.3267112824641117
+1,natural,learned: value (KL),0.2,0.5138424723975098
+1,natural,learned: value (KL),0.3,0.6542722404274609
+1,natural,learned: value (KL),0.5,0.8357724564182345
+1,natural,learned: value (KL),b50,0.19112036073534514
+1,natural,oracle: KL (needs resource),0.02,0.2213727274963419
+1,natural,oracle: KL (needs resource),0.05,0.3969938787929311
+1,natural,oracle: KL (needs resource),0.1,0.5628436335696766
+1,natural,oracle: KL (needs resource),0.2,0.7505619050924379
+1,natural,oracle: KL (needs resource),0.3,0.8473474354070747
+1,natural,oracle: KL (needs resource),0.5,0.9540293661578216
+1,natural,oracle: KL (needs resource),b50,0.0776420760538182
+1,natural,oracle: realized gain,0.02,0.2804923041475738
+1,natural,oracle: realized gain,0.05,0.5243977177117695
+1,natural,oracle: realized gain,0.1,0.7653907137268319
+1,natural,oracle: realized gain,0.2,1.007947536765686
+1,natural,oracle: realized gain,0.3,1.1221910088051925
+1,natural,oracle: realized gain,0.5,1.1993070107155845
+1,natural,oracle: realized gain,b50,0.046296803402888075
+1,natural,random,0.02,0.021490697280635244
+1,natural,random,0.05,0.053322637385100194
+1,natural,random,0.1,0.10163074146419333
+1,natural,random,0.2,0.20677268082144276
+1,natural,random,0.3,0.3067738524777531
+1,natural,random,0.5,0.5085519860663725
+1,natural,random,b50,0.49084469759205507
+1,prose,entropy (FLARE-style),0.02,0.04353189315833064
+1,prose,entropy (FLARE-style),0.05,0.10317971063977108
+1,prose,entropy (FLARE-style),0.1,0.1981407583009093
+1,prose,entropy (FLARE-style),0.2,0.3664002364439056
+1,prose,entropy (FLARE-style),0.3,0.5059558905545879
+1,prose,entropy (FLARE-style),0.5,0.7238255908939898
+1,prose,entropy (FLARE-style),b50,0.29460053185339347
+1,prose,learned: raw surprise,0.02,0.043219043369367625
+1,prose,learned: raw surprise,0.05,0.10083980109349724
+1,prose,learned: raw surprise,0.1,0.193398652197014
+1,prose,learned: raw surprise,0.2,0.3506940760880918
+1,prose,learned: raw surprise,0.3,0.4945966214256609
+1,prose,learned: raw surprise,0.5,0.7251395333985976
+1,prose,learned: raw surprise,b50,0.3052375997225113
+1,prose,learned: value (realized gain),0.02,0.06584821526074751
+1,prose,learned: value (realized gain),0.05,0.15295444733165614
+1,prose,learned: value (realized gain),0.1,0.27019410597159965
+1,prose,learned: value (realized gain),0.2,0.4317170688182848
+1,prose,learned: value (realized gain),0.3,0.5584833781319031
+1,prose,learned: value (realized gain),0.5,0.7508196364216534
+1,prose,learned: value (realized gain),b50,0.2512814583574209
+1,prose,learned: value (KL),0.02,0.06877071085821565
+1,prose,learned: value (KL),0.05,0.15808515138515983
+1,prose,learned: value (KL),0.1,0.2743807382593569
+1,prose,learned: value (KL),0.2,0.44377920292777084
+1,prose,learned: value (KL),0.3,0.5719719938236996
+1,prose,learned: value (KL),0.5,0.7632568119875116
+1,prose,learned: value (KL),b50,0.2437661386672833
+1,prose,oracle: KL (needs resource),0.02,0.1784740054014058
+1,prose,oracle: KL (needs resource),0.05,0.3279775020398169
+1,prose,oracle: KL (needs resource),0.1,0.4825766732394439
+1,prose,oracle: KL (needs resource),0.2,0.6664815083430565
+1,prose,oracle: KL (needs resource),0.3,0.7801730009925227
+1,prose,oracle: KL (needs resource),0.5,0.9127963675340136
+1,prose,oracle: KL (needs resource),b50,0.10876016495163217
+1,prose,oracle: realized gain,0.02,0.23948113662009726
+1,prose,oracle: realized gain,0.05,0.45501257004852214
+1,prose,oracle: realized gain,0.1,0.6867413984888012
+1,prose,oracle: realized gain,0.2,0.9428742304838725
+1,prose,oracle: realized gain,0.3,1.0785467522149021
+1,prose,oracle: realized gain,0.5,1.1913869354871889
+1,prose,oracle: realized gain,b50,0.05804139206844722
+1,prose,random,0.02,0.025021416172378498
+1,prose,random,0.05,0.05733711650166262
+1,prose,random,0.1,0.1079814361866635
+1,prose,random,0.2,0.2110793793200256
+1,prose,random,0.3,0.3118726424877386
+1,prose,random,0.5,0.5028842178328724
+1,prose,random,b50,0.49577985894323046
+1,code,entropy (FLARE-style),0.02,0.06290604483758425
+1,code,entropy (FLARE-style),0.05,0.15395464660437308
+1,code,entropy (FLARE-style),0.1,0.29129915635466375
+1,code,entropy (FLARE-style),0.2,0.5097180437783532
+1,code,entropy (FLARE-style),0.3,0.6567188924749644
+1,code,entropy (FLARE-style),0.5,0.8697863386665697
+1,code,entropy (FLARE-style),b50,0.19549080818591744
+1,code,learned: raw surprise,0.02,0.06397536176488414
+1,code,learned: raw surprise,0.05,0.14673708784223688
+1,code,learned: raw surprise,0.1,0.2617570777074456
+1,code,learned: raw surprise,0.2,0.4867019076345841
+1,code,learned: raw surprise,0.3,0.6457020015425791
+1,code,learned: raw surprise,0.5,0.8616468562663757
+1,code,learned: raw surprise,b50,0.20832466181061393
+1,code,learned: value (realized gain),0.02,0.1187031574682931
+1,code,learned: value (realized gain),0.05,0.24883751928380185
+1,code,learned: value (realized gain),0.1,0.4065583626463428
+1,code,learned: value (realized gain),0.2,0.599191353749691
+1,code,learned: value (realized gain),0.3,0.714053195529629
+1,code,learned: value (realized gain),0.5,0.8575728920592083
+1,code,learned: value (realized gain),b50,0.14086021505376345
+1,code,learned: value (KL),0.02,0.1291087144755632
+1,code,learned: value (KL),0.05,0.24949175976458318
+1,code,learned: value (KL),0.1,0.41007726357839663
+1,code,learned: value (KL),0.2,0.6042757831569951
+1,code,learned: value (KL),0.3,0.7350806103800854
+1,code,learned: value (KL),0.5,0.8737353213113116
+1,code,learned: value (KL),b50,0.1441207075962539
+1,code,oracle: KL (needs resource),0.02,0.27980326546612966
+1,code,oracle: KL (needs resource),0.05,0.4882738350688302
+1,code,oracle: KL (needs resource),0.1,0.6633678863852912
+1,code,oracle: KL (needs resource),0.2,0.8324073967381471
+1,code,oracle: KL (needs resource),0.3,0.9066007679078185
+1,code,oracle: KL (needs resource),0.5,0.9759450916250311
+1,code,oracle: KL (needs resource),b50,0.05234131113423517
+1,code,oracle: realized gain,0.02,0.33438096145782736
+1,code,oracle: realized gain,0.05,0.6087573456722054
+1,code,oracle: realized gain,0.1,0.848217718498147
+1,code,oracle: realized gain,0.2,1.0625889082121527
+1,code,oracle: realized gain,0.3,1.1503377132204138
+1,code,oracle: realized gain,0.5,1.1995847215855835
+1,code,oracle: realized gain,b50,0.03590010405827263
+1,code,random,0.02,0.016518941917395693
+1,code,random,0.05,0.04716716844786803
+1,code,random,0.1,0.09439042338369498
+1,code,random,0.2,0.20130845120085836
+1,code,random,0.3,0.299923524369843
+1,code,random,0.5,0.5165487159502773
+1,code,random,b50,0.4867499132847728
+1,prose_ids,entropy (FLARE-style),0.02,0.046475590355956616
+1,prose_ids,entropy (FLARE-style),0.05,0.10725047038101652
+1,prose_ids,entropy (FLARE-style),0.1,0.1852802714672918
+1,prose_ids,entropy (FLARE-style),0.2,0.3305375764012386
+1,prose_ids,entropy (FLARE-style),0.3,0.46573663102267604
+1,prose_ids,entropy (FLARE-style),0.5,0.698261277756814
+1,prose_ids,entropy (FLARE-style),b50,0.3267429760665973
+1,prose_ids,learned: raw surprise,0.02,0.03427821025118962
+1,prose_ids,learned: raw surprise,0.05,0.08116197311062806
+1,prose_ids,learned: raw surprise,0.1,0.15707547720443865
+1,prose_ids,learned: raw surprise,0.2,0.29353992446850363
+1,prose_ids,learned: raw surprise,0.3,0.4264345593645309
+1,prose_ids,learned: raw surprise,0.5,0.6455597198939309
+1,prose_ids,learned: raw surprise,b50,0.3603618026094613
+1,prose_ids,learned: value (realized gain),0.02,0.06671533435025327
+1,prose_ids,learned: value (realized gain),0.05,0.14653967441334662
+1,prose_ids,learned: value (realized gain),0.1,0.2438905248042124
+1,prose_ids,learned: value (realized gain),0.2,0.393009768371264
+1,prose_ids,learned: value (realized gain),0.3,0.5156501612065938
+1,prose_ids,learned: value (realized gain),0.5,0.7171098229280413
+1,prose_ids,learned: value (realized gain),b50,0.28664051869046664
+1,prose_ids,learned: value (KL),0.02,0.07060184993451095
+1,prose_ids,learned: value (KL),0.05,0.15250655851506542
+1,prose_ids,learned: value (KL),0.1,0.2499001291602989
+1,prose_ids,learned: value (KL),0.2,0.4039504057524058
+1,prose_ids,learned: value (KL),0.3,0.5321119585544103
+1,prose_ids,learned: value (KL),0.5,0.7372780511412684
+1,prose_ids,learned: value (KL),b50,0.2719522932842392
+1,prose_ids,oracle: KL (needs resource),0.02,0.1667237224523926
+1,prose_ids,oracle: KL (needs resource),0.05,0.3272003351091485
+1,prose_ids,oracle: KL (needs resource),0.1,0.4849797043297199
+1,prose_ids,oracle: KL (needs resource),0.2,0.6766941506747195
+1,prose_ids,oracle: KL (needs resource),0.3,0.7977766070201409
+1,prose_ids,oracle: KL (needs resource),0.5,0.9242993666500183
+1,prose_ids,oracle: KL (needs resource),b50,0.10577923637236852
+1,prose_ids,oracle: realized gain,0.02,0.20568045250163258
+1,prose_ids,oracle: realized gain,0.05,0.41500013652472206
+1,prose_ids,oracle: realized gain,0.1,0.6458253003256187
+1,prose_ids,oracle: realized gain,0.2,0.8979478100956407
+1,prose_ids,oracle: realized gain,0.3,1.030182330713052
+1,prose_ids,oracle: realized gain,0.5,1.1393981793012402
+1,prose_ids,oracle: realized gain,b50,0.06567677899623789
+1,prose_ids,random,0.02,0.02074812107396469
+1,prose_ids,random,0.05,0.04856139104137689
+1,prose_ids,random,0.1,0.09833498074983034
+1,prose_ids,random,0.2,0.2046828897417577
+1,prose_ids,random,0.3,0.29673544416593706
+1,prose_ids,random,0.5,0.50824119253286
+1,prose_ids,random,b50,0.4923957416153046
+2,natural,entropy (FLARE-style),0.02,0.053416048975882716
+2,natural,entropy (FLARE-style),0.05,0.13247194657654124
+2,natural,entropy (FLARE-style),0.1,0.24726442602953846
+2,natural,entropy (FLARE-style),0.2,0.4356871729213001
+2,natural,entropy (FLARE-style),0.3,0.5901634718360279
+2,natural,entropy (FLARE-style),0.5,0.8037010645427788
+2,natural,entropy (FLARE-style),b50,0.2376727458604889
+2,natural,learned: raw surprise,0.02,0.05246538539475546
+2,natural,learned: raw surprise,0.05,0.11864525945593103
+2,natural,learned: raw surprise,0.1,0.23085277148559627
+2,natural,learned: raw surprise,0.2,0.41790364815096204
+2,natural,learned: raw surprise,0.3,0.5717259871501565
+2,natural,learned: raw surprise,0.5,0.8031118151173603
+2,natural,learned: raw surprise,b50,0.25178450809646385
+2,natural,learned: value (realized gain),0.02,0.09529600036890953
+2,natural,learned: value (realized gain),0.05,0.19675521374974392
+2,natural,learned: value (realized gain),0.1,0.32485777847765696
+2,natural,learned: value (realized gain),0.2,0.5071525655397117
+2,natural,learned: value (realized gain),0.3,0.6346026088190632
+2,natural,learned: value (realized gain),0.5,0.8108655382387362
+2,natural,learned: value (realized gain),b50,0.19353013125947022
+2,natural,learned: value (KL),0.02,0.10383717911383339
+2,natural,learned: value (KL),0.05,0.20426143748244746
+2,natural,learned: value (KL),0.1,0.33171017291883464
+2,natural,learned: value (KL),0.2,0.5163194224090581
+2,natural,learned: value (KL),0.3,0.6498920989907433
+2,natural,learned: value (KL),0.5,0.830180280860348
+2,natural,learned: value (KL),b50,0.18942256786607517
+2,natural,oracle: KL (needs resource),0.02,0.21629086188802385
+2,natural,oracle: KL (needs resource),0.05,0.398724247300152
+2,natural,oracle: KL (needs resource),0.1,0.5677116672776136
+2,natural,oracle: KL (needs resource),0.2,0.7551114982508761
+2,natural,oracle: KL (needs resource),0.3,0.8493166111700898
+2,natural,oracle: KL (needs resource),0.5,0.9535893443141015
+2,natural,oracle: KL (needs resource),b50,0.07671102835131534
+2,natural,oracle: realized gain,0.02,0.28182496164729687
+2,natural,oracle: realized gain,0.05,0.5277793228379778
+2,natural,oracle: realized gain,0.1,0.7704506726912798
+2,natural,oracle: realized gain,0.2,1.0139918893029976
+2,natural,oracle: realized gain,0.3,1.1282622092462322
+2,natural,oracle: realized gain,0.5,1.2061360484794812
+2,natural,oracle: realized gain,b50,0.04587691914489658
+2,natural,random,0.02,0.01870220768715189
+2,natural,random,0.05,0.05160201786735667
+2,natural,random,0.1,0.09986431930677567
+2,natural,random,0.2,0.20086227928821318
+2,natural,random,0.3,0.30089895976696823
+2,natural,random,0.5,0.503854404027656
+2,natural,random,b50,0.4972159848111434
+2,prose,entropy (FLARE-style),0.02,0.04146593549357669
+2,prose,entropy (FLARE-style),0.05,0.10731601745633666
+2,prose,entropy (FLARE-style),0.1,0.20054620145489135
+2,prose,entropy (FLARE-style),0.2,0.3744022232002095
+2,prose,entropy (FLARE-style),0.3,0.5079344413470869
+2,prose,entropy (FLARE-style),0.5,0.7266807249641914
+2,prose,entropy (FLARE-style),b50,0.29359848922804177
+2,prose,learned: raw surprise,0.02,0.04373183508700113
+2,prose,learned: raw surprise,0.05,0.10225511774214656
+2,prose,learned: raw surprise,0.1,0.18890627024236967
+2,prose,learned: raw surprise,0.2,0.3602103277110633
+2,prose,learned: raw surprise,0.3,0.49675851430261353
+2,prose,learned: raw surprise,0.5,0.7257601567587205
+2,prose,learned: raw surprise,b50,0.30354183527960843
+2,prose,learned: value (realized gain),0.02,0.07417356364489482
+2,prose,learned: value (realized gain),0.05,0.1551313749028915
+2,prose,learned: value (realized gain),0.1,0.2642690135615942
+2,prose,learned: value (realized gain),0.2,0.4320454900613619
+2,prose,learned: value (realized gain),0.3,0.5532490167841043
+2,prose,learned: value (realized gain),0.5,0.7446116596469173
+2,prose,learned: value (realized gain),b50,0.25343970401202454
+2,prose,learned: value (KL),0.02,0.08057682720305613
+2,prose,learned: value (KL),0.05,0.15855384173306225
+2,prose,learned: value (KL),0.1,0.26683324350030135
+2,prose,learned: value (KL),0.2,0.4387245106320852
+2,prose,learned: value (KL),0.3,0.5753400606902469
+2,prose,learned: value (KL),0.5,0.7561668198188255
+2,prose,learned: value (KL),b50,0.24426715997995915
+2,prose,oracle: KL (needs resource),0.02,0.17480847867314234
+2,prose,oracle: KL (needs resource),0.05,0.33172783590816357
+2,prose,oracle: KL (needs resource),0.1,0.49467342111593343
+2,prose,oracle: KL (needs resource),0.2,0.6829399031041207
+2,prose,oracle: KL (needs resource),0.3,0.7895955713428501
+2,prose,oracle: KL (needs resource),0.5,0.9198523908231069
+2,prose,oracle: KL (needs resource),b50,0.10278644930049717
+2,prose,oracle: realized gain,0.02,0.23903911485417068
+2,prose,oracle: realized gain,0.05,0.45752509102021444
+2,prose,oracle: realized gain,0.1,0.6924755549263298
+2,prose,oracle: realized gain,0.2,0.9482823216642567
+2,prose,oracle: realized gain,0.3,1.0816326955414235
+2,prose,oracle: realized gain,0.5,1.192522481419306
+2,prose,oracle: realized gain,b50,0.05742475045284619
+2,prose,random,0.02,0.018789016349621095
+2,prose,random,0.05,0.051293677234727775
+2,prose,random,0.1,0.0961022619201855
+2,prose,random,0.2,0.19941550978532724
+2,prose,random,0.3,0.29877557849028613
+2,prose,random,0.5,0.5044514288506247
+2,prose,random,b50,0.49697460207345745
+2,code,entropy (FLARE-style),0.02,0.06969880906328814
+2,code,entropy (FLARE-style),0.05,0.16768329847783883
+2,code,entropy (FLARE-style),0.1,0.3064592187538642
+2,code,entropy (FLARE-style),0.2,0.5165812018076257
+2,code,entropy (FLARE-style),0.3,0.6634030781233626
+2,code,entropy (FLARE-style),0.5,0.866545063535616
+2,code,entropy (FLARE-style),b50,0.19053069719042665
+2,code,learned: raw surprise,0.02,0.06297082830792455
+2,code,learned: raw surprise,0.05,0.15524961032202578
+2,code,learned: raw surprise,0.1,0.28786519382655
+2,code,learned: raw surprise,0.2,0.49999134503610093
+2,code,learned: raw surprise,0.3,0.6485334890538389
+2,code,learned: raw surprise,0.5,0.8597483343035254
+2,code,learned: raw surprise,b50,0.1999306278182449
+2,code,learned: value (realized gain),0.02,0.12561974596044853
+2,code,learned: value (realized gain),0.05,0.2534624934776153
+2,code,learned: value (realized gain),0.1,0.4035307787550386
+2,code,learned: value (realized gain),0.2,0.5917884555804857
+2,code,learned: value (realized gain),0.3,0.7109127681480597
+2,code,learned: value (realized gain),0.5,0.8593171299509755
+2,code,learned: value (realized gain),b50,0.1422129725979882
+2,code,learned: value (KL),0.02,0.13754559805471142
+2,code,learned: value (KL),0.05,0.26525405882079894
+2,code,learned: value (KL),0.1,0.41080475973088304
+2,code,learned: value (KL),0.2,0.6043517059592473
+2,code,learned: value (KL),0.3,0.7282812429347327
+2,code,learned: value (KL),0.5,0.8678493442260015
+2,code,learned: value (KL),b50,0.13971557405480403
+2,code,oracle: KL (needs resource),0.02,0.27016163696341516
+2,code,oracle: KL (needs resource),0.05,0.481172318094886
+2,code,oracle: KL (needs resource),0.1,0.6550462272978614
+2,code,oracle: KL (needs resource),0.2,0.8249023373757539
+2,code,oracle: KL (needs resource),0.3,0.9000798120444533
+2,code,oracle: KL (needs resource),0.5,0.9742711177455499
+2,code,oracle: KL (needs resource),b50,0.05390218522372529
+2,code,oracle: realized gain,0.02,0.3380697795599915
+2,code,oracle: realized gain,0.05,0.6126131612649547
+2,code,oracle: realized gain,0.1,0.8535874154818672
+2,code,oracle: realized gain,0.2,1.0729355333961352
+2,code,oracle: realized gain,0.3,1.163180103091448
+2,code,oracle: realized gain,0.5,1.2147685561479538
+2,code,oracle: realized gain,b50,0.035587929240374606
+2,code,random,0.02,0.019569747459871566
+2,code,random,0.05,0.05087073906105289
+2,code,random,0.1,0.10552411476791712
+2,code,random,0.2,0.20279780780061057
+2,code,random,0.3,0.30285686935979067
+2,code,random,0.5,0.5012702186189414
+2,code,random,b50,0.49871661463753036
+2,prose_ids,entropy (FLARE-style),0.02,0.04713743792382417
+2,prose_ids,entropy (FLARE-style),0.05,0.11199503210450866
+2,prose_ids,entropy (FLARE-style),0.1,0.1913791983185088
+2,prose_ids,entropy (FLARE-style),0.2,0.33440355013281003
+2,prose_ids,entropy (FLARE-style),0.3,0.4712462966578874
+2,prose_ids,entropy (FLARE-style),0.5,0.7006341121679335
+2,prose_ids,entropy (FLARE-style),b50,0.32074921956295527
+2,prose_ids,learned: raw surprise,0.02,0.035150108290985714
+2,prose_ids,learned: raw surprise,0.05,0.08317560777370404
+2,prose_ids,learned: raw surprise,0.1,0.16060001718770567
+2,prose_ids,learned: raw surprise,0.2,0.3063871001167742
+2,prose_ids,learned: raw surprise,0.3,0.43606086083572504
+2,prose_ids,learned: raw surprise,0.5,0.6549462069605311
+2,prose_ids,learned: raw surprise,b50,0.35209157127991675
+2,prose_ids,learned: value (realized gain),0.02,0.06761637414442354
+2,prose_ids,learned: value (realized gain),0.05,0.15424674388396797
+2,prose_ids,learned: value (realized gain),0.1,0.2448704451913149
+2,prose_ids,learned: value (realized gain),0.2,0.40395002932424096
+2,prose_ids,learned: value (realized gain),0.3,0.5313230596748344
+2,prose_ids,learned: value (realized gain),0.5,0.7279536300278907
+2,prose_ids,learned: value (realized gain),b50,0.2765868886576483
+2,prose_ids,learned: value (KL),0.02,0.07577948788412178
+2,prose_ids,learned: value (KL),0.05,0.1560930443886673
+2,prose_ids,learned: value (KL),0.1,0.25503273220951594
+2,prose_ids,learned: value (KL),0.2,0.40808880732076924
+2,prose_ids,learned: value (KL),0.3,0.5440097935245514
+2,prose_ids,learned: value (KL),0.5,0.7420670811958107
+2,prose_ids,learned: value (KL),b50,0.26526534859521333
+2,prose_ids,oracle: KL (needs resource),0.02,0.16555018516196268
+2,prose_ids,oracle: KL (needs resource),0.05,0.325820459693295
+2,prose_ids,oracle: KL (needs resource),0.1,0.4936124070788561
+2,prose_ids,oracle: KL (needs resource),0.2,0.6934353645910093
+2,prose_ids,oracle: KL (needs resource),0.3,0.8090395874193539
+2,prose_ids,oracle: KL (needs resource),0.5,0.9249357823050292
+2,prose_ids,oracle: KL (needs resource),b50,0.10276795005202914
+2,prose_ids,oracle: realized gain,0.02,0.20505959369414833
+2,prose_ids,oracle: realized gain,0.05,0.4156585049253355
+2,prose_ids,oracle: realized gain,0.1,0.6470321084019285
+2,prose_ids,oracle: realized gain,0.2,0.897702024040953
+2,prose_ids,oracle: realized gain,0.3,1.0267876766323913
+2,prose_ids,oracle: realized gain,0.5,1.1334982869453836
+2,prose_ids,oracle: realized gain,b50,0.06547346514047866
+2,prose_ids,random,0.02,0.018065055852850544
+2,prose_ids,random,0.05,0.0486331557118573
+2,prose_ids,random,0.1,0.1001735287416116
+2,prose_ids,random,0.2,0.2039777712043746
+2,prose_ids,random,0.3,0.30368707174147375
+2,prose_ids,random,0.5,0.500400145251298
+2,prose_ids,random,b50,0.49931321540062434
+3,natural,entropy (FLARE-style),0.02,0.05642517407371866
+3,natural,entropy (FLARE-style),0.05,0.13643386870950422
+3,natural,entropy (FLARE-style),0.1,0.25355257937632525
+3,natural,entropy (FLARE-style),0.2,0.4361331878256948
+3,natural,entropy (FLARE-style),0.3,0.5882274386227262
+3,natural,entropy (FLARE-style),0.5,0.8046517641923572
+3,natural,entropy (FLARE-style),b50,0.23705204739215363
+3,natural,learned: raw surprise,0.02,0.054955397112205345
+3,natural,learned: raw surprise,0.05,0.1249817266522337
+3,natural,learned: raw surprise,0.1,0.2300408938455375
+3,natural,learned: raw surprise,0.2,0.4148809844990209
+3,natural,learned: raw surprise,0.3,0.5650367553247577
+3,natural,learned: raw surprise,0.5,0.8091684163907861
+3,natural,learned: raw surprise,b50,0.25185753144567974
+3,natural,learned: value (realized gain),0.02,0.09511726025447988
+3,natural,learned: value (realized gain),0.05,0.19413003445523583
+3,natural,learned: value (realized gain),0.1,0.3231241524284883
+3,natural,learned: value (realized gain),0.2,0.5127872610664334
+3,natural,learned: value (realized gain),0.3,0.6470384352057306
+3,natural,learned: value (realized gain),0.5,0.8219597954608887
+3,natural,learned: value (realized gain),b50,0.192872921116527
+3,natural,learned: value (KL),0.02,0.1009190322130043
+3,natural,learned: value (KL),0.05,0.20967383904063366
+3,natural,learned: value (KL),0.1,0.34795509992920165
+3,natural,learned: value (KL),0.2,0.5268593941331804
+3,natural,learned: value (KL),0.3,0.6616693061019033
+3,natural,learned: value (KL),0.5,0.8336089090324451
+3,natural,learned: value (KL),b50,0.18275918725012322
+3,natural,oracle: KL (needs resource),0.02,0.22798829729916384
+3,natural,oracle: KL (needs resource),0.05,0.4035541373031068
+3,natural,oracle: KL (needs resource),0.1,0.5703511105090368
+3,natural,oracle: KL (needs resource),0.2,0.7600527167318851
+3,natural,oracle: KL (needs resource),0.3,0.8556267216624845
+3,natural,oracle: KL (needs resource),0.5,0.9523262196842741
+3,natural,oracle: KL (needs resource),b50,0.07603556237106815
+3,natural,oracle: realized gain,0.02,0.2833610880136184
+3,natural,oracle: realized gain,0.05,0.5305980876592343
+3,natural,oracle: realized gain,0.1,0.7740695630638273
+3,natural,oracle: realized gain,0.2,1.017682653924344
+3,natural,oracle: realized gain,0.3,1.1315859942964233
+3,natural,oracle: realized gain,0.5,1.2091211032794018
+3,natural,oracle: realized gain,b50,0.04547529072420907
+3,natural,random,0.02,0.0170144200973034
+3,natural,random,0.05,0.046357050191750876
+3,natural,random,0.1,0.09480813545511275
+3,natural,random,0.2,0.19817162428434332
+3,natural,random,0.3,0.29638070552220597
+3,natural,random,0.5,0.49752301049358555
+3,natural,random,b50,0.5031491319349362
+3,prose,entropy (FLARE-style),0.02,0.04303674711289474
+3,prose,entropy (FLARE-style),0.05,0.1031616123991716
+3,prose,entropy (FLARE-style),0.1,0.20190530085643132
+3,prose,entropy (FLARE-style),0.2,0.3685780278568689
+3,prose,entropy (FLARE-style),0.3,0.5067485275404189
+3,prose,entropy (FLARE-style),0.5,0.727459851546493
+3,prose,entropy (FLARE-style),b50,0.2944078313485181
+3,prose,learned: raw surprise,0.02,0.04500530972213937
+3,prose,learned: raw surprise,0.05,0.10043939748467229
+3,prose,learned: raw surprise,0.1,0.19389643488124406
+3,prose,learned: raw surprise,0.2,0.3563835633348534
+3,prose,learned: raw surprise,0.3,0.4921280540116554
+3,prose,learned: raw surprise,0.5,0.7200238417954014
+3,prose,learned: raw surprise,b50,0.30647088295371333
+3,prose,learned: value (realized gain),0.02,0.07689239258018414
+3,prose,learned: value (realized gain),0.05,0.1532798728734788
+3,prose,learned: value (realized gain),0.1,0.26453832113873044
+3,prose,learned: value (realized gain),0.2,0.4227333228785921
+3,prose,learned: value (realized gain),0.3,0.5503862997407368
+3,prose,learned: value (realized gain),0.5,0.7382436770119684
+3,prose,learned: value (realized gain),b50,0.2577947354222068
+3,prose,learned: value (KL),0.02,0.07384188746708464
+3,prose,learned: value (KL),0.05,0.16141602973454347
+3,prose,learned: value (KL),0.1,0.2749774638455507
+3,prose,learned: value (KL),0.2,0.43410319736679537
+3,prose,learned: value (KL),0.3,0.5644293229122548
+3,prose,learned: value (KL),0.5,0.7623036257758021
+3,prose,learned: value (KL),b50,0.2479284695725903
+3,prose,oracle: KL (needs resource),0.02,0.1738814225697489
+3,prose,oracle: KL (needs resource),0.05,0.32221439501071
+3,prose,oracle: KL (needs resource),0.1,0.4792252664451423
+3,prose,oracle: KL (needs resource),0.2,0.6766000656578833
+3,prose,oracle: KL (needs resource),0.3,0.7897969591464278
+3,prose,oracle: KL (needs resource),0.5,0.9155897029014779
+3,prose,oracle: KL (needs resource),b50,0.10879870505260723
+3,prose,oracle: realized gain,0.02,0.2369410678095301
+3,prose,oracle: realized gain,0.05,0.4552871790557467
+3,prose,oracle: realized gain,0.1,0.6927379329799607
+3,prose,oracle: realized gain,0.2,0.9537426781286016
+3,prose,oracle: realized gain,0.3,1.0914574871331835
+3,prose,oracle: realized gain,0.5,1.206129266436562
+3,prose,oracle: realized gain,b50,0.0577330712606467
+3,prose,random,0.02,0.015076034145764953
+3,prose,random,0.05,0.04319670726281074
+3,prose,random,0.1,0.09235576338838998
+3,prose,random,0.2,0.1946726124934734
+3,prose,random,0.3,0.2951146587324384
+3,prose,random,0.5,0.49772730430064405
+3,prose,random,b50,0.5015608740894901
+3,code,entropy (FLARE-style),0.02,0.08343829550723234
+3,code,entropy (FLARE-style),0.05,0.18176424481897527
+3,code,entropy (FLARE-style),0.1,0.3175812244607035
+3,code,entropy (FLARE-style),0.2,0.5280114423508461
+3,code,entropy (FLARE-style),0.3,0.6786868466553374
+3,code,entropy (FLARE-style),0.5,0.8684962079121319
+3,code,entropy (FLARE-style),b50,0.18425251474158863
+3,code,learned: raw surprise,0.02,0.07500530937076301
+3,code,learned: raw surprise,0.05,0.17054194141524207
+3,code,learned: raw surprise,0.1,0.29573898975159507
+3,code,learned: raw surprise,0.2,0.5047657870496484
+3,code,learned: raw surprise,0.3,0.6785227566289216
+3,code,learned: raw surprise,0.5,0.8724863182523068
+3,code,learned: raw surprise,b50,0.19757197363857093
+3,code,learned: value (realized gain),0.02,0.1334508524762348
+3,code,learned: value (realized gain),0.05,0.26078985262227744
+3,code,learned: value (realized gain),0.1,0.40514393067817844
+3,code,learned: value (realized gain),0.2,0.6237447253510694
+3,code,learned: value (realized gain),0.3,0.7441186088062973
+3,code,learned: value (realized gain),0.5,0.8702971133843589
+3,code,learned: value (realized gain),b50,0.13433922996878253
+3,code,learned: value (KL),0.02,0.13864540354825536
+3,code,learned: value (KL),0.05,0.2785882172711891
+3,code,learned: value (KL),0.1,0.4350463225565201
+3,code,learned: value (KL),0.2,0.6311074506745644
+3,code,learned: value (KL),0.3,0.7483540510946829
+3,code,learned: value (KL),0.5,0.8793583063452683
+3,code,learned: value (KL),b50,0.12826916406520986
+3,code,oracle: KL (needs resource),0.02,0.2961499694582738
+3,code,oracle: KL (needs resource),0.05,0.506757319756964
+3,code,oracle: KL (needs resource),0.1,0.6759968893682515
+3,code,oracle: KL (needs resource),0.2,0.8397169269708545
+3,code,oracle: KL (needs resource),0.3,0.9081514261150998
+3,code,oracle: KL (needs resource),0.5,0.9727614334245769
+3,code,oracle: KL (needs resource),b50,0.04897676031911204
+3,code,oracle: realized gain,0.02,0.34305998133601945
+3,code,oracle: realized gain,0.05,0.6201497977426191
+3,code,oracle: realized gain,0.1,0.8575928025415114
+3,code,oracle: realized gain,0.2,1.0686040365263563
+3,code,oracle: realized gain,0.3,1.1540933306416912
+3,code,oracle: realized gain,0.5,1.2034942091439804
+3,code,oracle: realized gain,b50,0.034790149150190776
+3,code,random,0.02,0.019661010176897767
+3,code,random,0.05,0.04977049690706896
+3,code,random,0.1,0.09893942698251743
+3,code,random,0.2,0.20303564154355788
+3,code,random,0.3,0.29778443274740973
+3,code,random,0.5,0.4944484847371221
+3,code,random,b50,0.5045785639958377
+3,prose_ids,entropy (FLARE-style),0.02,0.04653119319843859
+3,prose_ids,entropy (FLARE-style),0.05,0.11057923527912822
+3,prose_ids,entropy (FLARE-style),0.1,0.19351101229252257
+3,prose_ids,entropy (FLARE-style),0.2,0.3419971673323112
+3,prose_ids,entropy (FLARE-style),0.3,0.48158418434460226
+3,prose_ids,entropy (FLARE-style),0.5,0.697744236101443
+3,prose_ids,entropy (FLARE-style),b50,0.3141359161130233
+3,prose_ids,learned: raw surprise,0.02,0.03734477823194103
+3,prose_ids,learned: raw surprise,0.05,0.08058212840864067
+3,prose_ids,learned: raw surprise,0.1,0.1547604939536893
+3,prose_ids,learned: raw surprise,0.2,0.29305437632303954
+3,prose_ids,learned: raw surprise,0.3,0.4264017100352867
+3,prose_ids,learned: raw surprise,0.5,0.6476940550963666
+3,prose_ids,learned: raw surprise,b50,0.3615224525734411
+3,prose_ids,learned: value (realized gain),0.02,0.06797183477988895
+3,prose_ids,learned: value (realized gain),0.05,0.14214286561868095
+3,prose_ids,learned: value (realized gain),0.1,0.242861918796022
+3,prose_ids,learned: value (realized gain),0.2,0.41217307769246175
+3,prose_ids,learned: value (realized gain),0.3,0.5387558879305692
+3,prose_ids,learned: value (realized gain),0.5,0.7311386249089148
+3,prose_ids,learned: value (realized gain),b50,0.26815016409189146
+3,prose_ids,learned: value (KL),0.02,0.08213244191884515
+3,prose_ids,learned: value (KL),0.05,0.1598363132078005
+3,prose_ids,learned: value (KL),0.1,0.25985217029037094
+3,prose_ids,learned: value (KL),0.2,0.42750094760063007
+3,prose_ids,learned: value (KL),0.3,0.566149162754245
+3,prose_ids,learned: value (KL),0.5,0.7744104900613574
+3,prose_ids,learned: value (KL),b50,0.2506203473945409
+3,prose_ids,oracle: KL (needs resource),0.02,0.17379901855721294
+3,prose_ids,oracle: KL (needs resource),0.05,0.33089339305025395
+3,prose_ids,oracle: KL (needs resource),0.1,0.493976751608335
+3,prose_ids,oracle: KL (needs resource),0.2,0.6888478618278441
+3,prose_ids,oracle: KL (needs resource),0.3,0.8066688878036103
+3,prose_ids,oracle: KL (needs resource),0.5,0.9254877131490875
+3,prose_ids,oracle: KL (needs resource),b50,0.10217721924277595
+3,prose_ids,oracle: realized gain,0.02,0.21124088854550457
+3,prose_ids,oracle: realized gain,0.05,0.4250778892755599
+3,prose_ids,oracle: realized gain,0.1,0.6561591142089502
+3,prose_ids,oracle: realized gain,0.2,0.9073695570914962
+3,prose_ids,oracle: realized gain,0.3,1.039076914570457
+3,prose_ids,oracle: realized gain,0.5,1.1475035650991356
+3,prose_ids,oracle: realized gain,b50,0.06371568078123749
+3,prose_ids,random,0.02,0.018627377899193154
+3,prose_ids,random,0.05,0.048163043496797446
+3,prose_ids,random,0.1,0.09708820603425036
+3,prose_ids,random,0.2,0.2013882414146987
+3,prose_ids,random,0.3,0.3002469345246906
+3,prose_ids,random,0.5,0.5136166693339889
+3,prose_ids,random,b50,0.48643240214520134
+4,natural,entropy (FLARE-style),0.02,0.053019200170325624
+4,natural,entropy (FLARE-style),0.05,0.1319732288631987
+4,natural,entropy (FLARE-style),0.1,0.2519414543448993
+4,natural,entropy (FLARE-style),0.2,0.44659853263235316
+4,natural,entropy (FLARE-style),0.3,0.6013351907669253
+4,natural,entropy (FLARE-style),0.5,0.8152003608879432
+4,natural,entropy (FLARE-style),b50,0.23170308706208811
+4,natural,learned: raw surprise,0.02,0.047759582507001436
+4,natural,learned: raw surprise,0.05,0.12370342293270094
+4,natural,learned: raw surprise,0.1,0.23612156753011196
+4,natural,learned: raw surprise,0.2,0.42853747714435936
+4,natural,learned: raw surprise,0.3,0.5959247630776807
+4,natural,learned: raw surprise,0.5,0.818112347209627
+4,natural,learned: raw surprise,b50,0.24070321485294924
+4,natural,learned: value (realized gain),0.02,0.09289325328504955
+4,natural,learned: value (realized gain),0.05,0.19436672487355797
+4,natural,learned: value (realized gain),0.1,0.32515030330966066
+4,natural,learned: value (realized gain),0.2,0.5190373334150999
+4,natural,learned: value (realized gain),0.3,0.6515894083110229
+4,natural,learned: value (realized gain),0.5,0.826005818083355
+4,natural,learned: value (realized gain),b50,0.18693977399273418
+4,natural,learned: value (KL),0.02,0.10173156118283765
+4,natural,learned: value (KL),0.05,0.20282120355323893
+4,natural,learned: value (KL),0.1,0.33701154370272374
+4,natural,learned: value (KL),0.2,0.532310902655651
+4,natural,learned: value (KL),0.3,0.6709070819408967
+4,natural,learned: value (KL),0.5,0.836259289436379
+4,natural,learned: value (KL),b50,0.18190116289683628
+4,natural,oracle: KL (needs resource),0.02,0.23219415269594654
+4,natural,oracle: KL (needs resource),0.05,0.40794992752230375
+4,natural,oracle: KL (needs resource),0.1,0.5728969011515631
+4,natural,oracle: KL (needs resource),0.2,0.7568291563068784
+4,natural,oracle: KL (needs resource),0.3,0.8574977909278866
+4,natural,oracle: KL (needs resource),0.5,0.9582388802157304
+4,natural,oracle: KL (needs resource),b50,0.07503149131934936
+4,natural,oracle: realized gain,0.02,0.2874454203206296
+4,natural,oracle: realized gain,0.05,0.5361220167632862
+4,natural,oracle: realized gain,0.1,0.7773816099963133
+4,natural,oracle: realized gain,0.2,1.0162741781327584
+4,natural,oracle: realized gain,0.3,1.128712947198402
+4,natural,oracle: realized gain,0.5,1.204837821888606
+4,natural,oracle: realized gain,b50,0.04470854555744199
+4,natural,random,0.02,0.020587911445068857
+4,natural,random,0.05,0.05164596651319124
+4,natural,random,0.1,0.10097407933786176
+4,natural,random,0.2,0.20129880523490637
+4,natural,random,0.3,0.2996938094931799
+4,natural,random,0.5,0.4949544036940385
+4,natural,random,b50,0.505011227339942
+4,prose,entropy (FLARE-style),0.02,0.03943797853984473
+4,prose,entropy (FLARE-style),0.05,0.10487308703977065
+4,prose,entropy (FLARE-style),0.1,0.2060567276152721
+4,prose,entropy (FLARE-style),0.2,0.38764233083984784
+4,prose,entropy (FLARE-style),0.3,0.5356476449447213
+4,prose,entropy (FLARE-style),0.5,0.7568099702919223
+4,prose,entropy (FLARE-style),b50,0.27602420318341236
+4,prose,learned: raw surprise,0.02,0.03707999553177366
+4,prose,learned: raw surprise,0.05,0.09503524354980464
+4,prose,learned: raw surprise,0.1,0.19681425337624817
+4,prose,learned: raw surprise,0.2,0.3748791977951766
+4,prose,learned: raw surprise,0.3,0.5230198714069136
+4,prose,learned: raw surprise,0.5,0.7577947967759349
+4,prose,learned: raw surprise,b50,0.2848498863067021
+4,prose,learned: value (realized gain),0.02,0.07656505416404032
+4,prose,learned: value (realized gain),0.05,0.15889954567014325
+4,prose,learned: value (realized gain),0.1,0.2654433406104002
+4,prose,learned: value (realized gain),0.2,0.4414524352635502
+4,prose,learned: value (realized gain),0.3,0.5620957262528686
+4,prose,learned: value (realized gain),0.5,0.7614586607175727
+4,prose,learned: value (realized gain),b50,0.2433421975565576
+4,prose,learned: value (KL),0.02,0.08040456600001634
+4,prose,learned: value (KL),0.05,0.16230082046155267
+4,prose,learned: value (KL),0.1,0.2753966998275619
+4,prose,learned: value (KL),0.2,0.4511621668820678
+4,prose,learned: value (KL),0.3,0.5830657963932387
+4,prose,learned: value (KL),0.5,0.775861162753735
+4,prose,learned: value (KL),b50,0.23494045554399354
+4,prose,oracle: KL (needs resource),0.02,0.1872273168366535
+4,prose,oracle: KL (needs resource),0.05,0.3370912425979464
+4,prose,oracle: KL (needs resource),0.1,0.4894589360182525
+4,prose,oracle: KL (needs resource),0.2,0.6742614952397392
+4,prose,oracle: KL (needs resource),0.3,0.7889678929653784
+4,prose,oracle: KL (needs resource),0.5,0.9237867709366033
+4,prose,oracle: KL (needs resource),b50,0.10448221374340001
+4,prose,oracle: realized gain,0.02,0.2455448169617589
+4,prose,oracle: realized gain,0.05,0.46886704830641823
+4,prose,oracle: realized gain,0.1,0.7033957038106478
+4,prose,oracle: realized gain,0.2,0.9545174744298318
+4,prose,oracle: realized gain,0.3,1.0862955319210839
+4,prose,oracle: realized gain,0.5,1.1963256946972873
+4,prose,oracle: realized gain,b50,0.055305044899217636
+4,prose,random,0.02,0.021782941623353112
+4,prose,random,0.05,0.05097081436451104
+4,prose,random,0.1,0.10008100121944558
+4,prose,random,0.2,0.19676370843082472
+4,prose,random,0.3,0.3002858019805386
+4,prose,random,0.5,0.502124380662475
+4,prose,random,b50,0.49813080510270935
+4,code,entropy (FLARE-style),0.02,0.0756351213930059
+4,code,entropy (FLARE-style),0.05,0.16470114328233207
+4,code,entropy (FLARE-style),0.1,0.30272567278418105
+4,code,entropy (FLARE-style),0.2,0.5076265089071674
+4,code,entropy (FLARE-style),0.3,0.665346798182847
+4,code,entropy (FLARE-style),0.5,0.865602232905002
+4,code,entropy (FLARE-style),b50,0.19510926118626432
+4,code,learned: raw surprise,0.02,0.06908872549132662
+4,code,learned: raw surprise,0.05,0.1586155175908208
+4,code,learned: raw surprise,0.1,0.27929921354820464
+4,code,learned: raw surprise,0.2,0.5013579559676205
+4,code,learned: raw surprise,0.3,0.6703495925417422
+4,code,learned: raw surprise,0.5,0.8650227004017743
+4,code,learned: raw surprise,b50,0.19920221990981615
+4,code,learned: value (realized gain),0.02,0.11483379252517023
+4,code,learned: value (realized gain),0.05,0.24720244111933967
+4,code,learned: value (realized gain),0.1,0.39965687401762257
+4,code,learned: value (realized gain),0.2,0.6121297031961123
+4,code,learned: value (realized gain),0.3,0.7329486223651268
+4,code,learned: value (realized gain),0.5,0.8667731072031413
+4,code,learned: value (realized gain),b50,0.13818938605619147
+4,code,learned: value (KL),0.02,0.13067471394068844
+4,code,learned: value (KL),0.05,0.2583765661998892
+4,code,learned: value (KL),0.1,0.41297345466491203
+4,code,learned: value (KL),0.2,0.6260861950365496
+4,code,learned: value (KL),0.3,0.7460624774802521
+4,code,learned: value (KL),0.5,0.8728662062973396
+4,code,learned: value (KL),b50,0.134616718695803
+4,code,oracle: KL (needs resource),0.02,0.29028318795849195
+4,code,oracle: KL (needs resource),0.05,0.49930308891999126
+4,code,oracle: KL (needs resource),0.1,0.6693828980601934
+4,code,oracle: KL (needs resource),0.2,0.840552851284435
+4,code,oracle: KL (needs resource),0.3,0.9096025254967943
+4,code,oracle: KL (needs resource),0.5,0.9764514330640068
+4,code,oracle: KL (needs resource),b50,0.050225459590704125
+4,code,oracle: realized gain,0.02,0.3406155621551765
+4,code,oracle: realized gain,0.05,0.615636609388784
+4,code,oracle: realized gain,0.1,0.8554767101311107
+4,code,oracle: realized gain,0.2,1.0701659825904666
+4,code,oracle: realized gain,0.3,1.1572003752235385
+4,code,oracle: realized gain,0.5,1.2067996907213123
+4,code,oracle: realized gain,b50,0.03527575442247659
+4,code,random,0.02,0.017991813525386546
+4,code,random,0.05,0.05384822776601889
+4,code,random,0.1,0.10365447079923545
+4,code,random,0.2,0.208026170924777
+4,code,random,0.3,0.29902428011095894
+4,code,random,0.5,0.48581801310875544
+4,code,random,b50,0.5166840097121055
+4,prose_ids,entropy (FLARE-style),0.02,0.046422214162822516
+4,prose_ids,entropy (FLARE-style),0.05,0.10749424280336455
+4,prose_ids,entropy (FLARE-style),0.1,0.1894483405629021
+4,prose_ids,entropy (FLARE-style),0.2,0.34795649636868087
+4,prose_ids,entropy (FLARE-style),0.3,0.48881198542605037
+4,prose_ids,entropy (FLARE-style),0.5,0.7292345398199643
+4,prose_ids,entropy (FLARE-style),b50,0.30801248699271594
+4,prose_ids,learned: raw surprise,0.02,0.030194785270602348
+4,prose_ids,learned: raw surprise,0.05,0.08200204099744661
+4,prose_ids,learned: raw surprise,0.1,0.16545858410671088
+4,prose_ids,learned: raw surprise,0.2,0.31893056415296117
+4,prose_ids,learned: raw surprise,0.3,0.457383600060441
+4,prose_ids,learned: raw surprise,0.5,0.6736275376449962
+4,prose_ids,learned: raw surprise,b50,0.33544224765868885
+4,prose_ids,learned: value (realized gain),0.02,0.06769664971345718
+4,prose_ids,learned: value (realized gain),0.05,0.13648418604719356
+4,prose_ids,learned: value (realized gain),0.1,0.24113162382317743
+4,prose_ids,learned: value (realized gain),0.2,0.40324615501429234
+4,prose_ids,learned: value (realized gain),0.3,0.5348207662353309
+4,prose_ids,learned: value (realized gain),0.5,0.7357422123318724
+4,prose_ids,learned: value (realized gain),b50,0.27055150884495316
+4,prose_ids,learned: value (KL),0.02,0.08181179455394559
+4,prose_ids,learned: value (KL),0.05,0.1547964174834589
+4,prose_ids,learned: value (KL),0.1,0.25106902408202464
+4,prose_ids,learned: value (KL),0.2,0.41066734996660176
+4,prose_ids,learned: value (KL),0.3,0.5484152034308594
+4,prose_ids,learned: value (KL),0.5,0.7619542359616722
+4,prose_ids,learned: value (KL),b50,0.263891779396462
+4,prose_ids,oracle: KL (needs resource),0.02,0.1659922133079232
+4,prose_ids,oracle: KL (needs resource),0.05,0.32871222158111674
+4,prose_ids,oracle: KL (needs resource),0.1,0.49109242799313463
+4,prose_ids,oracle: KL (needs resource),0.2,0.6903659574653339
+4,prose_ids,oracle: KL (needs resource),0.3,0.8060651894212614
+4,prose_ids,oracle: KL (needs resource),0.5,0.9302644526987961
+4,prose_ids,oracle: KL (needs resource),b50,0.10339229968782518
+4,prose_ids,oracle: realized gain,0.02,0.20692202040018803
+4,prose_ids,oracle: realized gain,0.05,0.4212637792745025
+4,prose_ids,oracle: realized gain,0.1,0.6562569397238334
+4,prose_ids,oracle: realized gain,0.2,0.9041525751892298
+4,prose_ids,oracle: realized gain,0.3,1.0326813706052635
+4,prose_ids,oracle: realized gain,0.5,1.138123210070273
+4,prose_ids,oracle: realized gain,b50,0.06401664932362122
+4,prose_ids,random,0.02,0.020194617595307673
+4,prose_ids,random,0.05,0.05100570519962247
+4,prose_ids,random,0.1,0.09986062433296847
+4,prose_ids,random,0.2,0.19814268756448086
+4,prose_ids,random,0.3,0.29569039423249205
+4,prose_ids,random,0.5,0.4927598985785328
+4,prose_ids,random,b50,0.5087617065556712

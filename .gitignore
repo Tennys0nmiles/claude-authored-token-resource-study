@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.parquet
+*.npy
+experiments/data/*.jsonl
+!experiments/data/manifest_*.jsonl
+experiments/scratch/

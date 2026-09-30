@@ -1,0 +1,1401 @@
+seed,pool,policy,budget,R
+0,natural,entropy at exit 16 (early-exit style),0.02,0.045525708241596144
+0,natural,entropy at exit 16 (early-exit style),0.05,0.10691028862461781
+0,natural,entropy at exit 16 (early-exit style),0.1,0.20542394449881582
+0,natural,entropy at exit 16 (early-exit style),0.2,0.3853884407578993
+0,natural,entropy at exit 16 (early-exit style),0.3,0.5521837894870907
+0,natural,entropy at exit 16 (early-exit style),0.5,0.8040558866500712
+0,natural,entropy at exit 16 (early-exit style),b50,0.2671924347810212
+0,natural,1 - max prob at exit 16 (CALM-style),0.02,0.04394815856983067
+0,natural,1 - max prob at exit 16 (CALM-style),0.05,0.10480966591043782
+0,natural,1 - max prob at exit 16 (CALM-style),0.1,0.20573004986067628
+0,natural,1 - max prob at exit 16 (CALM-style),0.2,0.3838919003366002
+0,natural,1 - max prob at exit 16 (CALM-style),0.3,0.5436312046002341
+0,natural,1 - max prob at exit 16 (CALM-style),0.5,0.7887812959011403
+0,natural,1 - max prob at exit 16 (CALM-style),b50,0.27181116161892765
+0,natural,lens change 8->12 (saturation),0.02,0.01457780984543707
+0,natural,lens change 8->12 (saturation),0.05,0.05407745184068799
+0,natural,lens change 8->12 (saturation),0.1,0.1297700322699952
+0,natural,lens change 8->12 (saturation),0.2,0.2902335577073476
+0,natural,lens change 8->12 (saturation),0.3,0.44693210292416724
+0,natural,lens change 8->12 (saturation),0.5,0.707295903701482
+0,natural,lens change 8->12 (saturation),b50,0.3372218266790806
+0,natural,learned: raw surprise,0.02,0.040067117990806325
+0,natural,learned: raw surprise,0.05,0.0948538132016561
+0,natural,learned: raw surprise,0.1,0.19371848131484568
+0,natural,learned: raw surprise,0.2,0.378612988735304
+0,natural,learned: raw surprise,0.3,0.54087507747804
+0,natural,learned: raw surprise,0.5,0.7973167059740227
+0,natural,learned: raw surprise,b50,0.27319860525403
+0,natural,learned: value (realized gain),0.02,0.0771031496097956
+0,natural,learned: value (realized gain),0.05,0.1675680915939544
+0,natural,learned: value (realized gain),0.1,0.3017963037429655
+0,natural,learned: value (realized gain),0.2,0.5013165948259314
+0,natural,learned: value (realized gain),0.3,0.6475708976116238
+0,natural,learned: value (realized gain),0.5,0.8297974342689544
+0,natural,learned: value (realized gain),b50,0.19931723168483123
+0,natural,learned: value (KL),0.02,0.07954313764662986
+0,natural,learned: value (KL),0.05,0.1706454865118612
+0,natural,learned: value (KL),0.1,0.30562035190954573
+0,natural,learned: value (KL),0.2,0.50305025025615
+0,natural,learned: value (KL),0.3,0.649824174044244
+0,natural,learned: value (KL),0.5,0.8320845984074161
+0,natural,learned: value (KL),b50,0.1979115322124249
+0,natural,"learned: value (KL), scalars only",0.02,0.055281839569393657
+0,natural,"learned: value (KL), scalars only",0.05,0.12440269417357729
+0,natural,"learned: value (KL), scalars only",0.1,0.22558086404401226
+0,natural,"learned: value (KL), scalars only",0.2,0.40940700803390784
+0,natural,"learned: value (KL), scalars only",0.3,0.5709649718780676
+0,natural,"learned: value (KL), scalars only",0.5,0.8114333041825715
+0,natural,"learned: value (KL), scalars only",b50,0.25395695273563723
+0,natural,oracle: KL (needs resource),0.02,0.11386348408689295
+0,natural,oracle: KL (needs resource),0.05,0.23060841737161014
+0,natural,oracle: KL (needs resource),0.1,0.37164905844078916
+0,natural,oracle: KL (needs resource),0.2,0.5728285373954562
+0,natural,oracle: KL (needs resource),0.3,0.7104369727239012
+0,natural,oracle: KL (needs resource),0.5,0.8856122885730139
+0,natural,oracle: KL (needs resource),b50,0.16015846066779854
+0,natural,oracle: realized gain,0.02,0.1514786372407855
+0,natural,oracle: realized gain,0.05,0.31297010748735127
+0,natural,oracle: realized gain,0.1,0.5135367615382295
+0,natural,oracle: realized gain,0.2,0.7777945357502523
+0,natural,oracle: realized gain,0.3,0.9374528482511338
+0,natural,oracle: realized gain,0.5,1.0833184028758347
+0,natural,oracle: realized gain,b50,0.09611698340544389
+0,natural,random,0.02,0.01989739545197913
+0,natural,random,0.05,0.04876869020449379
+0,natural,random,0.1,0.0946035580256638
+0,natural,random,0.2,0.19157526033631692
+0,natural,random,0.3,0.2893822687440232
+0,natural,random,0.5,0.49234707611747214
+0,natural,random,b50,0.5078043704474505
+0,prose,entropy at exit 16 (early-exit style),0.02,0.04162303087504612
+0,prose,entropy at exit 16 (early-exit style),0.05,0.09860376682054381
+0,prose,entropy at exit 16 (early-exit style),0.1,0.18793956905656606
+0,prose,entropy at exit 16 (early-exit style),0.2,0.3421833011207967
+0,prose,entropy at exit 16 (early-exit style),0.3,0.480215891403776
+0,prose,entropy at exit 16 (early-exit style),0.5,0.7164864094082192
+0,prose,entropy at exit 16 (early-exit style),b50,0.31441014375457665
+0,prose,1 - max prob at exit 16 (CALM-style),0.02,0.03884443209551508
+0,prose,1 - max prob at exit 16 (CALM-style),0.05,0.09205169571545505
+0,prose,1 - max prob at exit 16 (CALM-style),0.1,0.17878642448672244
+0,prose,1 - max prob at exit 16 (CALM-style),0.2,0.3333460330467578
+0,prose,1 - max prob at exit 16 (CALM-style),0.3,0.46698793600992156
+0,prose,1 - max prob at exit 16 (CALM-style),0.5,0.6992735962821565
+0,prose,1 - max prob at exit 16 (CALM-style),b50,0.3243534898061433
+0,prose,lens change 8->12 (saturation),0.02,0.020277956082751562
+0,prose,lens change 8->12 (saturation),0.05,0.060622431609066454
+0,prose,lens change 8->12 (saturation),0.1,0.1345891426333037
+0,prose,lens change 8->12 (saturation),0.2,0.28482406162923296
+0,prose,lens change 8->12 (saturation),0.3,0.4239030478361692
+0,prose,lens change 8->12 (saturation),0.5,0.6605668733783174
+0,prose,lens change 8->12 (saturation),b50,0.36081242532855434
+0,prose,learned: raw surprise,0.02,0.03478438830853703
+0,prose,learned: raw surprise,0.05,0.0867009141879737
+0,prose,learned: raw surprise,0.1,0.16945422349729405
+0,prose,learned: raw surprise,0.2,0.33182834094816976
+0,prose,learned: raw surprise,0.3,0.47412358485930695
+0,prose,learned: raw surprise,0.5,0.7104506743603652
+0,prose,learned: raw surprise,b50,0.3213859020310633
+0,prose,learned: value (realized gain),0.02,0.06401040433704457
+0,prose,learned: value (realized gain),0.05,0.1482091221929856
+0,prose,learned: value (realized gain),0.1,0.2623130567008708
+0,prose,learned: value (realized gain),0.2,0.44161330831426476
+0,prose,learned: value (realized gain),0.3,0.5773692015885242
+0,prose,learned: value (realized gain),0.5,0.7692630304249933
+0,prose,learned: value (realized gain),b50,0.23968088796392648
+0,prose,learned: value (KL),0.02,0.0668739420050816
+0,prose,learned: value (KL),0.05,0.15195040215115652
+0,prose,learned: value (KL),0.1,0.2694222672354571
+0,prose,learned: value (KL),0.2,0.4441911845767513
+0,prose,learned: value (KL),0.3,0.5820509556419889
+0,prose,learned: value (KL),0.5,0.7691423369318852
+0,prose,learned: value (KL),b50,0.23759972251127298
+0,prose,"learned: value (KL), scalars only",0.02,0.0476993252994845
+0,prose,"learned: value (KL), scalars only",0.05,0.11170197188294971
+0,prose,"learned: value (KL), scalars only",0.1,0.19900739708128423
+0,prose,"learned: value (KL), scalars only",0.2,0.35812226512286366
+0,prose,"learned: value (KL), scalars only",0.3,0.5006955125678088
+0,prose,"learned: value (KL), scalars only",0.5,0.733889823815909
+0,prose,"learned: value (KL), scalars only",b50,0.29872432265772536
+0,prose,oracle: KL (needs resource),0.02,0.10030467416309259
+0,prose,oracle: KL (needs resource),0.05,0.20218882362601645
+0,prose,oracle: KL (needs resource),0.1,0.3243240996254445
+0,prose,oracle: KL (needs resource),0.2,0.5028882430578067
+0,prose,oracle: KL (needs resource),0.3,0.6363821329073469
+0,prose,oracle: KL (needs resource),0.5,0.8255832258221142
+0,prose,oracle: KL (needs resource),b50,0.1980961190118318
+0,prose,oracle: realized gain,0.02,0.14272099505766148
+0,prose,oracle: realized gain,0.05,0.2930034408433512
+0,prose,oracle: realized gain,0.1,0.48241008688706066
+0,prose,oracle: realized gain,0.2,0.738451351099168
+0,prose,oracle: realized gain,0.3,0.903580943320981
+0,prose,oracle: realized gain,0.5,1.0809721238889385
+0,prose,oracle: realized gain,b50,0.10548425636875168
+0,prose,random,0.02,0.0197950097929927
+0,prose,random,0.05,0.0494607451930211
+0,prose,random,0.1,0.09504268310212807
+0,prose,random,0.2,0.19248977991337454
+0,prose,random,0.3,0.29266806845771676
+0,prose,random,0.5,0.49372891366702293
+0,prose,random,b50,0.5071491887308744
+0,code,entropy at exit 16 (early-exit style),0.02,0.05501668198587369
+0,code,entropy at exit 16 (early-exit style),0.05,0.13132424022169062
+0,code,entropy at exit 16 (early-exit style),0.1,0.25500306315328497
+0,code,entropy at exit 16 (early-exit style),0.2,0.4860570215027097
+0,code,entropy at exit 16 (early-exit style),0.3,0.6673607570279367
+0,code,entropy at exit 16 (early-exit style),0.5,0.878121473584085
+0,code,entropy at exit 16 (early-exit style),b50,0.20745750953867498
+0,code,1 - max prob at exit 16 (CALM-style),0.02,0.05350313499257803
+0,code,1 - max prob at exit 16 (CALM-style),0.05,0.13493659086033188
+0,code,1 - max prob at exit 16 (CALM-style),0.1,0.2584316078004162
+0,code,1 - max prob at exit 16 (CALM-style),0.2,0.48040412291279416
+0,code,1 - max prob at exit 16 (CALM-style),0.3,0.6595104252195354
+0,code,1 - max prob at exit 16 (CALM-style),0.5,0.8660362237873308
+0,code,1 - max prob at exit 16 (CALM-style),b50,0.21016302462712452
+0,code,lens change 8->12 (saturation),0.02,0.013461185681039569
+0,code,lens change 8->12 (saturation),0.05,0.0460836222780181
+0,code,lens change 8->12 (saturation),0.1,0.12578732663395112
+0,code,lens change 8->12 (saturation),0.2,0.2913842157312796
+0,code,lens change 8->12 (saturation),0.3,0.4548437610762556
+0,code,lens change 8->12 (saturation),0.5,0.7510523641305121
+0,code,lens change 8->12 (saturation),b50,0.3281304197016996
+0,code,learned: raw surprise,0.02,0.044838362629483895
+0,code,learned: raw surprise,0.05,0.11697142755009285
+0,code,learned: raw surprise,0.1,0.23615454246685155
+0,code,learned: raw surprise,0.2,0.46186027767551835
+0,code,learned: raw surprise,0.3,0.65079001300561
+0,code,learned: raw surprise,0.5,0.8806752953048712
+0,code,learned: raw surprise,b50,0.21789802289281998
+0,code,learned: value (realized gain),0.02,0.08570686541669843
+0,code,learned: value (realized gain),0.05,0.1846117008035604
+0,code,learned: value (realized gain),0.1,0.33013545692393503
+0,code,learned: value (realized gain),0.2,0.5534381751455817
+0,code,learned: value (realized gain),0.3,0.7123008955963367
+0,code,learned: value (realized gain),0.5,0.8809550209850069
+0,code,learned: value (realized gain),b50,0.17377731529656607
+0,code,learned: value (KL),0.02,0.08648637826391364
+0,code,learned: value (KL),0.05,0.18760770216257477
+0,code,learned: value (KL),0.1,0.3322703701248212
+0,code,learned: value (KL),0.2,0.5529041917305643
+0,code,learned: value (KL),0.3,0.7113333900685469
+0,code,learned: value (KL),0.5,0.8773533499442187
+0,code,learned: value (KL),b50,0.1708636836628512
+0,code,"learned: value (KL), scalars only",0.02,0.06461460873641597
+0,code,"learned: value (KL), scalars only",0.05,0.1457138057960926
+0,code,"learned: value (KL), scalars only",0.1,0.2683322607179511
+0,code,"learned: value (KL), scalars only",0.2,0.48943542945619695
+0,code,"learned: value (KL), scalars only",0.3,0.665494928797289
+0,code,"learned: value (KL), scalars only",0.5,0.8739086816532136
+0,code,"learned: value (KL), scalars only",b50,0.20509885535900105
+0,code,oracle: KL (needs resource),0.02,0.12470026183236092
+0,code,oracle: KL (needs resource),0.05,0.25339569924266575
+0,code,oracle: KL (needs resource),0.1,0.4094289124175031
+0,code,oracle: KL (needs resource),0.2,0.6340252839902064
+0,code,oracle: KL (needs resource),0.3,0.7767385817417264
+0,code,oracle: KL (needs resource),0.5,0.932892945744236
+0,code,oracle: KL (needs resource),b50,0.13635102323968087
+0,code,oracle: realized gain,0.02,0.1587733338931347
+0,code,oracle: realized gain,0.05,0.33010115103040205
+0,code,oracle: realized gain,0.1,0.5418841880617036
+0,code,oracle: realized gain,0.2,0.8143175287738248
+0,code,oracle: realized gain,0.3,0.9657378072123903
+0,code,oracle: realized gain,0.5,1.0745792412648691
+0,code,oracle: realized gain,b50,0.08876170655567117
+0,code,random,0.02,0.020168409744816884
+0,code,random,0.05,0.04817862422316419
+0,code,random,0.1,0.09417806569471227
+0,code,random,0.2,0.19024850023001272
+0,code,random,0.3,0.2859369310246357
+0,code,random,0.5,0.49203307934006696
+0,code,random,b50,0.5086021505376344
+0,prose_ids,entropy at exit 16 (early-exit style),0.02,0.03634403788683297
+0,prose_ids,entropy at exit 16 (early-exit style),0.05,0.09059658105037335
+0,prose_ids,entropy at exit 16 (early-exit style),0.1,0.17678374593128002
+0,prose_ids,entropy at exit 16 (early-exit style),0.2,0.328109161666215
+0,prose_ids,entropy at exit 16 (early-exit style),0.3,0.4637616825892777
+0,prose_ids,entropy at exit 16 (early-exit style),0.5,0.7065319414408033
+0,prose_ids,entropy at exit 16 (early-exit style),b50,0.3283838949811895
+0,prose_ids,1 - max prob at exit 16 (CALM-style),0.02,0.03699550844755845
+0,prose_ids,1 - max prob at exit 16 (CALM-style),0.05,0.0872259821903651
+0,prose_ids,1 - max prob at exit 16 (CALM-style),0.1,0.16889065512470788
+0,prose_ids,1 - max prob at exit 16 (CALM-style),0.2,0.3212848868692542
+0,prose_ids,1 - max prob at exit 16 (CALM-style),0.3,0.45718929430441074
+0,prose_ids,1 - max prob at exit 16 (CALM-style),0.5,0.6912247479779707
+0,prose_ids,1 - max prob at exit 16 (CALM-style),b50,0.3326662931241495
+0,prose_ids,lens change 8->12 (saturation),0.02,0.015674668825950342
+0,prose_ids,lens change 8->12 (saturation),0.05,0.04815364658370053
+0,prose_ids,lens change 8->12 (saturation),0.1,0.11380482199562611
+0,prose_ids,lens change 8->12 (saturation),0.2,0.2525928723413622
+0,prose_ids,lens change 8->12 (saturation),0.3,0.39541447915225575
+0,prose_ids,lens change 8->12 (saturation),0.5,0.6371121551824864
+0,prose_ids,lens change 8->12 (saturation),b50,0.3822540622748739
+0,prose_ids,learned: raw surprise,0.02,0.03243288548503154
+0,prose_ids,learned: raw surprise,0.05,0.08413557729270027
+0,prose_ids,learned: raw surprise,0.1,0.1645666295960786
+0,prose_ids,learned: raw surprise,0.2,0.31707212960271414
+0,prose_ids,learned: raw surprise,0.3,0.4560784770527414
+0,prose_ids,learned: raw surprise,0.5,0.7021768673269518
+0,prose_ids,learned: raw surprise,b50,0.334747458576803
+0,prose_ids,learned: value (realized gain),0.02,0.06239994201392018
+0,prose_ids,learned: value (realized gain),0.05,0.14488128551087567
+0,prose_ids,learned: value (realized gain),0.1,0.2575082494744934
+0,prose_ids,learned: value (realized gain),0.2,0.43293387805446615
+0,prose_ids,learned: value (realized gain),0.3,0.5583275129786341
+0,prose_ids,learned: value (realized gain),0.5,0.7571631334335944
+0,prose_ids,learned: value (realized gain),b50,0.24897942847994878
+0,prose_ids,learned: value (KL),0.02,0.0656292782422145
+0,prose_ids,learned: value (KL),0.05,0.15059000465535524
+0,prose_ids,learned: value (KL),0.1,0.2618513256057974
+0,prose_ids,learned: value (KL),0.2,0.43475487751370967
+0,prose_ids,learned: value (KL),0.3,0.5616365663404317
+0,prose_ids,learned: value (KL),0.5,0.7511666934097488
+0,prose_ids,learned: value (KL),b50,0.24709837509005042
+0,prose_ids,"learned: value (KL), scalars only",0.02,0.04365232943328899
+0,prose_ids,"learned: value (KL), scalars only",0.05,0.10391738223804707
+0,prose_ids,"learned: value (KL), scalars only",0.1,0.19143643379939704
+0,prose_ids,"learned: value (KL), scalars only",0.2,0.34070473672231466
+0,prose_ids,"learned: value (KL), scalars only",0.3,0.48388207411381173
+0,prose_ids,"learned: value (KL), scalars only",0.5,0.7201344736152598
+0,prose_ids,"learned: value (KL), scalars only",b50,0.31209477307292083
+0,prose_ids,oracle: KL (needs resource),0.02,0.0992726640847763
+0,prose_ids,oracle: KL (needs resource),0.05,0.19915811753501034
+0,prose_ids,oracle: KL (needs resource),0.1,0.3155224110888675
+0,prose_ids,oracle: KL (needs resource),0.2,0.49017090221215137
+0,prose_ids,oracle: KL (needs resource),0.3,0.6250903299034362
+0,prose_ids,oracle: KL (needs resource),0.5,0.8180863011858357
+0,prose_ids,oracle: KL (needs resource),b50,0.20647562635075642
+0,prose_ids,oracle: realized gain,0.02,0.14195825256710554
+0,prose_ids,oracle: realized gain,0.05,0.2910191534433989
+0,prose_ids,oracle: realized gain,0.1,0.47997313972641475
+0,prose_ids,oracle: realized gain,0.2,0.7378672431198185
+0,prose_ids,oracle: realized gain,0.3,0.9053989872710421
+0,prose_ids,oracle: realized gain,0.5,1.0856546857346907
+0,prose_ids,oracle: realized gain,b50,0.10621948291042985
+0,prose_ids,random,0.02,0.020138500492986895
+0,prose_ids,random,0.05,0.05052438974424853
+0,prose_ids,random,0.1,0.098299938393282
+0,prose_ids,random,0.2,0.2003993379302023
+0,prose_ids,random,0.3,0.30001337830222874
+0,prose_ids,random,0.5,0.4990178964849782
+0,prose_ids,random,b50,0.5010806051388778
+1,natural,entropy at exit 16 (early-exit style),0.02,0.044839310370953005
+1,natural,entropy at exit 16 (early-exit style),0.05,0.11072858759324056
+1,natural,entropy at exit 16 (early-exit style),0.1,0.21145336083222688
+1,natural,entropy at exit 16 (early-exit style),0.2,0.3928353397669791
+1,natural,entropy at exit 16 (early-exit style),0.3,0.5582327883711383
+1,natural,entropy at exit 16 (early-exit style),0.5,0.8147724240982795
+1,natural,entropy at exit 16 (early-exit style),b50,0.26328568559796994
+1,natural,1 - max prob at exit 16 (CALM-style),0.02,0.04484697304517745
+1,natural,1 - max prob at exit 16 (CALM-style),0.05,0.10892235723384332
+1,natural,1 - max prob at exit 16 (CALM-style),0.1,0.21064136597355168
+1,natural,1 - max prob at exit 16 (CALM-style),0.2,0.39022025651549747
+1,natural,1 - max prob at exit 16 (CALM-style),0.3,0.5512343253051752
+1,natural,1 - max prob at exit 16 (CALM-style),0.5,0.8005594715002451
+1,natural,1 - max prob at exit 16 (CALM-style),b50,0.26766708655092464
+1,natural,lens change 8->12 (saturation),0.02,0.014953139712976639
+1,natural,lens change 8->12 (saturation),0.05,0.0529480044583742
+1,natural,lens change 8->12 (saturation),0.1,0.12661387928136367
+1,natural,lens change 8->12 (saturation),0.2,0.29174990998044165
+1,natural,lens change 8->12 (saturation),0.3,0.4495837569658986
+1,natural,lens change 8->12 (saturation),0.5,0.710116645748372
+1,natural,lens change 8->12 (saturation),b50,0.33357065921828505
+1,natural,learned: raw surprise,0.02,0.03669434261288034
+1,natural,learned: raw surprise,0.05,0.09472756737625126
+1,natural,learned: raw surprise,0.1,0.19132780219139112
+1,natural,learned: raw surprise,0.2,0.37784104033922256
+1,natural,learned: raw surprise,0.3,0.5483966665295721
+1,natural,learned: raw surprise,0.5,0.8043683714951767
+1,natural,learned: raw surprise,b50,0.2684520875549957
+1,natural,learned: value (realized gain),0.02,0.078515698328703
+1,natural,learned: value (realized gain),0.05,0.17182448514267892
+1,natural,learned: value (realized gain),0.1,0.30395055095722917
+1,natural,learned: value (realized gain),0.2,0.5054610588303311
+1,natural,learned: value (realized gain),0.3,0.6532791577816746
+1,natural,learned: value (realized gain),0.5,0.84094985364721
+1,natural,learned: value (realized gain),b50,0.19657885608923453
+1,natural,learned: value (KL),0.02,0.07822200105653011
+1,natural,learned: value (KL),0.05,0.17541693843908773
+1,natural,learned: value (KL),0.1,0.3086290154004043
+1,natural,learned: value (KL),0.2,0.5116308813190253
+1,natural,learned: value (KL),0.3,0.6565465940094781
+1,natural,learned: value (KL),0.5,0.8419517815780455
+1,natural,learned: value (KL),b50,0.193694433795206
+1,natural,"learned: value (KL), scalars only",0.02,0.05867041263109115
+1,natural,"learned: value (KL), scalars only",0.05,0.12805136439656734
+1,natural,"learned: value (KL), scalars only",0.1,0.23053646032468483
+1,natural,"learned: value (KL), scalars only",0.2,0.4133101848980867
+1,natural,"learned: value (KL), scalars only",0.3,0.5762878734206477
+1,natural,"learned: value (KL), scalars only",0.5,0.8221698341322181
+1,natural,"learned: value (KL), scalars only",b50,0.24981287766763421
+1,natural,oracle: KL (needs resource),0.02,0.11547975667064497
+1,natural,oracle: KL (needs resource),0.05,0.23538117833335365
+1,natural,oracle: KL (needs resource),0.1,0.3770646630643137
+1,natural,oracle: KL (needs resource),0.2,0.5753141359485293
+1,natural,oracle: KL (needs resource),0.3,0.7144072508116165
+1,natural,oracle: KL (needs resource),0.5,0.8897230609857937
+1,natural,oracle: KL (needs resource),b50,0.15685415411577852
+1,natural,oracle: realized gain,0.02,0.15564768841019028
+1,natural,oracle: realized gain,0.05,0.3184471823072219
+1,natural,oracle: realized gain,0.1,0.5197309369849029
+1,natural,oracle: realized gain,0.2,0.7841590109671993
+1,natural,oracle: realized gain,0.3,0.9434984940342731
+1,natural,oracle: realized gain,0.5,1.0859623781004832
+1,natural,oracle: realized gain,b50,0.09438267886156598
+1,natural,random,0.02,0.018899109786816776
+1,natural,random,0.05,0.047925836498705285
+1,natural,random,0.1,0.0972803265545177
+1,natural,random,0.2,0.20003023572319137
+1,natural,random,0.3,0.29879121413151877
+1,natural,random,0.5,0.4990794168134532
+1,natural,random,b50,0.500885408109243
+1,prose,entropy at exit 16 (early-exit style),0.02,0.0384351629216041
+1,prose,entropy at exit 16 (early-exit style),0.05,0.09604239144092691
+1,prose,entropy at exit 16 (early-exit style),0.1,0.18494934226621457
+1,prose,entropy at exit 16 (early-exit style),0.2,0.3431432107300156
+1,prose,entropy at exit 16 (early-exit style),0.3,0.4857692352868965
+1,prose,entropy at exit 16 (early-exit style),0.5,0.7221798473685374
+1,prose,entropy at exit 16 (early-exit style),b50,0.31148109608047175
+1,prose,1 - max prob at exit 16 (CALM-style),0.02,0.03766709999604151
+1,prose,1 - max prob at exit 16 (CALM-style),0.05,0.09427063004233024
+1,prose,1 - max prob at exit 16 (CALM-style),0.1,0.17820631656806152
+1,prose,1 - max prob at exit 16 (CALM-style),0.2,0.3312125340505884
+1,prose,1 - max prob at exit 16 (CALM-style),0.3,0.4691082774403747
+1,prose,1 - max prob at exit 16 (CALM-style),0.5,0.7024961349797837
+1,prose,1 - max prob at exit 16 (CALM-style),b50,0.32466181061394384
+1,prose,lens change 8->12 (saturation),0.02,0.02077762032021224
+1,prose,lens change 8->12 (saturation),0.05,0.0596494648414751
+1,prose,lens change 8->12 (saturation),0.1,0.13771465545448625
+1,prose,lens change 8->12 (saturation),0.2,0.2879350700282073
+1,prose,lens change 8->12 (saturation),0.3,0.4269807917676171
+1,prose,lens change 8->12 (saturation),0.5,0.6647258242129492
+1,prose,lens change 8->12 (saturation),b50,0.35680425482714767
+1,prose,learned: raw surprise,0.02,0.03297095409366039
+1,prose,learned: raw surprise,0.05,0.08246666921550232
+1,prose,learned: raw surprise,0.1,0.1632289741671931
+1,prose,learned: raw surprise,0.2,0.32912828526143656
+1,prose,learned: raw surprise,0.3,0.47524821372916737
+1,prose,learned: raw surprise,0.5,0.7151781067164075
+1,prose,learned: raw surprise,b50,0.3169152503179558
+1,prose,learned: value (realized gain),0.02,0.06795819434742682
+1,prose,learned: value (realized gain),0.05,0.15121593927738006
+1,prose,learned: value (realized gain),0.1,0.2707038838120771
+1,prose,learned: value (realized gain),0.2,0.45027164804177344
+1,prose,learned: value (realized gain),0.3,0.5825452819011225
+1,prose,learned: value (realized gain),0.5,0.7765596162760792
+1,prose,learned: value (realized gain),b50,0.23413111342351717
+1,prose,learned: value (KL),0.02,0.06768229305455595
+1,prose,learned: value (KL),0.05,0.15349200368639968
+1,prose,learned: value (KL),0.1,0.2768874846140748
+1,prose,learned: value (KL),0.2,0.4511687017798337
+1,prose,learned: value (KL),0.3,0.5884325221723611
+1,prose,learned: value (KL),0.5,0.7786726772667171
+1,prose,learned: value (KL),b50,0.2324738890815894
+1,prose,"learned: value (KL), scalars only",0.02,0.04768931740209277
+1,prose,"learned: value (KL), scalars only",0.05,0.10872945284319925
+1,prose,"learned: value (KL), scalars only",0.1,0.20261131914970965
+1,prose,"learned: value (KL), scalars only",0.2,0.3584860964469395
+1,prose,"learned: value (KL), scalars only",0.3,0.5064631204078713
+1,prose,"learned: value (KL), scalars only",0.5,0.7391569820030995
+1,prose,"learned: value (KL), scalars only",b50,0.29525571356996955
+1,prose,oracle: KL (needs resource),0.02,0.10208936969457709
+1,prose,oracle: KL (needs resource),0.05,0.20631820493835976
+1,prose,oracle: KL (needs resource),0.1,0.3303412798906198
+1,prose,oracle: KL (needs resource),0.2,0.5109605752349685
+1,prose,oracle: KL (needs resource),0.3,0.6444080863243594
+1,prose,oracle: KL (needs resource),0.5,0.8289447493534375
+1,prose,oracle: KL (needs resource),b50,0.19374108760164951
+1,prose,oracle: realized gain,0.02,0.14521722711363733
+1,prose,oracle: realized gain,0.05,0.29679456819747996
+1,prose,oracle: realized gain,0.1,0.4866120915136571
+1,prose,oracle: realized gain,0.2,0.7429072659842689
+1,prose,oracle: realized gain,0.3,0.9072181068333017
+1,prose,oracle: realized gain,0.5,1.0821263062696873
+1,prose,oracle: realized gain,b50,0.10417389293559949
+1,prose,random,0.02,0.019418341163142266
+1,prose,random,0.05,0.04983772244431866
+1,prose,random,0.1,0.09799803036942947
+1,prose,random,0.2,0.20145826014454116
+1,prose,random,0.3,0.30061101448564015
+1,prose,random,0.5,0.499378224454926
+1,prose,random,b50,0.5015223339885151
+1,code,entropy at exit 16 (early-exit style),0.02,0.05971614370094915
+1,code,entropy at exit 16 (early-exit style),0.05,0.14046682459194995
+1,code,entropy at exit 16 (early-exit style),0.1,0.26212193263903344
+1,code,entropy at exit 16 (early-exit style),0.2,0.4893268030589909
+1,code,entropy at exit 16 (early-exit style),0.3,0.678795576304324
+1,code,entropy at exit 16 (early-exit style),0.5,0.8937286661352563
+1,code,entropy at exit 16 (early-exit style),b50,0.20450919181408256
+1,code,1 - max prob at exit 16 (CALM-style),0.02,0.05553756239837864
+1,code,1 - max prob at exit 16 (CALM-style),0.05,0.1418343929146052
+1,code,1 - max prob at exit 16 (CALM-style),0.1,0.26307925779779884
+1,code,1 - max prob at exit 16 (CALM-style),0.2,0.4890369088493262
+1,code,1 - max prob at exit 16 (CALM-style),0.3,0.669473165264286
+1,code,1 - max prob at exit 16 (CALM-style),0.5,0.8825853785237496
+1,code,1 - max prob at exit 16 (CALM-style),b50,0.20468262226847034
+1,code,lens change 8->12 (saturation),0.02,0.01326239480611422
+1,code,lens change 8->12 (saturation),0.05,0.0472186167101671
+1,code,lens change 8->12 (saturation),0.1,0.11977623539903288
+1,code,lens change 8->12 (saturation),0.2,0.28818416038428324
+1,code,lens change 8->12 (saturation),0.3,0.4642161855253694
+1,code,lens change 8->12 (saturation),0.5,0.7575930036154797
+1,code,lens change 8->12 (saturation),b50,0.3231009365244537
+1,code,learned: raw surprise,0.02,0.04640084397689373
+1,code,learned: raw surprise,0.05,0.11634387887463551
+1,code,learned: raw surprise,0.1,0.23639785417660292
+1,code,learned: raw surprise,0.2,0.46752170595713516
+1,code,learned: raw surprise,0.3,0.6666029230877771
+1,code,learned: raw surprise,0.5,0.894277438007117
+1,code,learned: raw surprise,b50,0.21557405480402358
+1,code,learned: value (realized gain),0.02,0.08491197046846015
+1,code,learned: value (realized gain),0.05,0.19045012198215355
+1,code,learned: value (realized gain),0.1,0.3296967835658087
+1,code,learned: value (realized gain),0.2,0.5568130928738825
+1,code,learned: value (realized gain),0.3,0.7212129476782398
+1,code,learned: value (realized gain),0.5,0.8908100081875454
+1,code,learned: value (realized gain),b50,0.17270204647936177
+1,code,learned: value (KL),0.02,0.0853561243308861
+1,code,learned: value (KL),0.05,0.1906126775113787
+1,code,learned: value (KL),0.1,0.333678616595787
+1,code,learned: value (KL),0.2,0.5599819197885096
+1,code,learned: value (KL),0.3,0.7218125733721332
+1,code,learned: value (KL),0.5,0.8939707384467435
+1,code,learned: value (KL),b50,0.1691987513007284
+1,code,"learned: value (KL), scalars only",0.02,0.07041632863796166
+1,code,"learned: value (KL), scalars only",0.05,0.15034961839783134
+1,code,"learned: value (KL), scalars only",0.1,0.2702146906812471
+1,code,"learned: value (KL), scalars only",0.2,0.48826000434996
+1,code,"learned: value (KL), scalars only",0.3,0.6725305118830766
+1,code,"learned: value (KL), scalars only",0.5,0.8870861825146862
+1,code,"learned: value (KL), scalars only",b50,0.20627818244883803
+1,code,oracle: KL (needs resource),0.02,0.12697632174701473
+1,code,oracle: KL (needs resource),0.05,0.25903752778905414
+1,code,oracle: KL (needs resource),0.1,0.4152663293645878
+1,code,oracle: KL (needs resource),0.2,0.636693920857895
+1,code,oracle: KL (needs resource),0.3,0.7807584993277363
+1,code,oracle: KL (needs resource),0.5,0.9369691467846593
+1,code,oracle: KL (needs resource),b50,0.1328824141519251
+1,code,oracle: realized gain,0.02,0.16467291723261904
+1,code,oracle: realized gain,0.05,0.3377034329244508
+1,code,oracle: realized gain,0.1,0.5504879323599574
+1,code,oracle: realized gain,0.2,0.8227629859642935
+1,code,oracle: realized gain,0.3,0.9739258462246169
+1,code,oracle: realized gain,0.5,1.0776751228786106
+1,code,oracle: realized gain,b50,0.08657648283038502
+1,code,random,0.02,0.018144147563847288
+1,code,random,0.05,0.046559760310031104
+1,code,random,0.1,0.0969850345491612
+1,code,random,0.2,0.19898070439430468
+1,code,random,0.3,0.29717199843537234
+1,code,random,0.5,0.49966012088631784
+1,code,random,b50,0.5007977800901838
+1,prose_ids,entropy at exit 16 (early-exit style),0.02,0.03802568376601011
+1,prose_ids,entropy at exit 16 (early-exit style),0.05,0.09536897023896643
+1,prose_ids,entropy at exit 16 (early-exit style),0.1,0.18564409742127022
+1,prose_ids,entropy at exit 16 (early-exit style),0.2,0.3393918430609335
+1,prose_ids,entropy at exit 16 (early-exit style),0.3,0.4778054576226388
+1,prose_ids,entropy at exit 16 (early-exit style),0.5,0.7219540598480679
+1,prose_ids,entropy at exit 16 (early-exit style),b50,0.316497238453534
+1,prose_ids,1 - max prob at exit 16 (CALM-style),0.02,0.038738178068170745
+1,prose_ids,1 - max prob at exit 16 (CALM-style),0.05,0.09262941031363688
+1,prose_ids,1 - max prob at exit 16 (CALM-style),0.1,0.17407490053149305
+1,prose_ids,1 - max prob at exit 16 (CALM-style),0.2,0.33008046734466423
+1,prose_ids,1 - max prob at exit 16 (CALM-style),0.3,0.4686878540540729
+1,prose_ids,1 - max prob at exit 16 (CALM-style),0.5,0.704558380712517
+1,prose_ids,1 - max prob at exit 16 (CALM-style),b50,0.3223004882734331
+1,prose_ids,lens change 8->12 (saturation),0.02,0.013109963617741355
+1,prose_ids,lens change 8->12 (saturation),0.05,0.046776975948459976
+1,prose_ids,lens change 8->12 (saturation),0.1,0.11092201179696178
+1,prose_ids,lens change 8->12 (saturation),0.2,0.24793363259598158
+1,prose_ids,lens change 8->12 (saturation),0.3,0.3905362562389489
+1,prose_ids,lens change 8->12 (saturation),0.5,0.6371122167595931
+1,prose_ids,lens change 8->12 (saturation),b50,0.3848955415032418
+1,prose_ids,learned: raw surprise,0.02,0.03304024507529303
+1,prose_ids,learned: raw surprise,0.05,0.08452539974671522
+1,prose_ids,learned: raw surprise,0.1,0.1644724752067401
+1,prose_ids,learned: raw surprise,0.2,0.3269778275264514
+1,prose_ids,learned: raw surprise,0.3,0.4716778242510688
+1,prose_ids,learned: raw surprise,0.5,0.715545592536201
+1,prose_ids,learned: raw surprise,b50,0.32069959177139196
+1,prose_ids,learned: value (realized gain),0.02,0.0690343315679151
+1,prose_ids,learned: value (realized gain),0.05,0.15368893191165398
+1,prose_ids,learned: value (realized gain),0.1,0.2653036518805959
+1,prose_ids,learned: value (realized gain),0.2,0.43984188977671373
+1,prose_ids,learned: value (realized gain),0.3,0.5685766964482529
+1,prose_ids,learned: value (realized gain),0.5,0.7631345823510215
+1,prose_ids,learned: value (realized gain),b50,0.24681821820219324
+1,prose_ids,learned: value (KL),0.02,0.07136816597738341
+1,prose_ids,learned: value (KL),0.05,0.15675059372034214
+1,prose_ids,learned: value (KL),0.1,0.27045439973519303
+1,prose_ids,learned: value (KL),0.2,0.4425480732342847
+1,prose_ids,learned: value (KL),0.3,0.5728791019479795
+1,prose_ids,learned: value (KL),0.5,0.7668205292033111
+1,prose_ids,learned: value (KL),b50,0.23969422876811014
+1,prose_ids,"learned: value (KL), scalars only",0.02,0.04677189859567213
+1,prose_ids,"learned: value (KL), scalars only",0.05,0.1055671699841969
+1,prose_ids,"learned: value (KL), scalars only",0.1,0.19822763925708722
+1,prose_ids,"learned: value (KL), scalars only",0.2,0.3509048808067633
+1,prose_ids,"learned: value (KL), scalars only",0.3,0.4975387582263599
+1,prose_ids,"learned: value (KL), scalars only",0.5,0.7336426939318084
+1,prose_ids,"learned: value (KL), scalars only",b50,0.30136876650924516
+1,prose_ids,oracle: KL (needs resource),0.02,0.10294732675181306
+1,prose_ids,oracle: KL (needs resource),0.05,0.20429668826963948
+1,prose_ids,oracle: KL (needs resource),0.1,0.321705544364898
+1,prose_ids,oracle: KL (needs resource),0.2,0.49831258261956635
+1,prose_ids,oracle: KL (needs resource),0.3,0.6365269859493183
+1,prose_ids,oracle: KL (needs resource),0.5,0.8269079332309378
+1,prose_ids,oracle: KL (needs resource),b50,0.20115264548146963
+1,prose_ids,oracle: realized gain,0.02,0.14515743671117362
+1,prose_ids,oracle: realized gain,0.05,0.295613278000246
+1,prose_ids,oracle: realized gain,0.1,0.4851551011564083
+1,prose_ids,oracle: realized gain,0.2,0.7442235086517232
+1,prose_ids,oracle: realized gain,0.3,0.9117409586088379
+1,prose_ids,oracle: realized gain,0.5,1.0880794936068032
+1,prose_ids,oracle: realized gain,b50,0.1046185864083887
+1,prose_ids,random,0.02,0.01999163212422012
+1,prose_ids,random,0.05,0.048932301581304474
+1,prose_ids,random,0.1,0.10345154897980728
+1,prose_ids,random,0.2,0.2069792954051368
+1,prose_ids,random,0.3,0.3009145085255008
+1,prose_ids,random,0.5,0.5065976921615997
+1,prose_ids,random,b50,0.49275594332826383
+2,natural,entropy at exit 16 (early-exit style),0.02,0.04879854814387497
+2,natural,entropy at exit 16 (early-exit style),0.05,0.1129621375580666
+2,natural,entropy at exit 16 (early-exit style),0.1,0.21722098302948886
+2,natural,entropy at exit 16 (early-exit style),0.2,0.4015863268678609
+2,natural,entropy at exit 16 (early-exit style),0.3,0.5670664764405287
+2,natural,entropy at exit 16 (early-exit style),0.5,0.8092817407621704
+2,natural,entropy at exit 16 (early-exit style),b50,0.25800974861712034
+2,natural,1 - max prob at exit 16 (CALM-style),0.02,0.04563453683247836
+2,natural,1 - max prob at exit 16 (CALM-style),0.05,0.11066364654590882
+2,natural,1 - max prob at exit 16 (CALM-style),0.1,0.21163376972621306
+2,natural,1 - max prob at exit 16 (CALM-style),0.2,0.39571917506430904
+2,natural,1 - max prob at exit 16 (CALM-style),0.3,0.5570964337250239
+2,natural,1 - max prob at exit 16 (CALM-style),0.5,0.7972119810405516
+2,natural,1 - max prob at exit 16 (CALM-style),b50,0.26368731401865747
+2,natural,lens change 8->12 (saturation),0.02,0.01575190410192738
+2,natural,lens change 8->12 (saturation),0.05,0.05409423135703053
+2,natural,lens change 8->12 (saturation),0.1,0.1286499038905476
+2,natural,lens change 8->12 (saturation),0.2,0.2923379630320912
+2,natural,lens change 8->12 (saturation),0.3,0.4497887386661432
+2,natural,lens change 8->12 (saturation),0.5,0.710040767852753
+2,natural,lens change 8->12 (saturation),b50,0.33331507749602934
+2,natural,learned: raw surprise,0.02,0.04086907774216656
+2,natural,learned: raw surprise,0.05,0.09946180457482383
+2,natural,learned: raw surprise,0.1,0.19930372577662037
+2,natural,learned: raw surprise,0.2,0.3914225923595626
+2,natural,learned: raw surprise,0.3,0.5597941090580111
+2,natural,learned: raw surprise,0.5,0.8057894929076758
+2,natural,learned: raw surprise,b50,0.26131405516914036
+2,natural,learned: value (realized gain),0.02,0.07715470802827715
+2,natural,learned: value (realized gain),0.05,0.16958684028101803
+2,natural,learned: value (realized gain),0.1,0.3020582778488163
+2,natural,learned: value (realized gain),0.2,0.5042422856210201
+2,natural,learned: value (realized gain),0.3,0.65014301158862
+2,natural,learned: value (realized gain),0.5,0.8319970438939364
+2,natural,learned: value (realized gain),b50,0.19714478704565785
+2,natural,learned: value (KL),0.02,0.07836891971378215
+2,natural,learned: value (KL),0.05,0.1741528784017996
+2,natural,learned: value (KL),0.1,0.30765258824019237
+2,natural,learned: value (KL),0.2,0.5067257607807112
+2,natural,learned: value (KL),0.3,0.656024779528506
+2,natural,learned: value (KL),0.5,0.834943712774342
+2,natural,learned: value (KL),b50,0.19581211092246745
+2,natural,"learned: value (KL), scalars only",0.02,0.05894917430071094
+2,natural,"learned: value (KL), scalars only",0.05,0.13211623403904194
+2,natural,"learned: value (KL), scalars only",0.1,0.23606607630716472
+2,natural,"learned: value (KL), scalars only",0.2,0.4213159879535768
+2,natural,"learned: value (KL), scalars only",0.3,0.5856267022157007
+2,natural,"learned: value (KL), scalars only",0.5,0.8167027875605937
+2,natural,"learned: value (KL), scalars only",b50,0.24521240666703178
+2,natural,oracle: KL (needs resource),0.02,0.11402966661046758
+2,natural,oracle: KL (needs resource),0.05,0.23303527147128436
+2,natural,oracle: KL (needs resource),0.1,0.3776070520597825
+2,natural,oracle: KL (needs resource),0.2,0.5824960960815436
+2,natural,oracle: KL (needs resource),0.3,0.7202177138332793
+2,natural,oracle: KL (needs resource),0.5,0.8901412415546118
+2,natural,oracle: KL (needs resource),b50,0.15557624550450005
+2,natural,oracle: realized gain,0.02,0.15256506580066997
+2,natural,oracle: realized gain,0.05,0.3151483315097508
+2,natural,oracle: realized gain,0.1,0.5163378302499263
+2,natural,oracle: realized gain,0.2,0.779532581092694
+2,natural,oracle: realized gain,0.3,0.9373148960725227
+2,natural,oracle: realized gain,0.5,1.079901837194617
+2,natural,oracle: realized gain,b50,0.09533198240137283
+2,natural,random,0.02,0.020904080557674034
+2,natural,random,0.05,0.04977566936438776
+2,natural,random,0.1,0.09967270681703186
+2,natural,random,0.2,0.19993918304196662
+2,natural,random,0.3,0.30132292253185683
+2,natural,random,0.5,0.4997694755189766
+2,natural,random,b50,0.5003559888274276
+2,prose,entropy at exit 16 (early-exit style),0.02,0.04506702363903324
+2,prose,entropy at exit 16 (early-exit style),0.05,0.10591197282617792
+2,prose,entropy at exit 16 (early-exit style),0.1,0.19871301336199607
+2,prose,entropy at exit 16 (early-exit style),0.2,0.3580199761391014
+2,prose,entropy at exit 16 (early-exit style),0.3,0.497015667550395
+2,prose,entropy at exit 16 (early-exit style),0.5,0.7287440438604974
+2,prose,entropy at exit 16 (early-exit style),b50,0.3027324931591321
+2,prose,1 - max prob at exit 16 (CALM-style),0.02,0.040595054564051235
+2,prose,1 - max prob at exit 16 (CALM-style),0.05,0.09864442350692867
+2,prose,1 - max prob at exit 16 (CALM-style),0.1,0.18645946147286072
+2,prose,1 - max prob at exit 16 (CALM-style),0.2,0.34102213727677094
+2,prose,1 - max prob at exit 16 (CALM-style),0.3,0.4803999222324211
+2,prose,1 - max prob at exit 16 (CALM-style),0.5,0.7076842383337013
+2,prose,1 - max prob at exit 16 (CALM-style),b50,0.3162215285004047
+2,prose,lens change 8->12 (saturation),0.02,0.01994705535808495
+2,prose,lens change 8->12 (saturation),0.05,0.05756980185294161
+2,prose,lens change 8->12 (saturation),0.1,0.1291441779559548
+2,prose,lens change 8->12 (saturation),0.2,0.28421243869031204
+2,prose,lens change 8->12 (saturation),0.3,0.425281244393196
+2,prose,lens change 8->12 (saturation),0.5,0.6664922560246043
+2,prose,lens change 8->12 (saturation),b50,0.35823023856322506
+2,prose,learned: raw surprise,0.02,0.035575517586100606
+2,prose,learned: raw surprise,0.05,0.08999204434428776
+2,prose,learned: raw surprise,0.1,0.17875710105356454
+2,prose,learned: raw surprise,0.2,0.34900458200444046
+2,prose,learned: raw surprise,0.3,0.49700404396743275
+2,prose,learned: raw surprise,0.5,0.7243334922307887
+2,prose,learned: raw surprise,b50,0.30157629012988013
+2,prose,learned: value (realized gain),0.02,0.06930541416587181
+2,prose,learned: value (realized gain),0.05,0.15576825382203124
+2,prose,learned: value (realized gain),0.1,0.272351609418609
+2,prose,learned: value (realized gain),0.2,0.45233466172745485
+2,prose,learned: value (realized gain),0.3,0.5864748730987973
+2,prose,learned: value (realized gain),0.5,0.7778702900398162
+2,prose,learned: value (realized gain),b50,0.22950630130650942
+2,prose,learned: value (KL),0.02,0.06979090374465044
+2,prose,learned: value (KL),0.05,0.15563816789747864
+2,prose,learned: value (KL),0.1,0.27635707908729573
+2,prose,learned: value (KL),0.2,0.45602844865710673
+2,prose,learned: value (KL),0.3,0.5983374646643654
+2,prose,learned: value (KL),0.5,0.7781248197546355
+2,prose,learned: value (KL),b50,0.22877403938798319
+2,prose,"learned: value (KL), scalars only",0.02,0.052633230757677
+2,prose,"learned: value (KL), scalars only",0.05,0.11897456749082362
+2,prose,"learned: value (KL), scalars only",0.1,0.2128655884393561
+2,prose,"learned: value (KL), scalars only",0.2,0.3735866229453957
+2,prose,"learned: value (KL), scalars only",0.3,0.5148759108717157
+2,prose,"learned: value (KL), scalars only",0.5,0.7438394021398865
+2,prose,"learned: value (KL), scalars only",b50,0.2885111958993333
+2,prose,oracle: KL (needs resource),0.02,0.1026739305264414
+2,prose,oracle: KL (needs resource),0.05,0.20662932442081344
+2,prose,oracle: KL (needs resource),0.1,0.3399431277243992
+2,prose,oracle: KL (needs resource),0.2,0.5248440817969329
+2,prose,oracle: KL (needs resource),0.3,0.6596864313274495
+2,prose,oracle: KL (needs resource),0.5,0.837245864809075
+2,prose,oracle: KL (needs resource),b50,0.18410606235788338
+2,prose,oracle: realized gain,0.02,0.14429663145997146
+2,prose,oracle: realized gain,0.05,0.29815716922157454
+2,prose,oracle: realized gain,0.1,0.4886929227670183
+2,prose,oracle: realized gain,0.2,0.7435472554127455
+2,prose,oracle: realized gain,0.3,0.9053990935669501
+2,prose,oracle: realized gain,0.5,1.075625707870765
+2,prose,oracle: realized gain,b50,0.10355725131999846
+2,prose,random,0.02,0.01960499504911701
+2,prose,random,0.05,0.050545594717540034
+2,prose,random,0.1,0.10024481784051462
+2,prose,random,0.2,0.2012568668616941
+2,prose,random,0.3,0.3003778862254062
+2,prose,random,0.5,0.5016710749597079
+2,prose,random,b50,0.4980151847997842
+2,code,entropy at exit 16 (early-exit style),0.02,0.0551967715653948
+2,code,entropy at exit 16 (early-exit style),0.05,0.12933380799940353
+2,code,entropy at exit 16 (early-exit style),0.1,0.2552166676590356
+2,code,entropy at exit 16 (early-exit style),0.2,0.4804072913078376
+2,code,entropy at exit 16 (early-exit style),0.3,0.668073922814097
+2,code,entropy at exit 16 (early-exit style),0.5,0.8828248581075054
+2,code,entropy at exit 16 (early-exit style),b50,0.20908775580992023
+2,code,1 - max prob at exit 16 (CALM-style),0.02,0.05537883452517385
+2,code,1 - max prob at exit 16 (CALM-style),0.05,0.13504665164368726
+2,code,1 - max prob at exit 16 (CALM-style),0.1,0.2559055522576572
+2,code,1 - max prob at exit 16 (CALM-style),0.2,0.4803726704533611
+2,code,1 - max prob at exit 16 (CALM-style),0.3,0.6587715340146212
+2,code,1 - max prob at exit 16 (CALM-style),0.5,0.8688018621937476
+2,code,1 - max prob at exit 16 (CALM-style),b50,0.20998959417273674
+2,code,lens change 8->12 (saturation),0.02,0.014002458228004373
+2,code,lens change 8->12 (saturation),0.05,0.046383455837154954
+2,code,lens change 8->12 (saturation),0.1,0.1277457886418055
+2,code,lens change 8->12 (saturation),0.2,0.2973147420261085
+2,code,lens change 8->12 (saturation),0.3,0.46688592238695
+2,code,lens change 8->12 (saturation),0.5,0.7535113116282031
+2,code,lens change 8->12 (saturation),b50,0.321817551161984
+2,code,learned: raw surprise,0.02,0.046207473976617494
+2,code,learned: raw surprise,0.05,0.1171567836533392
+2,code,learned: raw surprise,0.1,0.23364686261645493
+2,code,learned: raw surprise,0.2,0.45998136397045075
+2,code,learned: raw surprise,0.3,0.6562000894481104
+2,code,learned: raw surprise,0.5,0.8844783323772947
+2,code,learned: raw surprise,b50,0.21824488380159557
+2,code,learned: value (realized gain),0.02,0.08224671100581131
+2,code,learned: value (realized gain),0.05,0.18283093530852262
+2,code,learned: value (realized gain),0.1,0.3257587749817221
+2,code,learned: value (realized gain),0.2,0.5519503152896527
+2,code,learned: value (realized gain),0.3,0.7084573271592428
+2,code,learned: value (realized gain),0.5,0.8801336711861778
+2,code,learned: value (realized gain),b50,0.1745057232049948
+2,code,learned: value (KL),0.02,0.0850874139150298
+2,code,learned: value (KL),0.05,0.18550245931286058
+2,code,learned: value (KL),0.1,0.3294228158338124
+2,code,learned: value (KL),0.2,0.5579802987258954
+2,code,learned: value (KL),0.3,0.7106642980235083
+2,code,learned: value (KL),0.5,0.8855745740197771
+2,code,learned: value (KL),b50,0.1716961498439126
+2,code,"learned: value (KL), scalars only",0.02,0.06504486352495534
+2,code,"learned: value (KL), scalars only",0.05,0.14855631063670283
+2,code,"learned: value (KL), scalars only",0.1,0.26919113157784785
+2,code,"learned: value (KL), scalars only",0.2,0.4890191492799735
+2,code,"learned: value (KL), scalars only",0.3,0.6666425578524107
+2,code,"learned: value (KL), scalars only",0.5,0.879353784082202
+2,code,"learned: value (KL), scalars only",b50,0.2051335414498786
+2,code,oracle: KL (needs resource),0.02,0.12358820894738272
+2,code,oracle: KL (needs resource),0.05,0.2527797023353437
+2,code,oracle: KL (needs resource),0.1,0.41150366745022937
+2,code,oracle: KL (needs resource),0.2,0.6331795714021372
+2,code,oracle: KL (needs resource),0.3,0.7765976943958802
+2,code,oracle: KL (needs resource),0.5,0.9324166793994767
+2,code,oracle: KL (needs resource),b50,0.13541449878598683
+2,code,oracle: realized gain,0.02,0.1595791441285018
+2,code,oracle: realized gain,0.05,0.3301699955470244
+2,code,oracle: realized gain,0.1,0.541332554501803
+2,code,oracle: realized gain,0.2,0.8129067481818898
+2,code,oracle: realized gain,0.3,0.9646937419706153
+2,code,oracle: realized gain,0.5,1.074710045856727
+2,code,oracle: realized gain,b50,0.0889004509191814
+2,code,random,0.02,0.02205679205900205
+2,code,random,0.05,0.04914468161003232
+2,code,random,0.1,0.09905860512586177
+2,code,random,0.2,0.19872394702259866
+2,code,random,0.3,0.30251833656613164
+2,code,random,0.5,0.49708282865768166
+2,code,random,b50,0.5028442594519598
+2,prose_ids,entropy at exit 16 (early-exit style),0.02,0.043387855600925736
+2,prose_ids,entropy at exit 16 (early-exit style),0.05,0.10703880513443412
+2,prose_ids,entropy at exit 16 (early-exit style),0.1,0.20115444123845505
+2,prose_ids,entropy at exit 16 (early-exit style),0.2,0.35411949417083616
+2,prose_ids,entropy at exit 16 (early-exit style),0.3,0.49136572250488725
+2,prose_ids,entropy at exit 16 (early-exit style),0.5,0.7308453336290798
+2,prose_ids,entropy at exit 16 (early-exit style),b50,0.30634755463059316
+2,prose_ids,1 - max prob at exit 16 (CALM-style),0.02,0.04116522357889743
+2,prose_ids,1 - max prob at exit 16 (CALM-style),0.05,0.09860689449247667
+2,prose_ids,1 - max prob at exit 16 (CALM-style),0.1,0.18035575409716115
+2,prose_ids,1 - max prob at exit 16 (CALM-style),0.2,0.3389417008437501
+2,prose_ids,1 - max prob at exit 16 (CALM-style),0.3,0.4825646788830889
+2,prose_ids,1 - max prob at exit 16 (CALM-style),0.5,0.7087772959742965
+2,prose_ids,1 - max prob at exit 16 (CALM-style),b50,0.31321540062434966
+2,prose_ids,lens change 8->12 (saturation),0.02,0.014566779116710553
+2,prose_ids,lens change 8->12 (saturation),0.05,0.04931629409186315
+2,prose_ids,lens change 8->12 (saturation),0.1,0.10802439157247039
+2,prose_ids,lens change 8->12 (saturation),0.2,0.24975574152583727
+2,prose_ids,lens change 8->12 (saturation),0.3,0.3873400790505659
+2,prose_ids,lens change 8->12 (saturation),0.5,0.6358640932471383
+2,prose_ids,lens change 8->12 (saturation),b50,0.3883454734651405
+2,prose_ids,learned: raw surprise,0.02,0.03771867750509752
+2,prose_ids,learned: raw surprise,0.05,0.08896352767922368
+2,prose_ids,learned: raw surprise,0.1,0.1795382810918196
+2,prose_ids,learned: raw surprise,0.2,0.342299484569519
+2,prose_ids,learned: raw surprise,0.3,0.487532366609293
+2,prose_ids,learned: raw surprise,0.5,0.7221727159673589
+2,prose_ids,learned: raw surprise,b50,0.3096357960457856
+2,prose_ids,learned: value (realized gain),0.02,0.06865630776960147
+2,prose_ids,learned: value (realized gain),0.05,0.15104746242322098
+2,prose_ids,learned: value (realized gain),0.1,0.26157184622869534
+2,prose_ids,learned: value (realized gain),0.2,0.44011217925981966
+2,prose_ids,learned: value (realized gain),0.3,0.5710556374758614
+2,prose_ids,learned: value (realized gain),0.5,0.7677412273598018
+2,prose_ids,learned: value (realized gain),b50,0.24062434963579604
+2,prose_ids,learned: value (KL),0.02,0.07342272619633294
+2,prose_ids,learned: value (KL),0.05,0.15552813045095557
+2,prose_ids,learned: value (KL),0.1,0.2712301793991777
+2,prose_ids,learned: value (KL),0.2,0.44858367055834364
+2,prose_ids,learned: value (KL),0.3,0.5824533877839712
+2,prose_ids,learned: value (KL),0.5,0.7676889755809205
+2,prose_ids,learned: value (KL),b50,0.2357544224765869
+2,prose_ids,"learned: value (KL), scalars only",0.02,0.05222392639209403
+2,prose_ids,"learned: value (KL), scalars only",0.05,0.11446900473690337
+2,prose_ids,"learned: value (KL), scalars only",0.1,0.20741015524036027
+2,prose_ids,"learned: value (KL), scalars only",0.2,0.3636180274255923
+2,prose_ids,"learned: value (KL), scalars only",0.3,0.5040856517051585
+2,prose_ids,"learned: value (KL), scalars only",0.5,0.7394299264822038
+2,prose_ids,"learned: value (KL), scalars only",b50,0.2971904266389178
+2,prose_ids,oracle: KL (needs resource),0.02,0.10239078041353905
+2,prose_ids,oracle: KL (needs resource),0.05,0.20348665367900726
+2,prose_ids,oracle: KL (needs resource),0.1,0.3305914301953413
+2,prose_ids,oracle: KL (needs resource),0.2,0.5106817937142472
+2,prose_ids,oracle: KL (needs resource),0.3,0.6484152443606672
+2,prose_ids,oracle: KL (needs resource),0.5,0.8331373146201853
+2,prose_ids,oracle: KL (needs resource),b50,0.19267429760665972
+2,prose_ids,oracle: realized gain,0.02,0.14376687359739249
+2,prose_ids,oracle: realized gain,0.05,0.29610363718376204
+2,prose_ids,oracle: realized gain,0.1,0.48566862844663694
+2,prose_ids,oracle: realized gain,0.2,0.7426619394849534
+2,prose_ids,oracle: realized gain,0.3,0.9073502960525847
+2,prose_ids,oracle: realized gain,0.5,1.079545749204418
+2,prose_ids,oracle: realized gain,b50,0.10443288241415193
+2,prose_ids,random,0.02,0.022369217997602577
+2,prose_ids,random,0.05,0.055548744470745974
+2,prose_ids,random,0.1,0.10605154052394947
+2,prose_ids,random,0.2,0.2030576330752348
+2,prose_ids,random,0.3,0.30615768531054327
+2,prose_ids,random,0.5,0.5063717189709761
+2,prose_ids,random,b50,0.493735691987513
+3,natural,entropy at exit 16 (early-exit style),0.02,0.046768693456049025
+3,natural,entropy at exit 16 (early-exit style),0.05,0.11012463061522196
+3,natural,entropy at exit 16 (early-exit style),0.1,0.21165024783111488
+3,natural,entropy at exit 16 (early-exit style),0.2,0.3984954527020572
+3,natural,entropy at exit 16 (early-exit style),0.3,0.5630392949982972
+3,natural,entropy at exit 16 (early-exit style),0.5,0.8129240228190939
+3,natural,entropy at exit 16 (early-exit style),b50,0.25948847143874254
+3,natural,1 - max prob at exit 16 (CALM-style),0.02,0.04409311662049326
+3,natural,1 - max prob at exit 16 (CALM-style),0.05,0.1071794747212578
+3,natural,1 - max prob at exit 16 (CALM-style),0.1,0.2105877454120838
+3,natural,1 - max prob at exit 16 (CALM-style),0.2,0.3950033628734197
+3,natural,1 - max prob at exit 16 (CALM-style),0.3,0.5539347401833172
+3,natural,1 - max prob at exit 16 (CALM-style),0.5,0.800356336382396
+3,natural,1 - max prob at exit 16 (CALM-style),b50,0.264873943443416
+3,natural,lens change 8->12 (saturation),0.02,0.014655873419254974
+3,natural,lens change 8->12 (saturation),0.05,0.05331386484625746
+3,natural,lens change 8->12 (saturation),0.1,0.12995193924458262
+3,natural,lens change 8->12 (saturation),0.2,0.2962389532652874
+3,natural,lens change 8->12 (saturation),0.3,0.45582208966076804
+3,natural,lens change 8->12 (saturation),0.5,0.7190402933253743
+3,natural,lens change 8->12 (saturation),b50,0.32944483998758606
+3,natural,learned: raw surprise,0.02,0.039367891600095614
+3,natural,learned: raw surprise,0.05,0.09936337014867368
+3,natural,learned: raw surprise,0.1,0.19912859346137035
+3,natural,learned: raw surprise,0.2,0.386655404430935
+3,natural,learned: raw surprise,0.3,0.5520076814853206
+3,natural,learned: raw surprise,0.5,0.8076812238918589
+3,natural,learned: raw surprise,b50,0.2667360388484218
+3,natural,learned: value (realized gain),0.02,0.07625455560299518
+3,natural,learned: value (realized gain),0.05,0.17009591886165698
+3,natural,learned: value (realized gain),0.1,0.3047800362626449
+3,natural,learned: value (realized gain),0.2,0.5041121235106465
+3,natural,learned: value (realized gain),0.3,0.6525440337096309
+3,natural,learned: value (realized gain),0.5,0.8358940843314355
+3,natural,learned: value (realized gain),b50,0.19772897383938515
+3,natural,learned: value (KL),0.02,0.07842387743918097
+3,natural,learned: value (KL),0.05,0.17276483942025697
+3,natural,learned: value (KL),0.1,0.3073821228775598
+3,natural,learned: value (KL),0.2,0.507288697203687
+3,natural,learned: value (KL),0.3,0.6549172626173414
+3,natural,learned: value (KL),0.5,0.8389941677747151
+3,natural,learned: value (KL),b50,0.19526443580334812
+3,natural,"learned: value (KL), scalars only",0.02,0.05574552714956992
+3,natural,"learned: value (KL), scalars only",0.05,0.12826343140792676
+3,natural,"learned: value (KL), scalars only",0.1,0.23275127118430494
+3,natural,"learned: value (KL), scalars only",0.2,0.4196861557366872
+3,natural,"learned: value (KL), scalars only",0.3,0.5847257843234891
+3,natural,"learned: value (KL), scalars only",0.5,0.8198808580630209
+3,natural,"learned: value (KL), scalars only",b50,0.2461799660441426
+3,natural,oracle: KL (needs resource),0.02,0.11367853989321289
+3,natural,oracle: KL (needs resource),0.05,0.23387099320252613
+3,natural,oracle: KL (needs resource),0.1,0.3787439956900831
+3,natural,oracle: KL (needs resource),0.2,0.5799366326280643
+3,natural,oracle: KL (needs resource),0.3,0.7167841899119837
+3,natural,oracle: KL (needs resource),0.5,0.890299157470022
+3,natural,oracle: KL (needs resource),b50,0.15532066378224438
+3,natural,oracle: realized gain,0.02,0.15458067147842847
+3,natural,oracle: realized gain,0.05,0.3181288497752099
+3,natural,oracle: realized gain,0.1,0.5209209765667628
+3,natural,oracle: realized gain,0.2,0.7873879835907575
+3,natural,oracle: realized gain,0.3,0.9466986959851457
+3,natural,oracle: realized gain,0.5,1.0881042858252634
+3,natural,oracle: realized gain,b50,0.09409058546470234
+3,natural,random,0.02,0.02018306996912472
+3,natural,random,0.05,0.050808295561030226
+3,natural,random,0.1,0.10110055420024125
+3,natural,random,0.2,0.20518524218157821
+3,natural,random,0.3,0.30156254833995544
+3,natural,random,0.5,0.499412632308496
+3,natural,random,b50,0.5005385472004673
+3,prose,entropy at exit 16 (early-exit style),0.02,0.04546931931188051
+3,prose,entropy at exit 16 (early-exit style),0.05,0.10519883685334075
+3,prose,entropy at exit 16 (early-exit style),0.1,0.20091754397986747
+3,prose,entropy at exit 16 (early-exit style),0.2,0.3531538577116391
+3,prose,entropy at exit 16 (early-exit style),0.3,0.49883038187515755
+3,prose,entropy at exit 16 (early-exit style),0.5,0.7267779457899743
+3,prose,entropy at exit 16 (early-exit style),b50,0.3009981886152542
+3,prose,1 - max prob at exit 16 (CALM-style),0.02,0.0418867693427317
+3,prose,1 - max prob at exit 16 (CALM-style),0.05,0.09734319192536886
+3,prose,1 - max prob at exit 16 (CALM-style),0.1,0.1851904900703312
+3,prose,1 - max prob at exit 16 (CALM-style),0.2,0.3430812410068404
+3,prose,1 - max prob at exit 16 (CALM-style),0.3,0.4790565800787055
+3,prose,1 - max prob at exit 16 (CALM-style),0.5,0.7078950923481306
+3,prose,1 - max prob at exit 16 (CALM-style),b50,0.3177245924384322
+3,prose,lens change 8->12 (saturation),0.02,0.01948892114127393
+3,prose,lens change 8->12 (saturation),0.05,0.05533217087393388
+3,prose,lens change 8->12 (saturation),0.1,0.1342006183167888
+3,prose,lens change 8->12 (saturation),0.2,0.2841487211774556
+3,prose,lens change 8->12 (saturation),0.3,0.42650437059702023
+3,prose,lens change 8->12 (saturation),0.5,0.6636756968714095
+3,prose,lens change 8->12 (saturation),b50,0.36027286391490343
+3,prose,learned: raw surprise,0.02,0.036159564432096315
+3,prose,learned: raw surprise,0.05,0.0896373295320254
+3,prose,learned: raw surprise,0.1,0.17801242503432707
+3,prose,learned: raw surprise,0.2,0.34120639265800207
+3,prose,learned: raw surprise,0.3,0.490753553217449
+3,prose,learned: raw surprise,0.5,0.716999649809307
+3,prose,learned: raw surprise,b50,0.3067406636605388
+3,prose,learned: value (realized gain),0.02,0.0687509091724884
+3,prose,learned: value (realized gain),0.05,0.15198487791071189
+3,prose,learned: value (realized gain),0.1,0.2720420939030288
+3,prose,learned: value (realized gain),0.2,0.4467361187579282
+3,prose,learned: value (realized gain),0.3,0.5810477638998327
+3,prose,learned: value (realized gain),0.5,0.7694714068655765
+3,prose,learned: value (realized gain),b50,0.23763826261224805
+3,prose,learned: value (KL),0.02,0.06931683752151116
+3,prose,learned: value (KL),0.05,0.1558550608804487
+3,prose,learned: value (KL),0.1,0.2740918135486608
+3,prose,learned: value (KL),0.2,0.44927730329034143
+3,prose,learned: value (KL),0.3,0.5865757128889165
+3,prose,learned: value (KL),0.5,0.773078160801744
+3,prose,learned: value (KL),b50,0.2354029367556943
+3,prose,"learned: value (KL), scalars only",0.02,0.05358636460896429
+3,prose,"learned: value (KL), scalars only",0.05,0.11797227963315948
+3,prose,"learned: value (KL), scalars only",0.1,0.21042295620211018
+3,prose,"learned: value (KL), scalars only",0.2,0.3732055149746318
+3,prose,"learned: value (KL), scalars only",0.3,0.5157244513660266
+3,prose,"learned: value (KL), scalars only",0.5,0.7446755487954704
+3,prose,"learned: value (KL), scalars only",b50,0.2885111958993333
+3,prose,oracle: KL (needs resource),0.02,0.09999635422674848
+3,prose,oracle: KL (needs resource),0.05,0.20430005185064457
+3,prose,oracle: KL (needs resource),0.1,0.33199032247759863
+3,prose,oracle: KL (needs resource),0.2,0.5126642155558352
+3,prose,oracle: KL (needs resource),0.3,0.64583821422604
+3,prose,oracle: KL (needs resource),0.5,0.827251730641092
+3,prose,oracle: KL (needs resource),b50,0.19135160134119553
+3,prose,oracle: realized gain,0.02,0.14674568940608532
+3,prose,oracle: realized gain,0.05,0.30001415049100283
+3,prose,oracle: realized gain,0.1,0.4921398404321938
+3,prose,oracle: realized gain,0.2,0.7496765922292186
+3,prose,oracle: realized gain,0.3,0.9133262728463721
+3,prose,oracle: realized gain,0.5,1.0864886107167675
+3,prose,oracle: realized gain,b50,0.10243958839172158
+3,prose,random,0.02,0.02183941704789633
+3,prose,random,0.05,0.053840900375299164
+3,prose,random,0.1,0.10675082389236804
+3,prose,random,0.2,0.2093125195685124
+3,prose,random,0.3,0.30783851881086216
+3,prose,random,0.5,0.5062251602504106
+3,prose,random,b50,0.4940840945003276
+3,code,entropy at exit 16 (early-exit style),0.02,0.050487487346697196
+3,code,entropy at exit 16 (early-exit style),0.05,0.12882464027162852
+3,code,entropy at exit 16 (early-exit style),0.1,0.25255783533935017
+3,code,entropy at exit 16 (early-exit style),0.2,0.48483360539641035
+3,code,entropy at exit 16 (early-exit style),0.3,0.6783902213758056
+3,code,entropy at exit 16 (early-exit style),0.5,0.89245182300916
+3,code,entropy at exit 16 (early-exit style),b50,0.2077003121748179
+3,code,1 - max prob at exit 16 (CALM-style),0.02,0.050116590751997446
+3,code,1 - max prob at exit 16 (CALM-style),0.05,0.13128786897560396
+3,code,1 - max prob at exit 16 (CALM-style),0.1,0.2546369070029255
+3,code,1 - max prob at exit 16 (CALM-style),0.2,0.48670359708690814
+3,code,1 - max prob at exit 16 (CALM-style),0.3,0.6728414450187791
+3,code,1 - max prob at exit 16 (CALM-style),0.5,0.8803165209699043
+3,code,1 - max prob at exit 16 (CALM-style),b50,0.20638224072147068
+3,code,lens change 8->12 (saturation),0.02,0.0133257245561266
+3,code,lens change 8->12 (saturation),0.05,0.04777054943283655
+3,code,lens change 8->12 (saturation),0.1,0.1255185459510523
+3,code,lens change 8->12 (saturation),0.2,0.301065416444711
+3,code,lens change 8->12 (saturation),0.3,0.47748639291666645
+3,code,lens change 8->12 (saturation),0.5,0.7682367032541579
+3,code,lens change 8->12 (saturation),b50,0.314047866805411
+3,code,learned: raw surprise,0.02,0.045707864815458334
+3,code,learned: raw surprise,0.05,0.11581985417345832
+3,code,learned: raw surprise,0.1,0.23708495832826304
+3,code,learned: raw surprise,0.2,0.46365945493368327
+3,code,learned: raw surprise,0.3,0.6620987020233876
+3,code,learned: raw surprise,0.5,0.8896236174012084
+3,code,learned: raw surprise,b50,0.21602497398543183
+3,code,learned: value (realized gain),0.02,0.08212770256408229
+3,code,learned: value (realized gain),0.05,0.17981537123581656
+3,code,learned: value (realized gain),0.1,0.3282691779592868
+3,code,learned: value (realized gain),0.2,0.5540064370022083
+3,code,learned: value (realized gain),0.3,0.7195364309808189
+3,code,learned: value (realized gain),0.5,0.8888230456467012
+3,code,learned: value (realized gain),b50,0.1722858133888311
+3,code,learned: value (KL),0.02,0.08334829302383794
+3,code,learned: value (KL),0.05,0.1856057880311728
+3,code,learned: value (KL),0.1,0.3353819720805613
+3,code,learned: value (KL),0.2,0.5572802860530814
+3,code,learned: value (KL),0.3,0.719976456585222
+3,code,learned: value (KL),0.5,0.8884249906841116
+3,code,learned: value (KL),b50,0.17159209157127991
+3,code,"learned: value (KL), scalars only",0.02,0.06241145681723235
+3,code,"learned: value (KL), scalars only",0.05,0.14373227249893433
+3,code,"learned: value (KL), scalars only",0.1,0.26644485961671854
+3,code,"learned: value (KL), scalars only",0.2,0.4915587810488481
+3,code,"learned: value (KL), scalars only",0.3,0.6734209739014643
+3,code,"learned: value (KL), scalars only",0.5,0.8864723360974684
+3,code,"learned: value (KL), scalars only",b50,0.20454387790496012
+3,code,oracle: KL (needs resource),0.02,0.1256907352477423
+3,code,oracle: KL (needs resource),0.05,0.25863134051837827
+3,code,oracle: KL (needs resource),0.1,0.41617654206628185
+3,code,oracle: KL (needs resource),0.2,0.6406774224153254
+3,code,oracle: KL (needs resource),0.3,0.7832012734649637
+3,code,oracle: KL (needs resource),0.5,0.93651767163955
+3,code,oracle: KL (needs resource),b50,0.1327783558792924
+3,code,oracle: realized gain,0.02,0.16130082057300182
+3,code,oracle: realized gain,0.05,0.33387200383513066
+3,code,oracle: realized gain,0.1,0.5470442362055944
+3,code,oracle: realized gain,0.2,0.8224354179762442
+3,code,oracle: realized gain,0.3,0.9745306104156953
+3,code,oracle: realized gain,0.5,1.0782039195909079
+3,code,oracle: realized gain,b50,0.08754769337495664
+3,code,random,0.02,0.018588429878471122
+3,code,random,0.05,0.04832607303392598
+3,code,random,0.1,0.09621283842302403
+3,code,random,0.2,0.20132381614907918
+3,code,random,0.3,0.29575573351976436
+3,code,random,0.5,0.492697321396322
+3,code,random,b50,0.507769684356573
+3,prose_ids,entropy at exit 16 (early-exit style),0.02,0.04357954020114975
+3,prose_ids,entropy at exit 16 (early-exit style),0.05,0.09903451307217266
+3,prose_ids,entropy at exit 16 (early-exit style),0.1,0.19180114561931794
+3,prose_ids,entropy at exit 16 (early-exit style),0.2,0.34379214090790755
+3,prose_ids,entropy at exit 16 (early-exit style),0.3,0.4825594869482695
+3,prose_ids,entropy at exit 16 (early-exit style),0.5,0.7183437339038224
+3,prose_ids,entropy at exit 16 (early-exit style),b50,0.31225486272312497
+3,prose_ids,1 - max prob at exit 16 (CALM-style),0.02,0.04111990939590977
+3,prose_ids,1 - max prob at exit 16 (CALM-style),0.05,0.09328856983022808
+3,prose_ids,1 - max prob at exit 16 (CALM-style),0.1,0.17396427013085744
+3,prose_ids,1 - max prob at exit 16 (CALM-style),0.2,0.3322153478180875
+3,prose_ids,1 - max prob at exit 16 (CALM-style),0.3,0.4716041489179144
+3,prose_ids,1 - max prob at exit 16 (CALM-style),0.5,0.7004909610715259
+3,prose_ids,1 - max prob at exit 16 (CALM-style),b50,0.32137997278475944
+3,prose_ids,lens change 8->12 (saturation),0.02,0.015523905483259283
+3,prose_ids,lens change 8->12 (saturation),0.05,0.04370298827138844
+3,prose_ids,lens change 8->12 (saturation),0.1,0.10612915184561358
+3,prose_ids,lens change 8->12 (saturation),0.2,0.24658268657379684
+3,prose_ids,lens change 8->12 (saturation),0.3,0.38837302970955917
+3,prose_ids,lens change 8->12 (saturation),0.5,0.6374878941077026
+3,prose_ids,lens change 8->12 (saturation),b50,0.3859361242295686
+3,prose_ids,learned: raw surprise,0.02,0.034018513372825174
+3,prose_ids,learned: raw surprise,0.05,0.08537146629733536
+3,prose_ids,learned: raw surprise,0.1,0.1694469045862768
+3,prose_ids,learned: raw surprise,0.2,0.33010300435814466
+3,prose_ids,learned: raw surprise,0.3,0.47544007324882037
+3,prose_ids,learned: raw surprise,0.5,0.7145026724579938
+3,prose_ids,learned: raw surprise,b50,0.31869847114384053
+3,prose_ids,learned: value (realized gain),0.02,0.06627142251133625
+3,prose_ids,learned: value (realized gain),0.05,0.14971839874102333
+3,prose_ids,learned: value (realized gain),0.1,0.26107951345047475
+3,prose_ids,learned: value (realized gain),0.2,0.42769530508071074
+3,prose_ids,learned: value (realized gain),0.3,0.5609132169277159
+3,prose_ids,learned: value (realized gain),0.5,0.7581413788550013
+3,prose_ids,learned: value (realized gain),b50,0.2508604818698471
+3,prose_ids,learned: value (KL),0.02,0.06794221656507077
+3,prose_ids,learned: value (KL),0.05,0.15209633932912572
+3,prose_ids,learned: value (KL),0.1,0.26652990494414674
+3,prose_ids,learned: value (KL),0.2,0.43560470926774275
+3,prose_ids,learned: value (KL),0.3,0.5652511066062427
+3,prose_ids,learned: value (KL),0.5,0.7578910446820887
+3,prose_ids,learned: value (KL),b50,0.2476186664532138
+3,prose_ids,"learned: value (KL), scalars only",0.02,0.04669128553908768
+3,prose_ids,"learned: value (KL), scalars only",0.05,0.1093386007426529
+3,prose_ids,"learned: value (KL), scalars only",0.1,0.20080429993231297
+3,prose_ids,"learned: value (KL), scalars only",0.2,0.35698922159664886
+3,prose_ids,"learned: value (KL), scalars only",0.3,0.4980466154411443
+3,prose_ids,"learned: value (KL), scalars only",0.5,0.7329992780486453
+3,prose_ids,"learned: value (KL), scalars only",b50,0.3010085647962859
+3,prose_ids,oracle: KL (needs resource),0.02,0.09904235653835292
+3,prose_ids,oracle: KL (needs resource),0.05,0.19945304532996697
+3,prose_ids,oracle: KL (needs resource),0.1,0.323706889132105
+3,prose_ids,oracle: KL (needs resource),0.2,0.4973013652083056
+3,prose_ids,oracle: KL (needs resource),0.3,0.6321577418834413
+3,prose_ids,oracle: KL (needs resource),0.5,0.8206520543488092
+3,prose_ids,oracle: KL (needs resource),b50,0.2022732730328984
+3,prose_ids,oracle: realized gain,0.02,0.14499617509422771
+3,prose_ids,oracle: realized gain,0.05,0.2960729512355022
+3,prose_ids,oracle: realized gain,0.1,0.4871535293366855
+3,prose_ids,oracle: realized gain,0.2,0.7464160395211826
+3,prose_ids,oracle: realized gain,0.3,0.9129102137825297
+3,prose_ids,oracle: realized gain,0.5,1.088648576253437
+3,prose_ids,oracle: realized gain,b50,0.10397822780757224
+3,prose_ids,random,0.02,0.018817544447580412
+3,prose_ids,random,0.05,0.049897698213113406
+3,prose_ids,random,0.1,0.10225179181014306
+3,prose_ids,random,0.2,0.1977906668621025
+3,prose_ids,random,0.3,0.29719257130217264
+3,prose_ids,random,0.5,0.5022128400386434
+3,prose_ids,random,b50,0.49695829664612184
+4,natural,entropy at exit 16 (early-exit style),0.02,0.04502028495472635
+4,natural,entropy at exit 16 (early-exit style),0.05,0.10801284641890768
+4,natural,entropy at exit 16 (early-exit style),0.1,0.20968767813831793
+4,natural,entropy at exit 16 (early-exit style),0.2,0.395772075485135
+4,natural,entropy at exit 16 (early-exit style),0.3,0.5606539547250655
+4,natural,entropy at exit 16 (early-exit style),0.5,0.8104669910386668
+4,natural,entropy at exit 16 (early-exit style),b50,0.2609306825857568
+4,natural,1 - max prob at exit 16 (CALM-style),0.02,0.043779624314230325
+4,natural,1 - max prob at exit 16 (CALM-style),0.05,0.10585231443489687
+4,natural,1 - max prob at exit 16 (CALM-style),0.1,0.20674548859619266
+4,natural,1 - max prob at exit 16 (CALM-style),0.2,0.3896743807476024
+4,natural,1 - max prob at exit 16 (CALM-style),0.3,0.5486751870535359
+4,natural,1 - max prob at exit 16 (CALM-style),0.5,0.7973998094515505
+4,natural,1 - max prob at exit 16 (CALM-style),b50,0.2662248754039104
+4,natural,lens change 8->12 (saturation),0.02,0.01409608058671693
+4,natural,lens change 8->12 (saturation),0.05,0.05110614304200672
+4,natural,lens change 8->12 (saturation),0.1,0.12382909946491086
+4,natural,lens change 8->12 (saturation),0.2,0.28421757993196034
+4,natural,lens change 8->12 (saturation),0.3,0.4394158192732954
+4,natural,lens change 8->12 (saturation),0.5,0.7067225605908236
+4,natural,lens change 8->12 (saturation),b50,0.3411833433740438
+4,natural,learned: raw surprise,0.02,0.03717064411609072
+4,natural,learned: raw surprise,0.05,0.09349198818736311
+4,natural,learned: raw surprise,0.1,0.19257061274033577
+4,natural,learned: raw surprise,0.2,0.3790511325746247
+4,natural,learned: raw surprise,0.3,0.5456506276164264
+4,natural,learned: raw surprise,0.5,0.8007042763333593
+4,natural,learned: raw surprise,b50,0.2717746499443197
+4,natural,learned: value (realized gain),0.02,0.07495252288454048
+4,natural,learned: value (realized gain),0.05,0.16739379522611098
+4,natural,learned: value (realized gain),0.1,0.298383867852286
+4,natural,learned: value (realized gain),0.2,0.4990380938911229
+4,natural,learned: value (realized gain),0.3,0.6485342201273617
+4,natural,learned: value (realized gain),0.5,0.8387218407458545
+4,natural,learned: value (realized gain),b50,0.2006499078080216
+4,natural,learned: value (KL),0.02,0.07657974514090782
+4,natural,learned: value (KL),0.05,0.16857229268421706
+4,natural,learned: value (KL),0.1,0.3027208653778526
+4,natural,learned: value (KL),0.2,0.5001525532465156
+4,natural,learned: value (KL),0.3,0.6531525674420092
+4,natural,learned: value (KL),0.5,0.839185511587787
+4,natural,learned: value (KL),b50,0.1999196743158625
+4,natural,"learned: value (KL), scalars only",0.02,0.05306209962467426
+4,natural,"learned: value (KL), scalars only",0.05,0.12381781725249273
+4,natural,"learned: value (KL), scalars only",0.1,0.2259523549332731
+4,natural,"learned: value (KL), scalars only",0.2,0.4185207646092258
+4,natural,"learned: value (KL), scalars only",0.3,0.5783429640716784
+4,natural,"learned: value (KL), scalars only",0.5,0.8139830698833436
+4,natural,"learned: value (KL), scalars only",b50,0.2490096208262592
+4,natural,oracle: KL (needs resource),0.02,0.11201041897499803
+4,natural,oracle: KL (needs resource),0.05,0.22940569253001244
+4,natural,oracle: KL (needs resource),0.1,0.37335426373887154
+4,natural,oracle: KL (needs resource),0.2,0.5754065279353247
+4,natural,oracle: KL (needs resource),0.3,0.7149352100546118
+4,natural,oracle: KL (needs resource),0.5,0.8866119076566583
+4,natural,oracle: KL (needs resource),b50,0.15906311042955984
+4,natural,oracle: realized gain,0.02,0.14899877057046573
+4,natural,oracle: realized gain,0.05,0.30825899683135277
+4,natural,oracle: realized gain,0.1,0.5073578200026015
+4,natural,oracle: realized gain,0.2,0.7719240381893517
+4,natural,oracle: realized gain,0.3,0.931517518731781
+4,natural,oracle: realized gain,0.5,1.0767986928100879
+4,natural,oracle: realized gain,b50,0.09786954378662577
+4,natural,random,0.02,0.020038415503076383
+4,natural,random,0.05,0.05055946223656524
+4,natural,random,0.1,0.10089359890643615
+4,natural,random,0.2,0.20409571493195378
+4,natural,random,0.3,0.305052414761954
+4,natural,random,0.5,0.5050436920975061
+4,natural,random,b50,0.4945323767274586
+4,prose,entropy at exit 16 (early-exit style),0.02,0.04258147106802208
+4,prose,entropy at exit 16 (early-exit style),0.05,0.10167590254965708
+4,prose,entropy at exit 16 (early-exit style),0.1,0.19028328966903946
+4,prose,entropy at exit 16 (early-exit style),0.2,0.3465773981812739
+4,prose,entropy at exit 16 (early-exit style),0.3,0.49355673895831076
+4,prose,entropy at exit 16 (early-exit style),0.5,0.7258095665694833
+4,prose,entropy at exit 16 (early-exit style),b50,0.30438971750105986
+4,prose,1 - max prob at exit 16 (CALM-style),0.02,0.04130651766398839
+4,prose,1 - max prob at exit 16 (CALM-style),0.05,0.09589875628533315
+4,prose,1 - max prob at exit 16 (CALM-style),0.1,0.18216698270725135
+4,prose,1 - max prob at exit 16 (CALM-style),0.2,0.33952803199283105
+4,prose,1 - max prob at exit 16 (CALM-style),0.3,0.47702368528511674
+4,prose,1 - max prob at exit 16 (CALM-style),0.5,0.7085021004416026
+4,prose,1 - max prob at exit 16 (CALM-style),b50,0.3184568543569584
+4,prose,lens change 8->12 (saturation),0.02,0.01908807324078286
+4,prose,lens change 8->12 (saturation),0.05,0.057773250387555555
+4,prose,lens change 8->12 (saturation),0.1,0.12664011446579812
+4,prose,lens change 8->12 (saturation),0.2,0.28042346723532563
+4,prose,lens change 8->12 (saturation),0.3,0.41998380990283035
+4,prose,lens change 8->12 (saturation),0.5,0.6568809776901899
+4,prose,lens change 8->12 (saturation),b50,0.36277797047828264
+4,prose,learned: raw surprise,0.02,0.03514047312053658
+4,prose,learned: raw surprise,0.05,0.08600915026040812
+4,prose,learned: raw surprise,0.1,0.1670417499140433
+4,prose,learned: raw surprise,0.2,0.3342797198927822
+4,prose,learned: raw surprise,0.3,0.48163355801221264
+4,prose,learned: raw surprise,0.5,0.7167458438873494
+4,prose,learned: raw surprise,b50,0.3156434269857787
+4,prose,learned: value (realized gain),0.02,0.06508206929597322
+4,prose,learned: value (realized gain),0.05,0.14929612472105674
+4,prose,learned: value (realized gain),0.1,0.26416454380030935
+4,prose,learned: value (realized gain),0.2,0.44714106169403084
+4,prose,learned: value (realized gain),0.3,0.5872163353704329
+4,prose,learned: value (realized gain),0.5,0.7806971622044789
+4,prose,learned: value (realized gain),b50,0.23613519867422053
+4,prose,learned: value (KL),0.02,0.06757321420059047
+4,prose,learned: value (KL),0.05,0.1506754478097008
+4,prose,learned: value (KL),0.1,0.2687160936562293
+4,prose,learned: value (KL),0.2,0.448428880575678
+4,prose,learned: value (KL),0.3,0.5920370039833677
+4,prose,learned: value (KL),0.5,0.7810466703615399
+4,prose,learned: value (KL),b50,0.23374571241376652
+4,prose,"learned: value (KL), scalars only",0.02,0.04616342288851299
+4,prose,"learned: value (KL), scalars only",0.05,0.11112150150457098
+4,prose,"learned: value (KL), scalars only",0.1,0.20010840623396672
+4,prose,"learned: value (KL), scalars only",0.2,0.3687926917376339
+4,prose,"learned: value (KL), scalars only",0.3,0.5145215372319741
+4,prose,"learned: value (KL), scalars only",0.5,0.7417150191631944
+4,prose,"learned: value (KL), scalars only",b50,0.2894746984237099
+4,prose,oracle: KL (needs resource),0.02,0.09875563515845068
+4,prose,oracle: KL (needs resource),0.05,0.20341767778926753
+4,prose,oracle: KL (needs resource),0.1,0.3363794321061782
+4,prose,oracle: KL (needs resource),0.2,0.5185398158680767
+4,prose,oracle: KL (needs resource),0.3,0.6516423169499762
+4,prose,oracle: KL (needs resource),0.5,0.8321476537308338
+4,prose,oracle: KL (needs resource),b50,0.18884649477781631
+4,prose,oracle: realized gain,0.02,0.13881410393159113
+4,prose,oracle: realized gain,0.05,0.28744068299434133
+4,prose,oracle: realized gain,0.1,0.47496515830923364
+4,prose,oracle: realized gain,0.2,0.7299289087977537
+4,prose,oracle: realized gain,0.3,0.8922117554690762
+4,prose,oracle: realized gain,0.5,1.0663657970123834
+4,prose,oracle: realized gain,b50,0.10795082283115581
+4,prose,random,0.02,0.018610454971682684
+4,prose,random,0.05,0.04928027214601117
+4,prose,random,0.1,0.09945622740545905
+4,prose,random,0.2,0.2008439669191176
+4,prose,random,0.3,0.30081717135722547
+4,prose,random,0.5,0.5006283818972019
+4,prose,random,b50,0.49963386904073687
+4,code,entropy at exit 16 (early-exit style),0.02,0.05066605223412186
+4,code,entropy at exit 16 (early-exit style),0.05,0.12652161652174895
+4,code,entropy at exit 16 (early-exit style),0.1,0.25006866687904145
+4,code,entropy at exit 16 (early-exit style),0.2,0.4753418176122854
+4,code,entropy at exit 16 (early-exit style),0.3,0.665103558089641
+4,code,entropy at exit 16 (early-exit style),0.5,0.8828558160168374
+4,code,entropy at exit 16 (early-exit style),b50,0.2126604231703087
+4,code,1 - max prob at exit 16 (CALM-style),0.02,0.04908763620974639
+4,code,1 - max prob at exit 16 (CALM-style),0.05,0.1284280354017301
+4,code,1 - max prob at exit 16 (CALM-style),0.1,0.2513598469994112
+4,code,1 - max prob at exit 16 (CALM-style),0.2,0.4757544151931053
+4,code,1 - max prob at exit 16 (CALM-style),0.3,0.6547751345515209
+4,code,1 - max prob at exit 16 (CALM-style),0.5,0.8701152330786143
+4,code,1 - max prob at exit 16 (CALM-style),b50,0.2132500867152272
+4,code,lens change 8->12 (saturation),0.02,0.012995148554845749
+4,code,lens change 8->12 (saturation),0.05,0.04529609590386008
+4,code,lens change 8->12 (saturation),0.1,0.11865377373844359
+4,code,lens change 8->12 (saturation),0.2,0.28968271146246893
+4,code,lens change 8->12 (saturation),0.3,0.453015797304692
+4,code,lens change 8->12 (saturation),0.5,0.7535721748695029
+4,code,lens change 8->12 (saturation),b50,0.330454387790496
+4,code,learned: raw surprise,0.02,0.041841854811881185
+4,code,learned: raw surprise,0.05,0.10844062272324367
+4,code,learned: raw surprise,0.1,0.22609273501681382
+4,code,learned: raw surprise,0.2,0.44617775260141634
+4,code,learned: raw surprise,0.3,0.6427156406769646
+4,code,learned: raw surprise,0.5,0.8830562751369463
+4,code,learned: raw surprise,b50,0.22389871661463753
+4,code,learned: value (realized gain),0.02,0.08079303081109335
+4,code,learned: value (realized gain),0.05,0.18298415497369458
+4,code,learned: value (realized gain),0.1,0.3261435394505521
+4,code,learned: value (realized gain),0.2,0.5466270670520055
+4,code,learned: value (realized gain),0.3,0.7088684552080965
+4,code,learned: value (realized gain),0.5,0.8888502583657506
+4,code,learned: value (realized gain),b50,0.17578910856746444
+4,code,learned: value (KL),0.02,0.08235332279249306
+4,code,learned: value (KL),0.05,0.18483155718486827
+4,code,learned: value (KL),0.1,0.331884952660052
+4,code,learned: value (KL),0.2,0.5508070660796713
+4,code,learned: value (KL),0.3,0.7115322476211959
+4,code,learned: value (KL),0.5,0.8875868114295041
+4,code,learned: value (KL),b50,0.17346514047866807
+4,code,"learned: value (KL), scalars only",0.02,0.06183706665797072
+4,code,"learned: value (KL), scalars only",0.05,0.14073837546433074
+4,code,"learned: value (KL), scalars only",0.1,0.2626506187241852
+4,code,"learned: value (KL), scalars only",0.2,0.48054441020812333
+4,code,"learned: value (KL), scalars only",0.3,0.6639219576274576
+4,code,"learned: value (KL), scalars only",0.5,0.8799852807518377
+4,code,"learned: value (KL), scalars only",b50,0.20870620881026708
+4,code,oracle: KL (needs resource),0.02,0.12487545009221428
+4,code,oracle: KL (needs resource),0.05,0.25325866371412675
+4,code,oracle: KL (needs resource),0.1,0.4114514865776092
+4,code,oracle: KL (needs resource),0.2,0.6309412328957885
+4,code,oracle: KL (needs resource),0.3,0.7767444771696737
+4,code,oracle: KL (needs resource),0.5,0.9335418445451972
+4,code,oracle: KL (needs resource),b50,0.13600416233090531
+4,code,oracle: realized gain,0.02,0.15843814974946732
+4,code,oracle: realized gain,0.05,0.32801102847437275
+4,code,oracle: realized gain,0.1,0.5386409472176845
+4,code,oracle: realized gain,0.2,0.8124611917081436
+4,code,oracle: realized gain,0.3,0.9660574534211485
+4,code,oracle: realized gain,0.5,1.0747785858465269
+4,code,oracle: realized gain,b50,0.08955948664585502
+4,code,random,0.02,0.020937611811895972
+4,code,random,0.05,0.05233062298820335
+4,code,random,0.1,0.10267836210226404
+4,code,random,0.2,0.20631042823545165
+4,code,random,0.3,0.3095059763524818
+4,code,random,0.5,0.5093344974452749
+4,code,random,b50,0.49129379118973293
+4,prose_ids,entropy at exit 16 (early-exit style),0.02,0.040132168848282114
+4,prose_ids,entropy at exit 16 (early-exit style),0.05,0.10052880908115487
+4,prose_ids,entropy at exit 16 (early-exit style),0.1,0.1897305063572291
+4,prose_ids,entropy at exit 16 (early-exit style),0.2,0.3440193276931094
+4,prose_ids,entropy at exit 16 (early-exit style),0.3,0.48994656717660173
+4,prose_ids,entropy at exit 16 (early-exit style),0.5,0.7253874772325009
+4,prose_ids,entropy at exit 16 (early-exit style),b50,0.30921956295525493
+4,prose_ids,1 - max prob at exit 16 (CALM-style),0.02,0.04163941084866066
+4,prose_ids,1 - max prob at exit 16 (CALM-style),0.05,0.09364743462002294
+4,prose_ids,1 - max prob at exit 16 (CALM-style),0.1,0.18136011425914386
+4,prose_ids,1 - max prob at exit 16 (CALM-style),0.2,0.33894019473109827
+4,prose_ids,1 - max prob at exit 16 (CALM-style),0.3,0.47321882265578635
+4,prose_ids,1 - max prob at exit 16 (CALM-style),0.5,0.7080482009724751
+4,prose_ids,1 - max prob at exit 16 (CALM-style),b50,0.3223309053069719
+4,prose_ids,lens change 8->12 (saturation),0.02,0.014920126530300788
+4,prose_ids,lens change 8->12 (saturation),0.05,0.04598690531054455
+4,prose_ids,lens change 8->12 (saturation),0.1,0.1080255421993239
+4,prose_ids,lens change 8->12 (saturation),0.2,0.24421479949871921
+4,prose_ids,lens change 8->12 (saturation),0.3,0.3830163061922798
+4,prose_ids,lens change 8->12 (saturation),0.5,0.6351150914310377
+4,prose_ids,lens change 8->12 (saturation),b50,0.3895525494276795
+4,prose_ids,learned: raw surprise,0.02,0.036000548568202576
+4,prose_ids,learned: raw surprise,0.05,0.08599156702901765
+4,prose_ids,learned: raw surprise,0.1,0.1694447501301136
+4,prose_ids,learned: raw surprise,0.2,0.32936465875733956
+4,prose_ids,learned: raw surprise,0.3,0.4760331491868398
+4,prose_ids,learned: raw surprise,0.5,0.7140661931777644
+4,prose_ids,learned: raw surprise,b50,0.3189594172736733
+4,prose_ids,learned: value (realized gain),0.02,0.06483643537226075
+4,prose_ids,learned: value (realized gain),0.05,0.14919125254293916
+4,prose_ids,learned: value (realized gain),0.1,0.26371359293895535
+4,prose_ids,learned: value (realized gain),0.2,0.4398240624082764
+4,prose_ids,learned: value (realized gain),0.3,0.5786434798062575
+4,prose_ids,learned: value (realized gain),0.5,0.7696466598292345
+4,prose_ids,learned: value (realized gain),b50,0.24079084287200833
+4,prose_ids,learned: value (KL),0.02,0.06893262903154666
+4,prose_ids,learned: value (KL),0.05,0.15072209952412946
+4,prose_ids,learned: value (KL),0.1,0.26732821289886216
+4,prose_ids,learned: value (KL),0.2,0.44264317410949067
+4,prose_ids,learned: value (KL),0.3,0.5807682773907342
+4,prose_ids,learned: value (KL),0.5,0.7693122345047424
+4,prose_ids,learned: value (KL),b50,0.23796045785639958
+4,prose_ids,"learned: value (KL), scalars only",0.02,0.04291362467668813
+4,prose_ids,"learned: value (KL), scalars only",0.05,0.10634490100443057
+4,prose_ids,"learned: value (KL), scalars only",0.1,0.1949571396243403
+4,prose_ids,"learned: value (KL), scalars only",0.2,0.35782243593058244
+4,prose_ids,"learned: value (KL), scalars only",0.3,0.5068422557371592
+4,prose_ids,"learned: value (KL), scalars only",0.5,0.7369557898902378
+4,prose_ids,"learned: value (KL), scalars only",b50,0.2953590010405827
+4,prose_ids,oracle: KL (needs resource),0.02,0.09876461072790084
+4,prose_ids,oracle: KL (needs resource),0.05,0.1991752075705143
+4,prose_ids,oracle: KL (needs resource),0.1,0.3267427009514789
+4,prose_ids,oracle: KL (needs resource),0.2,0.5082537378715655
+4,prose_ids,oracle: KL (needs resource),0.3,0.6429785703551532
+4,prose_ids,oracle: KL (needs resource),0.5,0.8263453795063531
+4,prose_ids,oracle: KL (needs resource),b50,0.19446409989594174
+4,prose_ids,oracle: realized gain,0.02,0.13939146479592623
+4,prose_ids,oracle: realized gain,0.05,0.28758445298217505
+4,prose_ids,oracle: realized gain,0.1,0.47570253461328027
+4,prose_ids,oracle: realized gain,0.2,0.7336379601780544
+4,prose_ids,oracle: realized gain,0.3,0.8983751745986754
+4,prose_ids,oracle: realized gain,0.5,1.0742089155113297
+4,prose_ids,oracle: realized gain,b50,0.10759625390218522
+4,prose_ids,random,0.02,0.021052985080710036
+4,prose_ids,random,0.05,0.05207634656195813
+4,prose_ids,random,0.1,0.10579794446244319
+4,prose_ids,random,0.2,0.20440067106545465
+4,prose_ids,random,0.3,0.29932216655472976
+4,prose_ids,random,0.5,0.5054911599648133
+4,prose_ids,random,b50,0.4946514047866805

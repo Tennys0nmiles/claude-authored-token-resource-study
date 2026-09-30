@@ -1,0 +1,113 @@
+{"id": "2609.30287", "domain": "prose", "cat": "cs.CL"}
+{"id": "2609.30288", "domain": "prose", "cat": "cs.CL"}
+{"id": "2609.30289", "domain": "prose", "cat": "cs.CL"}
+{"id": "2609.30290", "domain": "prose", "cat": "cs.CL"}
+{"id": "2609.30292", "domain": "prose", "cat": "cs.CL"}
+{"id": "2609.30270", "domain": "prose", "cat": "cs.LG"}
+{"id": "2609.30271", "domain": "prose", "cat": "cs.LG"}
+{"id": "2609.30272", "domain": "prose", "cat": "cs.LG"}
+{"id": "2609.30273", "domain": "prose", "cat": "cs.LG"}
+{"id": "2609.30275", "domain": "prose", "cat": "cs.LG"}
+{"id": "2609.31145", "domain": "prose", "cat": "q-bio.NC"}
+{"id": "2609.31192", "domain": "prose", "cat": "q-bio.NC"}
+{"id": "2609.31204", "domain": "prose", "cat": "q-bio.NC"}
+{"id": "2609.30329", "domain": "prose", "cat": "math.PR"}
+{"id": "2609.30330", "domain": "prose", "cat": "math.PR"}
+{"id": "2609.30331", "domain": "prose", "cat": "math.PR"}
+{"id": "2609.30525", "domain": "prose", "cat": "math.PR"}
+{"id": "2609.30585", "domain": "prose", "cat": "math.PR"}
+{"id": "2609.30512", "domain": "prose", "cat": "physics.optics"}
+{"id": "2609.30522", "domain": "prose", "cat": "physics.optics"}
+{"id": "2609.30736", "domain": "prose", "cat": "physics.optics"}
+{"id": "2609.31068", "domain": "prose", "cat": "physics.optics"}
+{"id": "2609.31115", "domain": "prose", "cat": "physics.optics"}
+{"id": "2609.31236", "domain": "prose", "cat": "econ.GN"}
+{"id": "2609.31468", "domain": "prose", "cat": "econ.GN"}
+{"id": "2609.31512", "domain": "prose", "cat": "econ.GN"}
+{"id": "2411.05938", "domain": "prose", "cat": "econ.GN"}
+{"id": "2405.04352", "domain": "prose", "cat": "econ.GN"}
+{"id": "2609.30364", "domain": "prose", "cat": "astro-ph.GA"}
+{"id": "2609.30373", "domain": "prose", "cat": "astro-ph.GA"}
+{"id": "2609.30375", "domain": "prose", "cat": "astro-ph.GA"}
+{"id": "2609.30376", "domain": "prose", "cat": "astro-ph.GA"}
+{"id": "2609.30440", "domain": "prose", "cat": "astro-ph.GA"}
+{"id": "2609.30284", "domain": "prose", "cat": "cond-mat.stat-mech"}
+{"id": "2609.30300", "domain": "prose", "cat": "cond-mat.stat-mech"}
+{"id": "2609.30347", "domain": "prose", "cat": "cond-mat.stat-mech"}
+{"id": "2609.30424", "domain": "prose", "cat": "cond-mat.stat-mech"}
+{"id": "2609.30455", "domain": "prose", "cat": "cond-mat.stat-mech"}
+{"id": "2609.30396", "domain": "prose", "cat": "stat.ME"}
+{"id": "2609.30524", "domain": "prose", "cat": "stat.ME"}
+{"id": "2609.30528", "domain": "prose", "cat": "stat.ME"}
+{"id": "2609.30565", "domain": "prose", "cat": "stat.ME"}
+{"id": "2609.30622", "domain": "prose", "cat": "stat.ME"}
+{"id": "2609.30451", "domain": "prose", "cat": "eess.SY"}
+{"id": "2609.30602", "domain": "prose", "cat": "eess.SY"}
+{"id": "2609.30606", "domain": "prose", "cat": "eess.SY"}
+{"id": "2609.30655", "domain": "prose", "cat": "eess.SY"}
+{"id": "2609.30847", "domain": "prose", "cat": "eess.SY"}
+{"id": "2609.30345", "domain": "prose", "cat": "cs.CR"}
+{"id": "2609.30657", "domain": "prose", "cat": "cs.CR"}
+{"id": "2609.30683", "domain": "prose", "cat": "cs.CR"}
+{"id": "2609.30719", "domain": "prose", "cat": "cs.CR"}
+{"id": "2609.25498", "domain": "prose", "cat": "cs.CR"}
+{"id": "pandas/core/methods/selectn.py", "domain": "code"}
+{"id": "pandas/core/methods/to_dict.py", "domain": "code"}
+{"id": "pandas/core/indexes/datetimes.py", "domain": "code"}
+{"id": "pandas/core/dtypes/inference.py", "domain": "code"}
+{"id": "aiohttp/compression_utils.py", "domain": "code"}
+{"id": "anyio/_backends/_asyncio.py", "domain": "code"}
+{"id": "httpx2/_transports/default.py", "domain": "code"}
+{"id": "pandas/core/construction.py", "domain": "code"}
+{"id": "huggingface_hub/cli/webhooks.py", "domain": "code"}
+{"id": "pandas/core/internals/concat.py", "domain": "code"}
+{"id": "huggingface_hub/constants.py", "domain": "code"}
+{"id": "pandas/core/col.py", "domain": "code"}
+{"id": "httpcore2/_sync/http_proxy.py", "domain": "code"}
+{"id": "httpcore2/_async/connection_pool.py", "domain": "code"}
+{"id": "aiohttp/web_urldispatcher.py", "domain": "code"}
+{"id": "huggingface_hub/community.py", "domain": "code"}
+{"id": "yarl/_parse.py", "domain": "code"}
+{"id": "pandas/core/interchange/from_dataframe.py", "domain": "code"}
+{"id": "huggingface_hub/inference/_providers/hf_inference.py", "domain": "code"}
+{"id": "huggingface_hub/_buckets.py", "domain": "code"}
+{"id": "pandas/core/arrays/base.py", "domain": "code"}
+{"id": "aiohttp/web_runner.py", "domain": "code"}
+{"id": "httpcore2/_async/socks_proxy.py", "domain": "code"}
+{"id": "pandas/core/indexes/interval.py", "domain": "code"}
+{"id": "pandas/core/arrays/period.py", "domain": "code"}
+{"id": "anyio/_backends/_trio.py", "domain": "code"}
+{"id": "httpx2/_models.py", "domain": "code"}
+{"id": "aiohttp/web_ws.py", "domain": "code"}
+{"id": "huggingface_hub/utils/_validators.py", "domain": "code"}
+{"id": "pandas/core/indexes/category.py", "domain": "code"}
+{"id": "huggingface_hub/inference/_providers/fal_ai.py", "domain": "code"}
+{"id": "huggingface_hub/utils/_auth.py", "domain": "code"}
+{"id": "huggingface_hub/cli/_cp.py", "domain": "code"}
+{"id": "huggingface_hub/cli/jobs.py", "domain": "code"}
+{"id": "aiohttp/resolver.py", "domain": "code"}
+{"id": "huggingface_hub/inference/_mcp/cli.py", "domain": "code"}
+{"id": "anyio/to_process.py", "domain": "code"}
+{"id": "aiohttp/web_fileresponse.py", "domain": "code"}
+{"id": "huggingface_hub/utils/_http.py", "domain": "code"}
+{"id": "anyio/streams/tls.py", "domain": "code"}
+{"id": "huggingface_hub/serialization/_torch.py", "domain": "code"}
+{"id": "pandas/core/reshape/merge.py", "domain": "code"}
+{"id": "httpx2/websockets/_api.py", "domain": "code"}
+{"id": "pandas/core/interchange/column.py", "domain": "code"}
+{"id": "huggingface_hub/file_download.py", "domain": "code"}
+{"id": "huggingface_hub/inference/_generated/_async_client.py", "domain": "code"}
+{"id": "huggingface_hub/inference/_client.py", "domain": "code"}
+{"id": "httpcore2/_async/http2.py", "domain": "code"}
+{"id": "huggingface_hub/_space_api.py", "domain": "code"}
+{"id": "huggingface_hub/errors.py", "domain": "code"}
+{"id": "huggingface_hub/serialization/_base.py", "domain": "code"}
+{"id": "huggingface_hub/_sandbox.py", "domain": "code"}
+{"id": "pandas/core/tools/numeric.py", "domain": "code"}
+{"id": "huggingface_hub/cli/extensions.py", "domain": "code"}
+{"id": "huggingface_hub/hf_api.py", "domain": "code"}
+{"id": "pandas/core/dtypes/common.py", "domain": "code"}
+{"id": "pandas/core/reshape/concat.py", "domain": "code"}
+{"id": "pandas/core/series.py", "domain": "code"}
+{"id": "aiohttp/client_ws.py", "domain": "code"}
+{"id": "pandas/core/arrays/_mixins.py", "domain": "code"}

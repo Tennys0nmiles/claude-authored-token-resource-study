@@ -1,0 +1,701 @@
+seed,pool,policy,budget,R
+0,natural,entropy (FLARE-style),0.02,0.04628289366498735
+0,natural,entropy (FLARE-style),0.05,0.1098887774954109
+0,natural,entropy (FLARE-style),0.1,0.21588978982123117
+0,natural,entropy (FLARE-style),0.2,0.4024447322960685
+0,natural,entropy (FLARE-style),0.3,0.5519392605173508
+0,natural,entropy (FLARE-style),0.5,0.7640385301272172
+0,natural,entropy (FLARE-style),b50,0.26365080234404953
+0,natural,learned: value (KL),0.02,0.09880998262274626
+0,natural,learned: value (KL),0.05,0.19033441986317032
+0,natural,learned: value (KL),0.1,0.31919342865590217
+0,natural,learned: value (KL),0.2,0.49235281827175387
+0,natural,learned: value (KL),0.3,0.6200699231607666
+0,natural,learned: value (KL),0.5,0.8049995208639298
+0,natural,learned: value (KL),b50,0.205286890483232
+0,natural,learned: value (KL) + familiarity,0.02,0.1303628457496389
+0,natural,learned: value (KL) + familiarity,0.05,0.24691243046064884
+0,natural,learned: value (KL) + familiarity,0.1,0.38537634015565014
+0,natural,learned: value (KL) + familiarity,0.2,0.5677243987081636
+0,natural,learned: value (KL) + familiarity,0.3,0.6908707925745996
+0,natural,learned: value (KL) + familiarity,0.5,0.8482592427955573
+0,natural,learned: value (KL) + familiarity,b50,0.15641601402048305
+0,natural,familiarity + entropy only (7 scalars),0.02,0.10814441946143606
+0,natural,familiarity + entropy only (7 scalars),0.05,0.22179046640752212
+0,natural,familiarity + entropy only (7 scalars),0.1,0.34056797289449264
+0,natural,familiarity + entropy only (7 scalars),0.2,0.4830091097478444
+0,natural,familiarity + entropy only (7 scalars),0.3,0.6167226446105556
+0,natural,familiarity + entropy only (7 scalars),0.5,0.8045891500266983
+0,natural,familiarity + entropy only (7 scalars),b50,0.21352027310732608
+0,natural,oracle: KL (needs resource),0.02,0.22436108445897357
+0,natural,oracle: KL (needs resource),0.05,0.4087314767136582
+0,natural,oracle: KL (needs resource),0.1,0.5815973900297555
+0,natural,oracle: KL (needs resource),0.2,0.7511288820969997
+0,natural,oracle: KL (needs resource),0.3,0.8467341789165571
+0,natural,oracle: KL (needs resource),0.5,0.9467265865023706
+0,natural,oracle: KL (needs resource),b50,0.0721105573507129
+0,prose,entropy (FLARE-style),0.02,0.03765368014562717
+0,prose,entropy (FLARE-style),0.05,0.08920951709219595
+0,prose,entropy (FLARE-style),0.1,0.17947917319488918
+0,prose,entropy (FLARE-style),0.2,0.3501009970923014
+0,prose,entropy (FLARE-style),0.3,0.4912683582950512
+0,prose,entropy (FLARE-style),0.5,0.6946899170694684
+0,prose,entropy (FLARE-style),b50,0.3096311712336686
+0,prose,learned: value (KL),0.02,0.08158973754823666
+0,prose,learned: value (KL),0.05,0.16003285054905056
+0,prose,learned: value (KL),0.1,0.2736007910301679
+0,prose,learned: value (KL),0.2,0.43470075699591815
+0,prose,learned: value (KL),0.3,0.5578677709033147
+0,prose,learned: value (KL),0.5,0.742456981994044
+0,prose,learned: value (KL),b50,0.24831387058234092
+0,prose,learned: value (KL) + familiarity,0.02,0.11028472685298178
+0,prose,learned: value (KL) + familiarity,0.05,0.21382962571507702
+0,prose,learned: value (KL) + familiarity,0.1,0.3378655391548641
+0,prose,learned: value (KL) + familiarity,0.2,0.5075632772027965
+0,prose,learned: value (KL) + familiarity,0.3,0.6275943383740482
+0,prose,learned: value (KL) + familiarity,0.5,0.7982036911578202
+0,prose,learned: value (KL) + familiarity,b50,0.1950514510348017
+0,prose,familiarity + entropy only (7 scalars),0.02,0.08585330699670843
+0,prose,familiarity + entropy only (7 scalars),0.05,0.17563327077067323
+0,prose,familiarity + entropy only (7 scalars),0.1,0.28179145813814377
+0,prose,familiarity + entropy only (7 scalars),0.2,0.4223405254728042
+0,prose,familiarity + entropy only (7 scalars),0.3,0.564454465183017
+0,prose,familiarity + entropy only (7 scalars),0.5,0.7591495722924497
+0,prose,familiarity + entropy only (7 scalars),b50,0.24831387058234092
+0,prose,oracle: KL (needs resource),0.02,0.19746022128345428
+0,prose,oracle: KL (needs resource),0.05,0.36119562466507976
+0,prose,oracle: KL (needs resource),0.1,0.5152573982122703
+0,prose,oracle: KL (needs resource),0.2,0.6880688981830302
+0,prose,oracle: KL (needs resource),0.3,0.7940739089880328
+0,prose,oracle: KL (needs resource),0.5,0.9102591871434544
+0,prose,oracle: KL (needs resource),b50,0.09365244536940687
+0,code,entropy (FLARE-style),0.02,0.05942504491645119
+0,code,entropy (FLARE-style),0.05,0.13914961559375413
+0,code,entropy (FLARE-style),0.1,0.2634190485938554
+0,code,entropy (FLARE-style),0.2,0.47626571993666894
+0,code,entropy (FLARE-style),0.3,0.6335807648258727
+0,code,entropy (FLARE-style),0.5,0.8330226048929836
+0,code,entropy (FLARE-style),b50,0.21200138744363511
+0,code,learned: value (KL),0.02,0.10881844592587543
+0,code,learned: value (KL),0.05,0.22111651468497676
+0,code,learned: value (KL),0.1,0.3608646839164074
+0,code,learned: value (KL),0.2,0.5523658322299891
+0,code,learned: value (KL),0.3,0.6851679592828276
+0,code,learned: value (KL),0.5,0.8612831692539014
+0,code,learned: value (KL),b50,0.17065556711758584
+0,code,learned: value (KL) + familiarity,0.02,0.13987650242356847
+0,code,learned: value (KL) + familiarity,0.05,0.2806731332357105
+0,code,learned: value (KL) + familiarity,0.1,0.4359433961685132
+0,code,learned: value (KL) + familiarity,0.2,0.6364674183744118
+0,code,learned: value (KL) + familiarity,0.3,0.7583637558372985
+0,code,learned: value (KL) + familiarity,0.5,0.8975511166083995
+0,code,learned: value (KL) + familiarity,b50,0.12761012833853624
+0,code,familiarity + entropy only (7 scalars),0.02,0.1321551660109231
+0,code,familiarity + entropy only (7 scalars),0.05,0.26769649775028265
+0,code,familiarity + entropy only (7 scalars),0.1,0.3975376373155796
+0,code,familiarity + entropy only (7 scalars),0.2,0.5487968825690449
+0,code,familiarity + entropy only (7 scalars),0.3,0.6665867157633883
+0,code,familiarity + entropy only (7 scalars),0.5,0.8426492857214665
+0,code,familiarity + entropy only (7 scalars),b50,0.1621574748525841
+0,code,oracle: KL (needs resource),0.02,0.24959941744850578
+0,code,oracle: KL (needs resource),0.05,0.45786296287935035
+0,code,oracle: KL (needs resource),0.1,0.6481841589936991
+0,code,oracle: KL (needs resource),0.2,0.8134552687461488
+0,code,oracle: KL (needs resource),0.3,0.8989749740745553
+0,code,oracle: KL (needs resource),0.5,0.9699148202825503
+0,code,oracle: KL (needs resource),b50,0.05913978494623656
+0,prose_ids,entropy (FLARE-style),0.02,0.030777569923135236
+0,prose_ids,entropy (FLARE-style),0.05,0.07639985284391888
+0,prose_ids,entropy (FLARE-style),0.1,0.16290013709976323
+0,prose_ids,entropy (FLARE-style),0.2,0.3070798606769465
+0,prose_ids,entropy (FLARE-style),0.3,0.4284393147625592
+0,prose_ids,entropy (FLARE-style),0.5,0.6563543571079803
+0,prose_ids,entropy (FLARE-style),b50,0.3668054110301769
+0,prose_ids,learned: value (KL),0.02,0.07126008698489378
+0,prose_ids,learned: value (KL),0.05,0.1496621043167292
+0,prose_ids,learned: value (KL),0.1,0.24802206346575842
+0,prose_ids,learned: value (KL),0.2,0.3964418271900101
+0,prose_ids,learned: value (KL),0.3,0.526230723607353
+0,prose_ids,learned: value (KL),0.5,0.7255897700869226
+0,prose_ids,learned: value (KL),b50,0.27919634995597536
+0,prose_ids,learned: value (KL) + familiarity,0.02,0.11537240163156258
+0,prose_ids,learned: value (KL) + familiarity,0.05,0.21790694099443653
+0,prose_ids,learned: value (KL) + familiarity,0.1,0.3463174338873582
+0,prose_ids,learned: value (KL) + familiarity,0.2,0.5162750979594378
+0,prose_ids,learned: value (KL) + familiarity,0.3,0.6364268234270142
+0,prose_ids,learned: value (KL) + familiarity,0.5,0.7896901200987558
+0,prose_ids,learned: value (KL) + familiarity,b50,0.18786520451452812
+0,prose_ids,familiarity + entropy only (7 scalars),0.02,0.07890278340472176
+0,prose_ids,familiarity + entropy only (7 scalars),0.05,0.19157277996669614
+0,prose_ids,familiarity + entropy only (7 scalars),0.1,0.32128947462875007
+0,prose_ids,familiarity + entropy only (7 scalars),0.2,0.46544861027643253
+0,prose_ids,familiarity + entropy only (7 scalars),0.3,0.5722069267528677
+0,prose_ids,familiarity + entropy only (7 scalars),0.5,0.7430778265793265
+0,prose_ids,familiarity + entropy only (7 scalars),b50,0.23036900664372048
+0,prose_ids,oracle: KL (needs resource),0.02,0.1802702448656667
+0,prose_ids,oracle: KL (needs resource),0.05,0.34861705825222916
+0,prose_ids,oracle: KL (needs resource),0.1,0.5304029647834839
+0,prose_ids,oracle: KL (needs resource),0.2,0.7145351765608449
+0,prose_ids,oracle: KL (needs resource),0.3,0.8131681142717273
+0,prose_ids,oracle: KL (needs resource),0.5,0.9234909003979248
+0,prose_ids,oracle: KL (needs resource),b50,0.09029056271512047
+1,natural,entropy (FLARE-style),0.02,0.04521976854488839
+1,natural,entropy (FLARE-style),0.05,0.11215175116091959
+1,natural,entropy (FLARE-style),0.1,0.21121695866329293
+1,natural,entropy (FLARE-style),0.2,0.38342165224846103
+1,natural,entropy (FLARE-style),0.3,0.533634959730934
+1,natural,entropy (FLARE-style),0.5,0.7488279548597304
+1,natural,entropy (FLARE-style),b50,0.2768862843894335
+1,natural,learned: value (KL),0.02,0.09443265873929585
+1,natural,learned: value (KL),0.05,0.1925035821877863
+1,natural,learned: value (KL),0.1,0.31739076110304687
+1,natural,learned: value (KL),0.2,0.4999766109080567
+1,natural,learned: value (KL),0.3,0.6390938889853934
+1,natural,learned: value (KL),0.5,0.8114439070360453
+1,natural,learned: value (KL),b50,0.2000839768515983
+1,natural,learned: value (KL) + familiarity,0.02,0.13675251695080884
+1,natural,learned: value (KL) + familiarity,0.05,0.2574898934553421
+1,natural,learned: value (KL) + familiarity,0.1,0.3894810521667947
+1,natural,learned: value (KL) + familiarity,0.2,0.5738183459879522
+1,natural,learned: value (KL) + familiarity,0.3,0.6923311019635958
+1,natural,learned: value (KL) + familiarity,0.5,0.8482339578094137
+1,natural,learned: value (KL) + familiarity,b50,0.1555397338298921
+1,natural,familiarity + entropy only (7 scalars),0.02,0.11233970383704805
+1,natural,familiarity + entropy only (7 scalars),0.05,0.2235044162249591
+1,natural,familiarity + entropy only (7 scalars),0.1,0.337158601660691
+1,natural,familiarity + entropy only (7 scalars),0.2,0.48487758023131405
+1,natural,familiarity + entropy only (7 scalars),0.3,0.6108906049787699
+1,natural,familiarity + entropy only (7 scalars),0.5,0.7985592362562134
+1,natural,familiarity + entropy only (7 scalars),b50,0.21160341019040838
+1,natural,oracle: KL (needs resource),0.02,0.2368900730581994
+1,natural,oracle: KL (needs resource),0.05,0.42187929971624233
+1,natural,oracle: KL (needs resource),0.1,0.5905774174188761
+1,natural,oracle: KL (needs resource),0.2,0.76184189430675
+1,natural,oracle: KL (needs resource),0.3,0.8506070597733482
+1,natural,oracle: KL (needs resource),0.5,0.9462008496788196
+1,natural,oracle: KL (needs resource),b50,0.0686236924256531
+1,prose,entropy (FLARE-style),0.02,0.03779684434648795
+1,prose,entropy (FLARE-style),0.05,0.09642660063554909
+1,prose,entropy (FLARE-style),0.1,0.18580804677978727
+1,prose,entropy (FLARE-style),0.2,0.34216230900846306
+1,prose,entropy (FLARE-style),0.3,0.4820950238539897
+1,prose,entropy (FLARE-style),0.5,0.6921022648727982
+1,prose,entropy (FLARE-style),b50,0.3154507264809034
+1,prose,learned: value (KL),0.02,0.07977108416057536
+1,prose,learned: value (KL),0.05,0.15317200807670944
+1,prose,learned: value (KL),0.1,0.26443482359633474
+1,prose,learned: value (KL),0.2,0.4265793104320472
+1,prose,learned: value (KL),0.3,0.5625261007397625
+1,prose,learned: value (KL),0.5,0.747360657292563
+1,prose,learned: value (KL),b50,0.25124291825644585
+1,prose,learned: value (KL) + familiarity,0.02,0.11686558604094946
+1,prose,learned: value (KL) + familiarity,0.05,0.22189100926356595
+1,prose,learned: value (KL) + familiarity,0.1,0.3342969353845999
+1,prose,learned: value (KL) + familiarity,0.2,0.5118048251017747
+1,prose,learned: value (KL) + familiarity,0.3,0.6297156185267763
+1,prose,learned: value (KL) + familiarity,0.5,0.7970407007207098
+1,prose,learned: value (KL) + familiarity,b50,0.19216094346167187
+1,prose,familiarity + entropy only (7 scalars),0.02,0.09980808317040003
+1,prose,familiarity + entropy only (7 scalars),0.05,0.18714152209649532
+1,prose,familiarity + entropy only (7 scalars),0.1,0.28766950366391475
+1,prose,familiarity + entropy only (7 scalars),0.2,0.4397937287530182
+1,prose,familiarity + entropy only (7 scalars),0.3,0.5613307028041313
+1,prose,familiarity + entropy only (7 scalars),0.5,0.7569997433490724
+1,prose,familiarity + entropy only (7 scalars),b50,0.24762014876478977
+1,prose,oracle: KL (needs resource),0.02,0.20799906950716687
+1,prose,oracle: KL (needs resource),0.05,0.37009357870876913
+1,prose,oracle: KL (needs resource),0.1,0.5319393554813497
+1,prose,oracle: KL (needs resource),0.2,0.703675754894868
+1,prose,oracle: KL (needs resource),0.3,0.8049631663687138
+1,prose,oracle: KL (needs resource),0.5,0.9184106159251771
+1,prose,oracle: KL (needs resource),b50,0.08721624850657109
+1,code,entropy (FLARE-style),0.02,0.056192604501471906
+1,code,entropy (FLARE-style),0.05,0.13435555576828465
+1,code,entropy (FLARE-style),0.1,0.24859205879662025
+1,code,entropy (FLARE-style),0.2,0.44452249766914204
+1,code,entropy (FLARE-style),0.3,0.6052042097718511
+1,code,entropy (FLARE-style),0.5,0.8349513579808704
+1,code,entropy (FLARE-style),b50,0.23097467915365938
+1,code,learned: value (KL),0.02,0.11160880654883872
+1,code,learned: value (KL),0.05,0.22837205953180292
+1,code,learned: value (KL),0.1,0.37392628217087803
+1,code,learned: value (KL),0.2,0.5754594916316248
+1,code,learned: value (KL),0.3,0.7133254123631741
+1,code,learned: value (KL),0.5,0.8639267350298673
+1,code,learned: value (KL),b50,0.1553936871314603
+1,code,learned: value (KL) + familiarity,0.02,0.15104873469077165
+1,code,learned: value (KL) + familiarity,0.05,0.293402940341102
+1,code,learned: value (KL) + familiarity,0.1,0.44758390182168956
+1,code,learned: value (KL) + familiarity,0.2,0.6385125887788039
+1,code,learned: value (KL) + familiarity,0.3,0.7581062154812662
+1,code,learned: value (KL) + familiarity,0.5,0.8893965901492964
+1,code,learned: value (KL) + familiarity,b50,0.12070759625390219
+1,code,familiarity + entropy only (7 scalars),0.02,0.1281179329574397
+1,code,familiarity + entropy only (7 scalars),0.05,0.26547816710431676
+1,code,familiarity + entropy only (7 scalars),0.1,0.3903294166678779
+1,code,familiarity + entropy only (7 scalars),0.2,0.5323763151108631
+1,code,familiarity + entropy only (7 scalars),0.3,0.6635997439117788
+1,code,familiarity + entropy only (7 scalars),0.5,0.8359804762561457
+1,code,familiarity + entropy only (7 scalars),b50,0.17089836975372877
+1,code,oracle: KL (needs resource),0.02,0.2657958132255206
+1,code,oracle: KL (needs resource),0.05,0.47793942078033524
+1,code,oracle: KL (needs resource),0.1,0.6541078891317254
+1,code,oracle: KL (needs resource),0.2,0.8189384738868903
+1,code,oracle: KL (needs resource),0.3,0.8988549042354895
+1,code,oracle: KL (needs resource),0.5,0.9664304396505459
+1,code,oracle: KL (needs resource),b50,0.05508151231356226
+1,prose_ids,entropy (FLARE-style),0.02,0.03458371009532639
+1,prose_ids,entropy (FLARE-style),0.05,0.08398823620838983
+1,prose_ids,entropy (FLARE-style),0.1,0.16827990236948745
+1,prose_ids,entropy (FLARE-style),0.2,0.30195521199216
+1,prose_ids,entropy (FLARE-style),0.3,0.42779444266778927
+1,prose_ids,entropy (FLARE-style),0.5,0.6623032351650272
+1,prose_ids,entropy (FLARE-style),b50,0.3658848955415032
+1,prose_ids,learned: value (KL),0.02,0.07109435358828675
+1,prose_ids,learned: value (KL),0.05,0.14766027547389737
+1,prose_ids,learned: value (KL),0.1,0.2490068406002932
+1,prose_ids,learned: value (KL),0.2,0.3996937722298621
+1,prose_ids,learned: value (KL),0.3,0.5315125597982828
+1,prose_ids,learned: value (KL),0.5,0.7182293610279058
+1,prose_ids,learned: value (KL),b50,0.27447370527495396
+1,prose_ids,learned: value (KL) + familiarity,0.02,0.10649306707364507
+1,prose_ids,learned: value (KL) + familiarity,0.05,0.21486587935272192
+1,prose_ids,learned: value (KL) + familiarity,0.1,0.332058227675904
+1,prose_ids,learned: value (KL) + familiarity,0.2,0.4970334854567585
+1,prose_ids,learned: value (KL) + familiarity,0.3,0.615269881480383
+1,prose_ids,learned: value (KL) + familiarity,0.5,0.7814113824812503
+1,prose_ids,learned: value (KL) + familiarity,b50,0.201672936844633
+1,prose_ids,familiarity + entropy only (7 scalars),0.02,0.08456176062575668
+1,prose_ids,familiarity + entropy only (7 scalars),0.05,0.1934518643375281
+1,prose_ids,familiarity + entropy only (7 scalars),0.1,0.322124778622007
+1,prose_ids,familiarity + entropy only (7 scalars),0.2,0.46810826505344966
+1,prose_ids,familiarity + entropy only (7 scalars),0.3,0.5700522598203482
+1,prose_ids,familiarity + entropy only (7 scalars),0.5,0.7491256516994097
+1,prose_ids,familiarity + entropy only (7 scalars),b50,0.22892819979188345
+1,prose_ids,oracle: KL (needs resource),0.02,0.17554807944121453
+1,prose_ids,oracle: KL (needs resource),0.05,0.3481201408590512
+1,prose_ids,oracle: KL (needs resource),0.1,0.5289638865583447
+1,prose_ids,oracle: KL (needs resource),0.2,0.7180065270888345
+1,prose_ids,oracle: KL (needs resource),0.3,0.8149038649281377
+1,prose_ids,oracle: KL (needs resource),0.5,0.9283976725470885
+1,prose_ids,oracle: KL (needs resource),b50,0.09037060754022253
+2,natural,entropy (FLARE-style),0.02,0.042370557436653106
+2,natural,entropy (FLARE-style),0.05,0.10908143403836838
+2,natural,entropy (FLARE-style),0.1,0.21336873204791354
+2,natural,entropy (FLARE-style),0.2,0.40168531797889984
+2,natural,entropy (FLARE-style),0.3,0.554526177984558
+2,natural,entropy (FLARE-style),0.5,0.7613568932517693
+2,natural,entropy (FLARE-style),b50,0.2610949851214926
+2,natural,learned: value (KL),0.02,0.09396120514802403
+2,natural,learned: value (KL),0.05,0.19061175806742897
+2,natural,learned: value (KL),0.1,0.322748740376189
+2,natural,learned: value (KL),0.2,0.49974943101351227
+2,natural,learned: value (KL),0.3,0.6321576220563531
+2,natural,learned: value (KL),0.5,0.8059115230386023
+2,natural,learned: value (KL),b50,0.2000839768515983
+2,natural,learned: value (KL) + familiarity,0.02,0.1327656040857263
+2,natural,learned: value (KL) + familiarity,0.05,0.2584209547404835
+2,natural,learned: value (KL) + familiarity,0.1,0.3857497809192466
+2,natural,learned: value (KL) + familiarity,0.2,0.5652365162250079
+2,natural,learned: value (KL) + familiarity,0.3,0.6894839224177268
+2,natural,learned: value (KL) + familiarity,0.5,0.8478711278337044
+2,natural,learned: value (KL) + familiarity,b50,0.15743834090950581
+2,natural,familiarity + entropy only (7 scalars),0.02,0.11271557653362121
+2,natural,familiarity + entropy only (7 scalars),0.05,0.21852171964549233
+2,natural,familiarity + entropy only (7 scalars),0.1,0.3282074132012079
+2,natural,familiarity + entropy only (7 scalars),0.2,0.47696301116282996
+2,natural,familiarity + entropy only (7 scalars),0.3,0.6186019176301842
+2,natural,familiarity + entropy only (7 scalars),0.5,0.8056386918162552
+2,natural,familiarity + entropy only (7 scalars),b50,0.21457911167095678
+2,natural,oracle: KL (needs resource),0.02,0.22601393538196474
+2,natural,oracle: KL (needs resource),0.05,0.41290366926891225
+2,natural,oracle: KL (needs resource),0.1,0.5866571374637748
+2,natural,oracle: KL (needs resource),0.2,0.7627970708383878
+2,natural,oracle: KL (needs resource),0.3,0.8521700960276899
+2,natural,oracle: KL (needs resource),0.5,0.9499853989051404
+2,natural,oracle: KL (needs resource),b50,0.07063183452909068
+2,prose,entropy (FLARE-style),0.02,0.032141842510960486
+2,prose,entropy (FLARE-style),0.05,0.08853823942245935
+2,prose,entropy (FLARE-style),0.1,0.17916202501682393
+2,prose,entropy (FLARE-style),0.2,0.3514620820160776
+2,prose,entropy (FLARE-style),0.3,0.4864986769248529
+2,prose,entropy (FLARE-style),0.5,0.6981800444366602
+2,prose,entropy (FLARE-style),b50,0.31101861486877097
+2,prose,learned: value (KL),0.02,0.07304482585399592
+2,prose,learned: value (KL),0.05,0.15092873183343355
+2,prose,learned: value (KL),0.1,0.2643874574543112
+2,prose,learned: value (KL),0.2,0.42445577369416776
+2,prose,learned: value (KL),0.3,0.5498966152720322
+2,prose,learned: value (KL),0.5,0.7400808797943439
+2,prose,learned: value (KL),b50,0.2550969283539523
+2,prose,learned: value (KL) + familiarity,0.02,0.11567264050478472
+2,prose,learned: value (KL) + familiarity,0.05,0.2151604257919953
+2,prose,learned: value (KL) + familiarity,0.1,0.33228556509676765
+2,prose,learned: value (KL) + familiarity,0.2,0.5033223796370698
+2,prose,learned: value (KL) + familiarity,0.3,0.6243024284129766
+2,prose,learned: value (KL) + familiarity,0.5,0.7994608284775887
+2,prose,learned: value (KL) + familiarity,b50,0.19840443981963232
+2,prose,familiarity + entropy only (7 scalars),0.02,0.09317213272846213
+2,prose,familiarity + entropy only (7 scalars),0.05,0.1771456362198796
+2,prose,familiarity + entropy only (7 scalars),0.1,0.28074722869918545
+2,prose,familiarity + entropy only (7 scalars),0.2,0.4342427213755046
+2,prose,familiarity + entropy only (7 scalars),0.3,0.5732671074446558
+2,prose,familiarity + entropy only (7 scalars),0.5,0.7616001997642871
+2,prose,familiarity + entropy only (7 scalars),b50,0.24353489806143291
+2,prose,oracle: KL (needs resource),0.02,0.20278870863190562
+2,prose,oracle: KL (needs resource),0.05,0.3683591240636985
+2,prose,oracle: KL (needs resource),0.1,0.5300236043171298
+2,prose,oracle: KL (needs resource),0.2,0.7059090240101664
+2,prose,oracle: KL (needs resource),0.3,0.8053061394359757
+2,prose,oracle: KL (needs resource),0.5,0.9224828587991405
+2,prose,oracle: KL (needs resource),b50,0.08844953173777315
+2,code,entropy (FLARE-style),0.02,0.05523093910819276
+2,code,entropy (FLARE-style),0.05,0.1325792411889544
+2,code,entropy (FLARE-style),0.1,0.2660759712183524
+2,code,entropy (FLARE-style),0.2,0.47216493781748387
+2,code,entropy (FLARE-style),0.3,0.6270323229688515
+2,code,entropy (FLARE-style),0.5,0.8364469914307296
+2,code,entropy (FLARE-style),b50,0.21418661116892126
+2,code,learned: value (KL),0.02,0.11603690538160621
+2,code,learned: value (KL),0.05,0.23597449054590533
+2,code,learned: value (KL),0.1,0.38676450688993974
+2,code,learned: value (KL),0.2,0.591136441453911
+2,code,learned: value (KL),0.3,0.7238030134125526
+2,code,learned: value (KL),0.5,0.8671157045464528
+2,code,learned: value (KL),b50,0.14682622268470344
+2,code,learned: value (KL) + familiarity,0.02,0.14542768766112416
+2,code,learned: value (KL) + familiarity,0.05,0.3006421626775549
+2,code,learned: value (KL) + familiarity,0.1,0.44187969707476726
+2,code,learned: value (KL) + familiarity,0.2,0.6397129947646969
+2,code,learned: value (KL) + familiarity,0.3,0.7639937585744218
+2,code,learned: value (KL) + familiarity,0.5,0.9005780020020576
+2,code,learned: value (KL) + familiarity,b50,0.12313562261533126
+2,code,familiarity + entropy only (7 scalars),0.02,0.13459046196407498
+2,code,familiarity + entropy only (7 scalars),0.05,0.26566880602471976
+2,code,familiarity + entropy only (7 scalars),0.1,0.38268451122035146
+2,code,familiarity + entropy only (7 scalars),0.2,0.5243269912459333
+2,code,familiarity + entropy only (7 scalars),0.3,0.668698240118956
+2,code,familiarity + entropy only (7 scalars),0.5,0.8420385235447126
+2,code,familiarity + entropy only (7 scalars),b50,0.18397502601456817
+2,code,oracle: KL (needs resource),0.02,0.2534351322178705
+2,code,oracle: KL (needs resource),0.05,0.46327547666681
+2,code,oracle: KL (needs resource),0.1,0.6484628459210503
+2,code,oracle: KL (needs resource),0.2,0.8199680560003434
+2,code,oracle: KL (needs resource),0.3,0.9029442346603475
+2,code,oracle: KL (needs resource),0.5,0.9696730974003589
+2,code,oracle: KL (needs resource),b50,0.05726673603884842
+2,prose_ids,entropy (FLARE-style),0.02,0.03101609289244987
+2,prose_ids,entropy (FLARE-style),0.05,0.08121829032817783
+2,prose_ids,entropy (FLARE-style),0.1,0.17038036096819698
+2,prose_ids,entropy (FLARE-style),0.2,0.30861451416660984
+2,prose_ids,entropy (FLARE-style),0.3,0.4429452650890031
+2,prose_ids,entropy (FLARE-style),0.5,0.6773522382779045
+2,prose_ids,entropy (FLARE-style),b50,0.3485952133194589
+2,prose_ids,learned: value (KL),0.02,0.0701334348830789
+2,prose_ids,learned: value (KL),0.05,0.14176534628403306
+2,prose_ids,learned: value (KL),0.1,0.24618432656612432
+2,prose_ids,learned: value (KL),0.2,0.409286646825856
+2,prose_ids,learned: value (KL),0.3,0.5435747300095491
+2,prose_ids,learned: value (KL),0.5,0.7340353836489676
+2,prose_ids,learned: value (KL),b50,0.2695109261186264
+2,prose_ids,learned: value (KL) + familiarity,0.02,0.10762799786926674
+2,prose_ids,learned: value (KL) + familiarity,0.05,0.2165380084171934
+2,prose_ids,learned: value (KL) + familiarity,0.1,0.34796820049596555
+2,prose_ids,learned: value (KL) + familiarity,0.2,0.5190358359588119
+2,prose_ids,learned: value (KL) + familiarity,0.3,0.6306389534489742
+2,prose_ids,learned: value (KL) + familiarity,0.5,0.7939440986363797
+2,prose_ids,learned: value (KL) + familiarity,b50,0.18385015608740896
+2,prose_ids,familiarity + entropy only (7 scalars),0.02,0.08202268768852602
+2,prose_ids,familiarity + entropy only (7 scalars),0.05,0.17954922703686182
+2,prose_ids,familiarity + entropy only (7 scalars),0.1,0.31521704727229405
+2,prose_ids,familiarity + entropy only (7 scalars),0.2,0.4676171073288814
+2,prose_ids,familiarity + entropy only (7 scalars),0.3,0.5799996744363279
+2,prose_ids,familiarity + entropy only (7 scalars),0.5,0.7531598854984829
+2,prose_ids,familiarity + entropy only (7 scalars),b50,0.22534859521331946
+2,prose_ids,oracle: KL (needs resource),0.02,0.16889674755276501
+2,prose_ids,oracle: KL (needs resource),0.05,0.34087906585585465
+2,prose_ids,oracle: KL (needs resource),0.1,0.5216210015886019
+2,prose_ids,oracle: KL (needs resource),0.2,0.7200581693262231
+2,prose_ids,oracle: KL (needs resource),0.3,0.8222684029560503
+2,prose_ids,oracle: KL (needs resource),0.5,0.9306923533516502
+2,prose_ids,oracle: KL (needs resource),b50,0.09232049947970863
+3,natural,entropy (FLARE-style),0.02,0.04760613321807381
+3,natural,entropy (FLARE-style),0.05,0.11264355331850384
+3,natural,entropy (FLARE-style),0.1,0.22089620377027655
+3,natural,entropy (FLARE-style),0.2,0.39835643399688936
+3,natural,entropy (FLARE-style),0.3,0.55054570430332
+3,natural,entropy (FLARE-style),0.5,0.7597782685102282
+3,natural,entropy (FLARE-style),b50,0.26460010588385635
+3,natural,learned: value (KL),0.02,0.09996262484526232
+3,natural,learned: value (KL),0.05,0.19928984520439835
+3,natural,learned: value (KL),0.1,0.3275441972840108
+3,natural,learned: value (KL),0.2,0.5091815498888091
+3,natural,learned: value (KL),0.3,0.6319243784394849
+3,natural,learned: value (KL),0.5,0.8170342424649795
+3,natural,learned: value (KL),b50,0.1939682713547657
+3,natural,learned: value (KL) + familiarity,0.02,0.13658546761236065
+3,natural,learned: value (KL) + familiarity,0.05,0.2579536762280103
+3,natural,learned: value (KL) + familiarity,0.1,0.3989950608136649
+3,natural,learned: value (KL) + familiarity,0.2,0.5700160213248961
+3,natural,learned: value (KL) + familiarity,0.3,0.6921824278979071
+3,natural,learned: value (KL) + familiarity,0.5,0.8532683595490258
+3,natural,learned: value (KL) + familiarity,b50,0.15433484856782956
+3,natural,familiarity + entropy only (7 scalars),0.02,0.11265168688632424
+3,natural,familiarity + entropy only (7 scalars),0.05,0.2225503047613777
+3,natural,familiarity + entropy only (7 scalars),0.1,0.3316724314768227
+3,natural,familiarity + entropy only (7 scalars),0.2,0.4767217573565265
+3,natural,familiarity + entropy only (7 scalars),0.3,0.6128321490163788
+3,natural,familiarity + entropy only (7 scalars),0.5,0.8038445871971764
+3,natural,familiarity + entropy only (7 scalars),b50,0.21503550760355625
+3,natural,oracle: KL (needs resource),0.02,0.22857839736911678
+3,natural,oracle: KL (needs resource),0.05,0.4197725202361612
+3,natural,oracle: KL (needs resource),0.1,0.5929343681032858
+3,natural,oracle: KL (needs resource),0.2,0.7642060770362848
+3,natural,oracle: KL (needs resource),0.3,0.8551992425558667
+3,natural,oracle: KL (needs resource),0.5,0.949787407300248
+3,natural,oracle: KL (needs resource),b50,0.06844113405261332
+3,prose,entropy (FLARE-style),0.02,0.03624063333319901
+3,prose,entropy (FLARE-style),0.05,0.08919888286910105
+3,prose,entropy (FLARE-style),0.1,0.1817836617725908
+3,prose,entropy (FLARE-style),0.2,0.35117902617551433
+3,prose,entropy (FLARE-style),0.3,0.4826755883951351
+3,prose,entropy (FLARE-style),0.5,0.6880535495490032
+3,prose,entropy (FLARE-style),b50,0.31437160365360156
+3,prose,learned: value (KL),0.02,0.08133344247022117
+3,prose,learned: value (KL),0.05,0.16248650994521588
+3,prose,learned: value (KL),0.1,0.2753644346804693
+3,prose,learned: value (KL),0.2,0.4386696022938597
+3,prose,learned: value (KL),0.3,0.5581922205627116
+3,prose,learned: value (KL),0.5,0.7508146511219593
+3,prose,learned: value (KL),b50,0.25024087563109415
+3,prose,learned: value (KL) + familiarity,0.02,0.1149222146077118
+3,prose,learned: value (KL) + familiarity,0.05,0.21404597757572294
+3,prose,learned: value (KL) + familiarity,0.1,0.3421362666223508
+3,prose,learned: value (KL) + familiarity,0.2,0.4948027340449343
+3,prose,learned: value (KL) + familiarity,0.3,0.6158249501961899
+3,prose,learned: value (KL) + familiarity,0.5,0.7976085290659773
+3,prose,learned: value (KL) + familiarity,b50,0.2037615138551663
+3,prose,familiarity + entropy only (7 scalars),0.02,0.08572942399395975
+3,prose,familiarity + entropy only (7 scalars),0.05,0.17108473279735273
+3,prose,familiarity + entropy only (7 scalars),0.1,0.2632760058875433
+3,prose,familiarity + entropy only (7 scalars),0.2,0.42101082367491804
+3,prose,familiarity + entropy only (7 scalars),0.3,0.5585426327569909
+3,prose,familiarity + entropy only (7 scalars),0.5,0.7547422796495223
+3,prose,familiarity + entropy only (7 scalars),b50,0.251358538559371
+3,prose,oracle: KL (needs resource),0.02,0.19307803354352723
+3,prose,oracle: KL (needs resource),0.05,0.36404867671612606
+3,prose,oracle: KL (needs resource),0.1,0.5240690748545304
+3,prose,oracle: KL (needs resource),0.2,0.6979911147708703
+3,prose,oracle: KL (needs resource),0.3,0.7994535217738458
+3,prose,oracle: KL (needs resource),0.5,0.9170806839784219
+3,prose,oracle: KL (needs resource),b50,0.09072339769530197
+3,code,entropy (FLARE-style),0.02,0.06318830358127463
+3,code,entropy (FLARE-style),0.05,0.14347974988744988
+3,code,entropy (FLARE-style),0.1,0.2640571833871821
+3,code,entropy (FLARE-style),0.2,0.47402912823038607
+3,code,entropy (FLARE-style),0.3,0.6287225327904025
+3,code,entropy (FLARE-style),0.5,0.8351861649454977
+3,code,entropy (FLARE-style),b50,0.21432535553243148
+3,code,learned: value (KL),0.02,0.11685562837871706
+3,code,learned: value (KL),0.05,0.23377558703786744
+3,code,learned: value (KL),0.1,0.37801796204279714
+3,code,learned: value (KL),0.2,0.5792621810414567
+3,code,learned: value (KL),0.3,0.7122288643557096
+3,code,learned: value (KL),0.5,0.8658324249352174
+3,code,learned: value (KL),b50,0.1563648976760319
+3,code,learned: value (KL) + familiarity,0.02,0.15762028862343266
+3,code,learned: value (KL) + familiarity,0.05,0.2979159984540463
+3,code,learned: value (KL) + familiarity,0.1,0.45560656725517373
+3,code,learned: value (KL) + familiarity,0.2,0.6459878472964156
+3,code,learned: value (KL) + familiarity,0.3,0.7655265133678423
+3,code,learned: value (KL) + familiarity,0.5,0.9002444041327234
+3,code,learned: value (KL) + familiarity,b50,0.12164412070759625
+3,code,familiarity + entropy only (7 scalars),0.02,0.1283641830822675
+3,code,familiarity + entropy only (7 scalars),0.05,0.2772997405465929
+3,code,familiarity + entropy only (7 scalars),0.1,0.39850058142294736
+3,code,familiarity + entropy only (7 scalars),0.2,0.5358816457368155
+3,code,familiarity + entropy only (7 scalars),0.3,0.6666084020142062
+3,code,familiarity + entropy only (7 scalars),0.5,0.8442404291274445
+3,code,familiarity + entropy only (7 scalars),b50,0.16975372875476935
+3,code,oracle: KL (needs resource),0.02,0.2631485900110426
+3,code,oracle: KL (needs resource),0.05,0.47815669242832975
+3,code,oracle: KL (needs resource),0.1,0.6607647461657906
+3,code,oracle: KL (needs resource),0.2,0.8270232706792918
+3,code,oracle: KL (needs resource),0.3,0.9061946903444783
+3,code,oracle: KL (needs resource),0.5,0.9717426171790672
+3,code,oracle: KL (needs resource),b50,0.05463059313215401
+3,prose_ids,entropy (FLARE-style),0.02,0.031769354037796994
+3,prose_ids,entropy (FLARE-style),0.05,0.07507151775765107
+3,prose_ids,entropy (FLARE-style),0.1,0.16687352318203486
+3,prose_ids,entropy (FLARE-style),0.2,0.309870983816779
+3,prose_ids,entropy (FLARE-style),0.3,0.42963354807972504
+3,prose_ids,entropy (FLARE-style),0.5,0.6578311742333941
+3,prose_ids,entropy (FLARE-style),b50,0.3600416233090531
+3,prose_ids,learned: value (KL),0.02,0.07844480837602746
+3,prose_ids,learned: value (KL),0.05,0.15944899093685144
+3,prose_ids,learned: value (KL),0.1,0.24960920608356119
+3,prose_ids,learned: value (KL),0.2,0.395658379762676
+3,prose_ids,learned: value (KL),0.3,0.5171555141536874
+3,prose_ids,learned: value (KL),0.5,0.7287045770941287
+3,prose_ids,learned: value (KL),b50,0.2853998239013848
+3,prose_ids,learned: value (KL) + familiarity,0.02,0.1180181012293377
+3,prose_ids,learned: value (KL) + familiarity,0.05,0.22005055284600214
+3,prose_ids,learned: value (KL) + familiarity,0.1,0.34680033346453015
+3,prose_ids,learned: value (KL) + familiarity,0.2,0.5073606451658206
+3,prose_ids,learned: value (KL) + familiarity,0.3,0.6203755912159401
+3,prose_ids,learned: value (KL) + familiarity,0.5,0.7959229929139583
+3,prose_ids,learned: value (KL) + familiarity,b50,0.19470903706075401
+3,prose_ids,familiarity + entropy only (7 scalars),0.02,0.09032585383240474
+3,prose_ids,familiarity + entropy only (7 scalars),0.05,0.1898618353352108
+3,prose_ids,familiarity + entropy only (7 scalars),0.1,0.31732551222869587
+3,prose_ids,familiarity + entropy only (7 scalars),0.2,0.4580759212711007
+3,prose_ids,familiarity + entropy only (7 scalars),0.3,0.5678988670698975
+3,prose_ids,familiarity + entropy only (7 scalars),0.5,0.7393630317134228
+3,prose_ids,familiarity + entropy only (7 scalars),b50,0.23128952213239415
+3,prose_ids,oracle: KL (needs resource),0.02,0.17355369426380407
+3,prose_ids,oracle: KL (needs resource),0.05,0.34715726168498867
+3,prose_ids,oracle: KL (needs resource),0.1,0.52923566114489
+3,prose_ids,oracle: KL (needs resource),0.2,0.7187507974697886
+3,prose_ids,oracle: KL (needs resource),0.3,0.8205154185877318
+3,prose_ids,oracle: KL (needs resource),0.5,0.9277956883773737
+3,prose_ids,oracle: KL (needs resource),b50,0.09057071960297766
+4,natural,entropy (FLARE-style),0.02,0.04827182109624368
+4,natural,entropy (FLARE-style),0.05,0.11208207364990064
+4,natural,entropy (FLARE-style),0.1,0.21552944698441506
+4,natural,entropy (FLARE-style),0.2,0.4027614331656007
+4,natural,entropy (FLARE-style),0.3,0.5591094122610206
+4,natural,entropy (FLARE-style),0.5,0.7709027566931594
+4,natural,entropy (FLARE-style),b50,0.259086843018055
+4,natural,learned: value (KL),0.02,0.10130536672929336
+4,natural,learned: value (KL),0.05,0.20046371375448094
+4,natural,learned: value (KL),0.1,0.32548194006777426
+4,natural,learned: value (KL),0.2,0.5074900773262381
+4,natural,learned: value (KL),0.3,0.6431528190568596
+4,natural,learned: value (KL),0.5,0.8207581496971259
+4,natural,learned: value (KL),b50,0.19603118097011518
+4,natural,learned: value (KL) + familiarity,0.02,0.13394782686114362
+4,natural,learned: value (KL) + familiarity,0.05,0.26429236154288194
+4,natural,learned: value (KL) + familiarity,0.1,0.4054349577238956
+4,natural,learned: value (KL) + familiarity,0.2,0.5879008996043957
+4,natural,learned: value (KL) + familiarity,0.3,0.70836559872194
+4,natural,learned: value (KL) + familiarity,0.5,0.8540046366171067
+4,natural,learned: value (KL) + familiarity,b50,0.14533472077696843
+4,natural,familiarity + entropy only (7 scalars),0.02,0.11986854472679193
+4,natural,familiarity + entropy only (7 scalars),0.05,0.23123059452618328
+4,natural,familiarity + entropy only (7 scalars),0.1,0.34139157439560197
+4,natural,familiarity + entropy only (7 scalars),0.2,0.48986554913140423
+4,natural,familiarity + entropy only (7 scalars),0.3,0.6245214552792459
+4,natural,familiarity + entropy only (7 scalars),0.5,0.812321037320325
+4,natural,familiarity + entropy only (7 scalars),b50,0.2079522427296128
+4,natural,oracle: KL (needs resource),0.02,0.23359157927109578
+4,natural,oracle: KL (needs resource),0.05,0.41963606915958834
+4,natural,oracle: KL (needs resource),0.1,0.5918294835247992
+4,natural,oracle: KL (needs resource),0.2,0.7589856815882634
+4,natural,oracle: KL (needs resource),0.3,0.8532071637393353
+4,natural,oracle: KL (needs resource),0.5,0.9491890029233087
+4,natural,oracle: KL (needs resource),b50,0.06908008835825255
+4,prose,entropy (FLARE-style),0.02,0.03897971570852422
+4,prose,entropy (FLARE-style),0.05,0.09115698877380642
+4,prose,entropy (FLARE-style),0.1,0.18221314792655793
+4,prose,entropy (FLARE-style),0.2,0.3545244941973503
+4,prose,entropy (FLARE-style),0.3,0.497358345590603
+4,prose,entropy (FLARE-style),0.5,0.71600879281817
+4,prose,entropy (FLARE-style),b50,0.30142212972597987
+4,prose,learned: value (KL),0.02,0.08516380939683368
+4,prose,learned: value (KL),0.05,0.16822762493979138
+4,prose,learned: value (KL),0.1,0.28313907003087063
+4,prose,learned: value (KL),0.2,0.45058352956530023
+4,prose,learned: value (KL),0.3,0.5811488968121085
+4,prose,learned: value (KL),0.5,0.7638811556157188
+4,prose,learned: value (KL),b50,0.23821636412687403
+4,prose,learned: value (KL) + familiarity,0.02,0.11797400040459677
+4,prose,learned: value (KL) + familiarity,0.05,0.22760759125943422
+4,prose,learned: value (KL) + familiarity,0.1,0.35768426233162465
+4,prose,learned: value (KL) + familiarity,0.2,0.5293417011435553
+4,prose,learned: value (KL) + familiarity,0.3,0.6462958560618658
+4,prose,learned: value (KL) + familiarity,0.5,0.8072877985769281
+4,prose,learned: value (KL) + familiarity,b50,0.17574286044629436
+4,prose,familiarity + entropy only (7 scalars),0.02,0.09431250053212063
+4,prose,familiarity + entropy only (7 scalars),0.05,0.18642294693516093
+4,prose,familiarity + entropy only (7 scalars),0.1,0.2918276116952276
+4,prose,familiarity + entropy only (7 scalars),0.2,0.43921161646454104
+4,prose,familiarity + entropy only (7 scalars),0.3,0.5824897138541808
+4,prose,familiarity + entropy only (7 scalars),0.5,0.7767492659978174
+4,prose,familiarity + entropy only (7 scalars),b50,0.23852468493467452
+4,prose,oracle: KL (needs resource),0.02,0.20502750089567312
+4,prose,oracle: KL (needs resource),0.05,0.3689806852811565
+4,prose,oracle: KL (needs resource),0.1,0.5276765917885905
+4,prose,oracle: KL (needs resource),0.2,0.6979612249449054
+4,prose,oracle: KL (needs resource),0.3,0.8034726598639487
+4,prose,oracle: KL (needs resource),0.5,0.918652497495153
+4,prose,oracle: KL (needs resource),b50,0.08949011446409989
+4,code,entropy (FLARE-style),0.02,0.058725923640005055
+4,code,entropy (FLARE-style),0.05,0.1337010097178372
+4,code,entropy (FLARE-style),0.1,0.26052148920999774
+4,code,entropy (FLARE-style),0.2,0.4695619889295145
+4,code,entropy (FLARE-style),0.3,0.6226071179045018
+4,code,entropy (FLARE-style),0.5,0.8345103801558973
+4,code,entropy (FLARE-style),b50,0.21744710371141174
+4,code,learned: value (KL),0.02,0.11304366455033135
+4,code,learned: value (KL),0.05,0.23709647182284443
+4,code,learned: value (KL),0.1,0.3676260159920343
+4,code,learned: value (KL),0.2,0.5665716663090503
+4,code,learned: value (KL),0.3,0.711729000065569
+4,code,learned: value (KL),0.5,0.8722760019964269
+4,code,learned: value (KL),b50,0.1601803676725633
+4,code,learned: value (KL) + familiarity,0.02,0.1456837073850663
+4,code,learned: value (KL) + familiarity,0.05,0.3001768064367637
+4,code,learned: value (KL) + familiarity,0.1,0.45810432233870646
+4,code,learned: value (KL) + familiarity,0.2,0.6382690978035346
+4,code,learned: value (KL) + familiarity,0.3,0.7735332906616934
+4,code,learned: value (KL) + familiarity,0.5,0.9019166727491765
+4,code,learned: value (KL) + familiarity,b50,0.11782865071106487
+4,code,familiarity + entropy only (7 scalars),0.02,0.14301612932305963
+4,code,familiarity + entropy only (7 scalars),0.05,0.2793836380772817
+4,code,familiarity + entropy only (7 scalars),0.1,0.3968072977707844
+4,code,familiarity + entropy only (7 scalars),0.2,0.5454846630341876
+4,code,familiarity + entropy only (7 scalars),0.3,0.6687705096231934
+4,code,familiarity + entropy only (7 scalars),0.5,0.8428073004978329
+4,code,familiarity + entropy only (7 scalars),b50,0.17287547693374958
+4,code,oracle: KL (needs resource),0.02,0.2589809059403868
+4,code,oracle: KL (needs resource),0.05,0.4755176892047949
+4,code,oracle: KL (needs resource),0.1,0.659303498103002
+4,code,oracle: KL (needs resource),0.2,0.8179691621270826
+4,code,oracle: KL (needs resource),0.3,0.8998199215922885
+4,code,oracle: KL (needs resource),0.5,0.9692525572992295
+4,code,oracle: KL (needs resource),b50,0.05535900104058273
+4,prose_ids,entropy (FLARE-style),0.02,0.03340678722672827
+4,prose_ids,entropy (FLARE-style),0.05,0.08315440414297771
+4,prose_ids,entropy (FLARE-style),0.1,0.17500441057773597
+4,prose_ids,entropy (FLARE-style),0.2,0.3195360386606422
+4,prose_ids,entropy (FLARE-style),0.3,0.4420844930283726
+4,prose_ids,entropy (FLARE-style),0.5,0.6930475396680403
+4,prose_ids,entropy (FLARE-style),b50,0.34872008324661813
+4,prose_ids,learned: value (KL),0.02,0.07084003381259152
+4,prose_ids,learned: value (KL),0.05,0.15035505189309184
+4,prose_ids,learned: value (KL),0.1,0.25185690139693756
+4,prose_ids,learned: value (KL),0.2,0.39937824896436536
+4,prose_ids,learned: value (KL),0.3,0.5247024548442397
+4,prose_ids,learned: value (KL),0.5,0.7394176781017013
+4,prose_ids,learned: value (KL),b50,0.2795837669094693
+4,prose_ids,learned: value (KL) + familiarity,0.02,0.11124157716446294
+4,prose_ids,learned: value (KL) + familiarity,0.05,0.22397519091945692
+4,prose_ids,learned: value (KL) + familiarity,0.1,0.35275459277962823
+4,prose_ids,learned: value (KL) + familiarity,0.2,0.5283122214178319
+4,prose_ids,learned: value (KL) + familiarity,0.3,0.6299733614956478
+4,prose_ids,learned: value (KL) + familiarity,0.5,0.793910873092773
+4,prose_ids,learned: value (KL) + familiarity,b50,0.1795213319458897
+4,prose_ids,familiarity + entropy only (7 scalars),0.02,0.08847647540103937
+4,prose_ids,familiarity + entropy only (7 scalars),0.05,0.1961735506450938
+4,prose_ids,familiarity + entropy only (7 scalars),0.1,0.3265713479093576
+4,prose_ids,familiarity + entropy only (7 scalars),0.2,0.47736474241556603
+4,prose_ids,familiarity + entropy only (7 scalars),0.3,0.5905890392502751
+4,prose_ids,familiarity + entropy only (7 scalars),0.5,0.76422821157089
+4,prose_ids,familiarity + entropy only (7 scalars),b50,0.21877211238293445
+4,prose_ids,oracle: KL (needs resource),0.02,0.17485219008896075
+4,prose_ids,oracle: KL (needs resource),0.05,0.33921423813954094
+4,prose_ids,oracle: KL (needs resource),0.1,0.5217340806333546
+4,prose_ids,oracle: KL (needs resource),0.2,0.7129114910153868
+4,prose_ids,oracle: KL (needs resource),0.3,0.814581217875033
+4,prose_ids,oracle: KL (needs resource),0.5,0.9291380089699383
+4,prose_ids,oracle: KL (needs resource),b50,0.09269510926118626

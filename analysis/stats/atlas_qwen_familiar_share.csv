@@ -1,0 +1,4 @@
+resource,tokens_share,gain_share
+long context (1.5B),11.025697267720538,23.069881
+long context (7B),11.025697267720538,21.137867
+7B instead of 1.5B,11.025697267720538,4.3855844

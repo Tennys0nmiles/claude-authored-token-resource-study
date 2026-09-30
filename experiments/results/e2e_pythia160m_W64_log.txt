@@ -1,0 +1,18 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights:  78%|███████▊  | 116/148 [00:00<00:00, 1154.55it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 1285.02it/s]
+[pass1 1/164] 3s
+[pass1 21/164] 64s
+[pass1 41/164] 125s
+[pass1 61/164] 193s
+[pass1 81/164] 257s
+[pass1 101/164] 318s
+[pass1 121/164] 379s
+[pass1 141/164] 467s
+[pass1 161/164] 560s
+gates fitted on 56 docs; evaluating 83 test docs
+[pass2 1/83] 618s
+[pass2 11/83] 988s
+[pass2 21/83] 1335s
+[pass2 31/83] 2130s
+[pass2 41/83] 2745s
+[pass2 51/83] 3101s
