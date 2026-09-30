@@ -1,0 +1,18 @@
+\multicolumn{6}{l}{\emph{(a) Compute: Pythia-160M $\to$ Pythia-1.4B, both with full context}}\\
+random & 2.0 & 10.1 & 20.1 & 50.4 & 49.6 \\
+entropy & 4.4 & 20.8 & 39.4 & 79.1 & 26.5 \\
+$1-\max p$ (CALM-style) & 3.8 & 20.5 & 38.2 & 77.8 & 27.5 \\
+logit-lens change, layer 6$\to$12 & 2.3 & 13.7 & 27.5 & 62.0 & 39.5 \\
+learned raw-surprise head (control) & 3.7 & 19.8 & 38.0 & 79.0 & 27.6 \\
+value head, 4 uncertainty scalars & 4.8 & 21.5 & 40.4 & 79.5 & 26.0 \\
+\textbf{value head} & \textbf{6.4} & \textbf{25.4} & \textbf{43.8} & \textbf{80.6} & \textbf{23.8} \\
+oracle (KL; needs the resource) & 11.7 & 36.5 & 56.2 & 89.6 & 16.8 \\
+\midrule
+\multicolumn{6}{l}{\emph{(b) Memory: Pythia-160M with a 32--63-token window $\to$ full context}}\\
+random & 2.0 & 9.9 & 20.0 & 50.3 & 49.7 \\
+entropy of the windowed pass & 4.6 & 21.5 & 39.8 & 76.1 & 26.5 \\
+learned raw-surprise head (control) & 4.1 & 19.7 & 38.0 & 76.4 & 28.0 \\
+value head, hidden states only & 9.8 & 32.2 & 50.2 & 81.2 & 19.9 \\
+entropy + 6 familiarity features (7 scalars) & 11.3 & 33.6 & 48.2 & 80.5 & 21.3 \\
+\textbf{value head + familiarity} & \textbf{13.4} & \textbf{39.3} & \textbf{57.3} & \textbf{85.0} & \textbf{15.4} \\
+oracle (KL; needs the resource) & 23.0 & 58.9 & 76.0 & 94.8 & 7.0 \\

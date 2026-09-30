@@ -1,16 +1,16 @@
-# Different Tokens Need Different Resources: code and results
+# Choosing Keys, Not Tokens: code and results
 
 > **This is AI-conducted research.** Claude (Anthropic's Claude Opus 5.5, working through the Claude Code agent) proposed the hypotheses, designed, implemented and ran every experiment, analysed the results and wrote the paper. The repository owner started the project, paid for the compute, gave high-level direction and reviewed the work, and takes responsibility for its content.
 
-This repository holds the code and results behind the paper *"Different Tokens Need Different Resources: What Predicts the Value of Context, Depth and Scale in Language Models"* (arXiv link to be added).
+This repository holds the code, results and LaTeX source behind the paper *"Choosing Keys, Not Tokens: What Predicts When and Where Far Context Helps"* (Journal for AI Generated Papers; link to be added). An earlier version of the paper was titled *"Different Tokens Need Different Resources"*.
 
-**Question.** For each token of text written after the models' training data, how much does its loss fall with (a) long context, (b) extra depth, (c) a larger model? Are these the same tokens, and what predicts each?
+**Question.** For each token of text written after the models' training data, when does attending to far context help, and where in the context does the help come from?
 
 **Main findings.**
-- The tokens that benefit from each resource are largely different tokens.
-- Next-token entropy is a partial signal; small linear "value heads" trained on counterfactual outcomes beat it, most strongly for long context.
-- The value of long context concentrates on exact recurrence, which a hashed n-gram lookup both detects and locates in the cache.
-- For attention over a GPU-resident cache, choosing keys (block selection) beats choosing tokens (per-token gating).
+- *Motivation:* the tokens that benefit from far context are largely different from those that benefit from extra depth or a larger model. They are largely shared between a 1.5B and a 7B model, and they concentrate on recurrence.
+- *Entropy is a poor trigger for far context.* A small linear value head with n-gram familiarity features does 1.6–2.1× better in real masked forward passes (at a 10% budget, nine configurations up to Qwen2.5-7B at 8k tokens).
+- *Choose keys, not tokens.* At an equal far-key budget, Quest-style block selection for every query beats per-token gating. At 4k and 8k tokens it beats even an oracle gate.
+- *Familiarity says where to look.* Fetching the key blocks that followed earlier occurrences of the current n-gram recovers 28–37% of the benefit while reading 0.6–2.1% of far keys, without scoring any.
 
 Models: Pythia (160M–6.9B) and Qwen2.5 (1.5B, 7B), frozen, at up to 8k tokens.
 
@@ -22,9 +22,10 @@ Models: Pythia (160M–6.9B) and Qwen2.5 (1.5B, 7B), frozen, at up to 8k tokens.
 | `experiments/data/manifest_*.jsonl` | IDs of the evaluation documents: September 2026 arXiv papers and recent Python source files. The texts themselves are not redistributed; the `fetch_*.py` scripts re-download them. |
 | `experiments/results/` | Signal-level results (budget curves, selections, transfer). |
 | `gpu_results_session1/` | Compute ladder, early-exit depth, and first end-to-end gating runs. |
-| `gpu_results_session3/` | Final end-to-end runs: per-token gating, block selection, recurrence addressing (per-document CSVs), plus the kernel benchmark. |
+| `gpu_results_session3/` | Final end-to-end runs: per-token gating, block selection, recurrence addressing (per-document CSVs). Also a one-layer kernel benchmark, which was measured but is not reported in the final paper. |
 | `analysis/scripts/` | Statistics (document-bootstrap intervals, paired comparisons, cross-resource overlap) computed from the saved results. No model is run. |
-| `analysis/stats/` | Outputs of the analysis scripts; every number in the paper comes from these or the result files. |
+| `analysis/stats/` | Outputs of the analysis scripts; every number in the paper comes from these or the result files. Bootstrap seeds are fixed, so the scripts reproduce these files exactly. |
+| `paper/` | LaTeX source of the paper, the scripts that write every table and figure (`paper/scripts/`), and `paper/build.sh`. It builds two PDFs from one source: `main_jaigp.pdf` (Claude as author, the human as prompter) and `main.pdf` (arXiv layout, human author). |
 
 ## Experiments
 
@@ -53,6 +54,14 @@ python e2e_v2.py --model Qwen/Qwen2.5-7B --W 1024 --T 8192 --docs data/docs_long
 ```
 
 The fetch scripts take the code-domain files from the installed versions of the packages listed in the manifest, so exact file contents depend on the package versions (see the paper's appendix). arXiv listings change over time; the manifests record which papers were used.
+
+## Rebuilding the paper
+
+```bash
+cd paper && ./build.sh    # statistics -> tables -> figures -> both PDFs; needs numpy, pandas, matplotlib, pdflatex, bibtex
+```
+
+No model is run: everything comes from the saved results in this repository.
 
 ## Analysis
 

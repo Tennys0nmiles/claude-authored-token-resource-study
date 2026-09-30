@@ -1,0 +1,24 @@
+\multicolumn{7}{l}{\emph{Pythia-160M, 1k context, $W=64$: local loss 3.136, full 2.601 nats/token, 54,777 scored tokens}}\\
+\quad random & 4.4 & 9.1 & {\scriptsize[8.4, 9.8]} & 19.0 & 28.9 & 10.0 \\
+\quad entropy & 9.1 & 17.6 & {\scriptsize[15.8, 19.6]} & 32.3 & 46.2 & 20.9 \\
+\quad familiarity rule & 14.5 & 23.9 & {\scriptsize[22.2, 25.6]} & 39.3 & 51.2 & 26.9 \\
+\quad familiarity head & 16.2 & 27.1 & {\scriptsize[25.5, 28.8]} & 41.7 & 53.9 & 29.8 \\
+\quad value head + familiarity & 21.2 & 33.5 & {\scriptsize[32.0, 35.0]} & 51.3 & 63.2 & 35.8 \\
+\quad oracle (KL) & 33.7 & 49.5 & {\scriptsize[47.9, 51.0]} & 66.0 & 76.0 & 54.9 \\
+\addlinespace
+\multicolumn{7}{l}{\emph{Pythia-410M, 1k context, $W=64$: local loss 2.729, full 2.262 nats/token, 54,777 scored tokens}}\\
+\quad random & 4.3 & 8.8 & {\scriptsize[8.1, 9.5]} & 18.2 & 28.3 & 9.8 \\
+\quad entropy & 10.9 & 19.6 & {\scriptsize[18.0, 21.4]} & 36.3 & 49.8 & 24.1 \\
+\quad familiarity rule & 14.5 & 24.3 & {\scriptsize[22.2, 26.5]} & 39.2 & 52.3 & 27.6 \\
+\quad familiarity head & 16.7 & 28.0 & {\scriptsize[26.0, 30.0]} & 43.5 & 56.5 & 31.8 \\
+\quad value head + familiarity & 21.1 & 34.0 & {\scriptsize[31.9, 36.1]} & 52.3 & 64.9 & 37.5 \\
+\quad oracle (KL) & 36.4 & 52.1 & {\scriptsize[50.1, 54.4]} & 69.5 & 79.9 & 59.8 \\
+\addlinespace
+\multicolumn{7}{l}{\emph{Pythia-410M, 1k context, $W=256$: local loss 2.385, full 2.191 nats/token, 43,833 scored tokens}}\\
+\quad random & 4.1 & 7.8 & {\scriptsize[6.5, 9.4]} & 17.1 & 27.6 & 8.7 \\
+\quad entropy & 11.2 & 20.4 & {\scriptsize[17.3, 23.9]} & 37.2 & 50.8 & 25.8 \\
+\quad familiarity rule & 19.3 & 31.7 & {\scriptsize[28.0, 35.5]} & 47.5 & 59.5 & 34.4 \\
+\quad familiarity head & 20.9 & 33.3 & {\scriptsize[29.7, 37.0]} & 48.5 & 61.5 & 36.5 \\
+\quad value head, hidden only & 22.6 & 34.8 & {\scriptsize[31.4, 38.7]} & 50.1 & 62.0 & 39.1 \\
+\quad value head + familiarity & 26.9 & 41.9 & {\scriptsize[38.8, 44.9]} & 59.4 & 71.0 & 45.4 \\
+\quad oracle (KL) & 48.2 & 65.0 & {\scriptsize[62.1, 68.3]} & 79.3 & 86.4 & 71.9 \\

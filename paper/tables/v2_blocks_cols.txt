@@ -1,0 +1,4 @@
+Pythia-160M, 1k, W=64
+Pythia-1.4B, 1k, W=256
+Qwen2.5-1.5B, 4k, W=1024
+Qwen2.5-7B, 8k, W=1024

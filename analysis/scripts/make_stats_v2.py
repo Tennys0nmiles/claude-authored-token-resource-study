@@ -7,6 +7,7 @@ test-split instances, so the intervals cover document-to-document variation acro
 between gates use the same resamples (paired).
 Pools: natural = papers + code; papers26 = papers first posted in September 2026 (arXiv ids 2609.*), which postdate
 every model's training data; code; ids = papers with injected identifiers."""
+import zlib   # bootstrap seeds from crc32: Python's hash() of strings changes between runs
 import glob, json, pathlib, re, sys
 import numpy as np
 import pandas as pd
@@ -76,7 +77,7 @@ def main():
             if D.empty:
                 continue
             docs, pdoc = per_doc(D, ["policy", "budget"])
-            Bm = boot_matrix(len(docs), hash((cfg, pool)) % 2**32)
+            Bm = boot_matrix(len(docs), zlib.crc32(f"{cfg}|{pool}".encode()))
             boots = {}
             for (pol, b), (num, den) in pdoc.items():
                 pt = 100 * num.sum() / den.sum(); bs = 100 * (Bm @ num) / (Bm @ den); boots[(pol, b)] = bs
@@ -120,7 +121,7 @@ def main():
             allk = pd.concat([Bk[["doc", "n", "key", "gain_g", "gain_f", "far_frac", "touch_frac"]],
                               G[["doc", "n", "key", "gain_g", "gain_f", "far_frac", "touch_frac"]]])
             docs, pdoc = per_doc(allk, ["key"])
-            Bm = boot_matrix(len(docs), hash((cfg, "blocks")) % 2**32)
+            Bm = boot_matrix(len(docs), zlib.crc32(f"{cfg}|blocks".encode()))
             bb = {}
             for (k,), (num, den) in ((k if isinstance(k, tuple) else (k,), v) for k, v in pdoc.items()):
                 g = allk[allk.key == k]

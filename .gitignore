@@ -5,3 +5,4 @@ __pycache__/
 experiments/data/*.jsonl
 !experiments/data/manifest_*.jsonl
 experiments/scratch/
+paper/build/

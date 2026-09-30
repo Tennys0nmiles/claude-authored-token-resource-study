@@ -1,0 +1,31 @@
+\multicolumn{7}{l}{\emph{Qwen2.5-1.5B, 4k, $W=256$: loss 1.964 local, 1.652 full; 195,461 tokens}}\\
+\quad random & 4.1 & 8.4 & {\scriptsize[7.8, 9.0]} & 17.4 & 26.7 & -- \\
+\quad entropy & 12.3 & 22.3 & {\scriptsize[20.2, 24.5]} & 39.8 & 54.6 & 26.6 \\
+\quad familiarity head & 17.1 & 28.3 & {\scriptsize[26.2, 30.7]} & 45.0 & 58.4 & -- \\
+\quad value head, hidden only & 21.6 & 33.9 & {\scriptsize[31.4, 36.6]} & 51.4 & 63.5 & -- \\
+\quad value head + familiarity & 24.1 & 36.8 & {\scriptsize[34.4, 39.5]} & 55.2 & 67.1 & 40.7 \\
+\quad oracle (KL) & 42.3 & 57.7 & {\scriptsize[55.1, 60.8]} & 73.3 & 81.8 & 65.2 \\
+\addlinespace
+\multicolumn{7}{l}{\emph{Qwen2.5-1.5B, 4k, $W=1024$: loss 1.747 local, 1.623 full; 151,685 tokens}}\\
+\quad random & 4.4 & 8.8 & {\scriptsize[8.1, 9.7]} & 18.8 & 28.3 & -- \\
+\quad entropy & 13.2 & 23.3 & {\scriptsize[20.5, 26.5]} & 41.0 & 55.8 & 27.7 \\
+\quad familiarity head & 18.8 & 29.8 & {\scriptsize[27.6, 32.2]} & 47.2 & 61.3 & -- \\
+\quad value head, hidden only & 26.7 & 39.2 & {\scriptsize[35.8, 43.7]} & 56.6 & 67.6 & -- \\
+\quad value head + familiarity & 29.5 & 43.7 & {\scriptsize[40.8, 47.3]} & 60.5 & 72.7 & 46.9 \\
+\quad oracle (KL) & 56.5 & 70.5 & {\scriptsize[67.8, 73.5]} & 83.1 & 89.6 & 76.8 \\
+\addlinespace
+\multicolumn{7}{l}{\emph{Qwen2.5-7B, 8k, $W=256$: loss 1.807 local, 1.439 full; 326,704 tokens}}\\
+\quad random & 4.3 & 8.9 & {\scriptsize[8.5, 9.4]} & 18.1 & 28.2 & -- \\
+\quad entropy & 11.6 & 21.9 & {\scriptsize[20.3, 24.1]} & 39.2 & 54.2 & 26.5 \\
+\quad familiarity head & 15.1 & 26.2 & {\scriptsize[24.3, 28.8]} & 43.5 & 57.4 & -- \\
+\quad value head, hidden only & 20.1 & 32.2 & {\scriptsize[30.4, 34.5]} & 49.5 & 62.4 & -- \\
+\quad value head + familiarity & 21.5 & 34.2 & {\scriptsize[32.3, 36.6]} & 51.9 & 64.8 & 38.3 \\
+\quad oracle (KL) & 38.3 & 53.2 & {\scriptsize[50.8, 56.4]} & 69.5 & 79.0 & 61.6 \\
+\addlinespace
+\multicolumn{7}{l}{\emph{Qwen2.5-7B, 8k, $W=1024$: loss 1.598 local, 1.426 full; 282,928 tokens}}\\
+\quad random & 4.4 & 8.8 & {\scriptsize[8.2, 9.4]} & 18.5 & 28.7 & -- \\
+\quad entropy & 12.1 & 22.4 & {\scriptsize[20.3, 25.0]} & 40.9 & 55.7 & 27.9 \\
+\quad familiarity head & 16.7 & 28.6 & {\scriptsize[26.1, 31.7]} & 46.1 & 60.9 & -- \\
+\quad value head, hidden only & 23.9 & 36.0 & {\scriptsize[33.8, 38.8]} & 53.7 & 65.7 & -- \\
+\quad value head + familiarity & 25.6 & 38.7 & {\scriptsize[36.6, 41.4]} & 56.7 & 68.8 & 42.4 \\
+\quad oracle (KL) & 48.1 & 62.6 & {\scriptsize[60.2, 65.5]} & 77.1 & 85.0 & 71.5 \\
